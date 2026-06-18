@@ -1,0 +1,102 @@
+﻿word,hiragana,meaning,romaji,score,used,day
+～にほかならない,～にほかならない,～에 다름 아니다,ni_hokanaranai,60,true,DAY 006
+～に越したことはない,～にこしたことはない,～하는 편이 가장 낫다,ni_koshita_koto_wa_nai,60,true,DAY 006
+～にたえない,～にたえない,"～차마 볼 수 없다, 듣기 괴롭다",ni_taenai,100,true,DAY 001
+～にかたくない,～にかたくない,～짐작하기 어렵지 않다,ni_katakunai,60,true,DAY 007
+～を皮切りに,～をかわきりに,～을 시작으로,wo_kawakiri_ni,60,true,DAY 007
+～をもって,～をもって,"～으로써, ～을 끝으로",wo_motte,60,true,DAY 008
+～をよそに,～をよそに,～을 아랑곳하지 않고,wo_yoso_ni,60,true,DAY 008
+～をものともせず,～をものともせず,～을 개의치 않고,wo_mono_tomo_sezu,60,true,DAY 009
+～ずにはおかない,～ずにはおかない,반드시 ～하게 하다,zu_niwa_okanai,100,true,DAY 001
+～ずにはすまない,～ずにはすまない,～하지 않고서는 넘어갈 수 없다,zu_niwa_sumanai,100,true,DAY 002
+～までもない,～までもない,～할 필요도 없다,made_mo_nai,60,true,DAY 009
+～まじき,～まじき,～해서는 안 되는,majiki,60,true,DAY 010
+～べからず,～べからず,～해서는 안 된다,bekarazu,60,true,DAY 010
+～べく,～べく,"～하기 위해, ～할 목적으로",beku,60,true,DAY 011
+～が早いか,～がはやいか,～하자마자,ga_hayai_ka,60,true,DAY 011
+～や否や,～やいなや,～하자마자,ya_inaya,60,true,DAY 012
+～なり,～なり,～하자마자,nari,60,true,DAY 012
+～そばから,～そばから,～하자마자 곧바로,soba_kara,60,true,DAY 013
+～とあって,～とあって,～라서,to_atte,60,true,DAY 013
+～とあれば,～とあれば,～라면,to_areba,60,true,DAY 014
+～あげく,～あげく,～한 끝에,ageku,100,true,DAY 002
+～あまり,～あまり,너무 ～해서,amari,60,true,DAY 014
+～以上(は),～いじょう,"～이상, ～인 이상",ijou,100,true,DAY 003
+～一方だ,～いっぽうだ,～계속 ～하기만 하다,ippouda,60,true,DAY 015
+～うちに,～うちに,～하는 사이에,uchini_n1,60,true,DAY 015
+～うる,～うる,～할 수 있다,uru,100,true,DAY 003
+～得ない,～えない,～할 수 없다,enai,100,true,DAY 003
+～おそれがある,～おそれがある,～우려가 있다,osoregaaru_n1,100,true,DAY 003
+～かたがた,～かたがた,～겸,katagata,60,true,DAY 015
+～かねない,～かねない,"～할지도 모른다, ～할 우려가 있다",kanenai,60,true,DAY 015
+～極まりない,～きわまりない,이보다 더할 수 없을 만큼 ～하다,kiwamarinai,100,true,DAY 004
+～きり,～きり,"～한 채, ～한 그대로",kiri,60,true,DAY 016
+～ことだし,～ことだし,～이기도 하니,kotodashi,60,true,DAY 016
+～こととて,～こととて,～인 사정이라서,kototote,60,true,DAY 017
+～始末だ,～しまつだ,"～지경이다, ～꼴이다",shimatsuda,60,true,DAY 017
+～ずくめ,～ずくめ,"～투성이다, ～일색이다",zukume,60,true,DAY 018
+～そばから,～そばから,～하자마자,sobakara,60,true,DAY 018
+～たところで,～たところで,～해도,tatokorode,60,true,DAY 019
+～だに,～だに,"～조차, ～마저",dani,60,true,DAY 019
+～てからというもの,～てからというもの,～한 이후 줄곧,tekaratoiumono,60,true,DAY 020
+～ではあるまいし,～ではあるまいし,～도 아닌데,dewaarumaishi,60,true,DAY 020
+～というものだ,～というものだ,～라고 할 만하다,toiumonoda_n1,60,true,DAY 020
+～とはいえ,～とはいえ,～라고는 해도,towaie,60,true,DAY 020
+～とはいうものの,～とはいうものの,～라고는 하지만,towaiumonono,60,true,DAY 021
+～ないではすまない,～ないではすまない,～하지 않고는 안 된다,naidesumanai,100,true,DAY 004
+～ないものでもない,～ないものでもない,～못할 것도 없다,naimonodemonai,60,true,DAY 021
+～ながらも,～ながらも,～하면서도,nagaramo,60,true,DAY 021
+～にあって,～にあって,"～라는 상황에서, ～에 있어서",niatte,60,true,DAY 021
+～に至って,～にいたって,～에 이르러,niitatte,100,true,DAY 005
+～に至るまで,～にいたるまで,～에 이르기까지,niitarumade,60,true,DAY 022
+～にかかわらず,～にかかわらず,～에 관계없이,nikakawarazu,60,true,DAY 022
+～にかたくない,～にかたくない,～하기 어렵지 않다,nikatakunai,60,true,DAY 022
+～にして,～にして,"～이어서야 비로소, ～이라는 드문",nishite,60,true,DAY 022
+～に即して,～にそくして,～에 입각하여,nisokushite,60,true,DAY 023
+～にたえる,～にたえる,"～할 만하다, 견딜 만하다",nitaeru,100,true,DAY 005
+～にもまして,～にもまして,～보다 더욱,nimomashite,60,true,DAY 023
+～のみならず,～のみならず,～뿐만 아니라,nominarazu_n1,60,true,DAY 024
+～ばこそ,～ばこそ,～이기 때문에,bakoso,60,true,DAY 024
+～まみれ,～まみれ,"～투성이다, ～범벅이다",mamire,60,true,DAY 025
+～めく,～めく,～다운 분위기를 띠다,meku,60,true,DAY 025
+～にもかかわらず,～にもかかわらず,～에도 불구하고,nimo_kakawarazu,95,false,
+～を踏まえて,～をふまえて,～을 바탕으로 하여,wo_fumaete,95,false,
+～をめぐって,～をめぐって,～을 둘러싸고,wo_megutte,95,false,
+～を前提に,～をぜんていに,～을 전제로,wo_zentei_ni,95,false,
+～にすぎない,～にすぎない,～에 불과하다,ni_suginai,95,false,
+～にほかならない,～にほかならない,～에 다름 아니다,ni_hokanaranai_2,95,false,
+～を契機に,～をけいきに,～을 계기로,wo_keiki_ni,95,false,
+～を契機として,～をけいきとして,～을 계기로,wo_keiki_to_shite,95,false,
+～を機に,～をきに,～을 계기로,wo_ki_ni,95,false,
+～を通じて,～をつうじて,～을 통해서,wo_tsuujite,95,false,
+～にわたって,～にわたって,～에 걸쳐,ni_watatte_2,95,false,
+～に至るまで,～にいたるまで,～에 이르기까지,ni_itaru_made_2,95,false,
+～に際して,～にさいして,～에 즈음하여,ni_saishite,95,false,
+～ともなると,～ともなると,～이 되면,tomo_naru_to,95,false,
+～ともあろうものが,～ともあろうものが,～같은 사람이,tomo_arou_mono_ga,95,false,
+～にあって,～にあって,～와 같은 상황에서,ni_atte_2,95,false,
+～ならでは,～ならでは,～만의,nara_dewa,95,false,
+～ずにはいられない,～ずにはいられない,～하지 않을 수 없다,zu_niwa_irarenai,95,false,
+～まい,～まい,"～하지 않으려다, ～하지 않을 것이다",mai,95,false,
+～ないではおかない,～ないではおかない,반드시 ～하게 만들다,nai_dewa_okanai,95,false,
+～にして,～にして,～여서야 비로소,ni_shite_2,95,false,
+～に足る,～にたる,～할 만하다,ni_taru,95,false,
+～を余儀なくされる,～をよぎなくされる,～하지 않을 수 없다,wo_yoginakusareru,95,false,
+～を禁じ得ない,～をきんじえない,"금할 수 없다, ～하지 않을 수 없다",wo_kinjienai,95,false,
+～べくもない,～べくもない,～할 수 없다,beku_mo_nai,95,false,
+～ずじまい,～ずじまい,"～하다 말다, 결국 ～하지 못하고 끝나다",zujimai,95,false,
+～なしには,～なしには,～없이는,nashi_niwa,95,false,
+～あっての,～あっての,～이 있어야만 가능한,atte_no,95,false,
+～にして初めて,～にしてはじめて,～하고서야 비로소,ni_shite_hajimete,95,false,
+～というよりほかない,～というよりほかない,～라고 할 수밖에 없다,toiu_yori_hoka_nai,95,false,
+～と相まって,～とあいまって,～와 맞물려,to_aimatte,95,false,
+～にひきかえ,～にひきかえ,～와는 대조적으로,ni_hikikae,95,false,
+～かたわら,～かたわら,～하면서 한편으로는,katawara,95,false,
+～ものか,～ものか,"절대 ～하겠는가, ～할 리가 없다",mono_ka,95,false,
+～とまではいかないまでも,～とまではいかないまでも,～까지는 아니더라도,to_made_wa_ikanai_made_mo,95,false,
+～までもなく,～までもなく,～할 것도 없이,made_mo_naku,95,false,
+～ながらに,～ながらに,"～한 채로, ～하면서",nagara_ni,95,false,
+～をもってして,～をもってして,"～을 가지고서, ～로써",wo_motte_shite,95,false,
+～にあっては,～にあっては,～에 있어서는,ni_atte_wa,95,false,
+～といえども,～といえども,～라고 해도,to_iedomo,95,false,
+～といったところだ,～といったところだ,～정도이다,to_ittatokoroda,95,false,
