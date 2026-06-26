@@ -91,23 +91,23 @@
 ～そうな,～そうな,～할 듯한,sou_na,100,true,DAY 010
 ～がる,～がる,～하는 듯한 태도를 보이다,garu,60,true,DAY 026
 ～たがる,～たがる,～하고 싶어 하다,tagaru,60,true,DAY 026
-～ようとしている,～ようとしている,막 ～하려고 하다,youtoshiteiru,90,false,
-～ように見える,～ようにみえる,～처럼 보인다,youni_mieru,90,false,
-～ように聞こえる,～ようにきこえる,～처럼 들린다,youni_kikoeru,90,false,
-～ことになっている,～ことになっている,～로 되어 있다,koto_ni_natteiru,90,false,
-～ことにしている,～ことにしている,늘 ～하기로 하고 있다,koto_ni_shiteiru,90,false,
-～みたい,～みたい,～같다,mitai,90,false,
-～らしい,～らしい,～인 것 같다,rashii_n4,90,false,
-～でしょう,～でしょう,～겠지요,deshou_n4,90,false,
-～かもしれない,～かもしれない,～일지도 모른다,kamoshirenai_n4,90,false,
-～と思う,～とおもう,～라고 생각하다,to_omou_n4,90,false,
-～と言う,～という,～라고 말하다,to_iu_n4,90,false,
-～ことがある,～ことがある,～한 적이 있다,koto_ga_aru_n4,90,false,
-～ことがない,～ことがない,～한 적이 없다,koto_ga_nai,90,false,
-～ために,～ために,～하기 위해,tame_ni_n4,90,false,
-～のに,～のに,～인데도,noni_n4,90,false,
-～から,～から,～이기 때문에,kara_n4,90,false,
-～ので,～ので,～이기 때문에,node_n4,90,false,
-～なら,～なら,～라면,nara_n4,90,false,
-～と,～と,～하면,to_n4,90,false,
-～ば,～ば,～하면,ba_n4,90,false,
+～ようとしている,～ようとしている,막 ～하려고 하다,youtoshiteiru,90,true,DAY 026
+～ように見える,～ようにみえる,～처럼 보인다,youni_mieru,90,true,DAY 026
+～ように聞こえる,～ようにきこえる,～처럼 들린다,youni_kikoeru,90,true,DAY 026
+～ことになっている,～ことになっている,～로 되어 있다,koto_ni_natteiru,90,true,DAY 026
+～ことにしている,～ことにしている,늘 ～하기로 하고 있다,koto_ni_shiteiru,90,true,DAY 026
+～みたい,～みたい,～같다,mitai,90,true,DAY 026
+～らしい,～らしい,～인 것 같다,rashii_n4,90,true,DAY 027
+～でしょう,～でしょう,～겠지요,deshou_n4,90,true,DAY 027
+～かもしれない,～かもしれない,～일지도 모른다,kamoshirenai_n4,90,true,DAY 028
+～と思う,～とおもう,～라고 생각하다,to_omou_n4,90,true,DAY 028
+～と言う,～という,～라고 말하다,to_iu_n4,90,true,DAY 029
+～ことがある,～ことがある,～한 적이 있다,koto_ga_aru_n4,90,true,DAY 029
+～ことがない,～ことがない,～한 적이 없다,koto_ga_nai,90,true,DAY 030
+～ために,～ために,～하기 위해,tame_ni_n4,90,true,DAY 030
+～のに,～のに,～인데도,noni_n4,90,true,DAY 031
+～から,～から,～이기 때문에,kara_n4,90,true,DAY 031
+～ので,～ので,～이기 때문에,node_n4,90,true,DAY 032
+～なら,～なら,～라면,nara_n4,90,true,DAY 032
+～と,～と,～하면,to_n4,90,true,DAY 033
+～ば,～ば,～하면,ba_n4,90,true,DAY 033

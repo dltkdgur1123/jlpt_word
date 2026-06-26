@@ -4,7 +4,6 @@
 ```text
 jlpt_word/
 ├─ main.py
-├─ upload_tiktok_only.py
 ├─ requirements.txt
 ├─ docs/
 ├─ assets/
@@ -29,7 +28,6 @@ jlpt_word/
 └─ src/
    ├─ data/
    ├─ image/
-   ├─ tiktok/
    ├─ tts/
    ├─ video/
    └─ youtube/
@@ -39,10 +37,6 @@ jlpt_word/
 ### `main.py`
 - 전체 자동 생성 파이프라인 진입점
 - 레벨별 DAY 조회, 데이터 선택, 이미지 생성, TTS 생성, 쇼츠 생성, DAY 영상 생성, 썸네일 생성, YouTube 업로드까지 순차 실행
-
-### `upload_tiktok_only.py`
-- 이미 생성된 DAY 영상을 TikTok에만 업로드하는 보조 실행 파일
-- 전체 생성 파이프라인과 업로드 채널을 분리할 때 사용
 
 ### `requirements.txt`
 - 영상 처리, TTS, 브라우저 자동화, YouTube API, AI 연동에 필요한 패키지 목록
@@ -185,11 +179,6 @@ jlpt_word/
 
 ### `compilation_uploader.py`
 - 풀영상 업로드 전용 모듈
-
-## `src/tiktok/`
-### `tiktok_uploader.py`
-- Playwright 기반 TikTok 업로드 자동화
-- 로그인 세션을 브라우저 프로필 디렉터리에 유지하는 방식
 
 ## 구조적 특징 요약
 - 실행 파이프라인과 데이터 관리 모듈이 분리되어 있다.

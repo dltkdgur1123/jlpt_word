@@ -5,10 +5,12 @@
 # ==================================================
 
 import os
+import argparse
 
 from moviepy import VideoFileClip, concatenate_videoclips
 
 from src.image.level_thumbnail_generator import generate_level_thumbnail
+from src.youtube.compilation_uploader import upload_compilation_video
 
 
 # ==================================================
@@ -18,6 +20,11 @@ from src.image.level_thumbnail_generator import generate_level_thumbnail
 DAY_VIDEO_FOLDER = "output/day_videos"
 
 OUTPUT_FOLDER = "output/compilations"
+
+
+def get_level_day_video_folder(level):
+    level = str(level).strip().upper()
+    return os.path.join(DAY_VIDEO_FOLDER, level)
 
 
 # ==================================================
@@ -39,8 +46,7 @@ def build_day_video_path(level, day):
     filename = f"{level}_DAY_{day_text}.mp4"
 
     video_path = os.path.join(
-        DAY_VIDEO_FOLDER,
-        level,
+        get_level_day_video_folder(level),
         filename
     )
 
@@ -173,13 +179,143 @@ def create_all_level_compilations(
     return results
 
 
+def get_target_levels(start_level="N2"):
+    levels = ["N1", "N2", "N3", "N4", "N5"]
+    start_level = str(start_level).strip().upper()
+
+    if start_level not in levels:
+        raise ValueError(f"지원하지 않는 레벨입니다: {start_level}")
+
+    start_index = levels.index(start_level)
+    return levels[start_index:]
+
+
+def create_compilations_for_levels(
+    levels,
+    start_day=1,
+    end_day=25
+):
+    results = []
+
+    for level in levels:
+        result = create_level_compilation(
+            level=level,
+            start_day=start_day,
+            end_day=end_day
+        )
+
+        results.append(result)
+
+    return results
+
+
+def upload_compilations_for_levels(
+    levels,
+    privacy_status="private",
+    start_day=1,
+    end_day=25,
+    publish_at=None,
+):
+    results = []
+
+    for level in levels:
+        video_id = upload_compilation_video(
+            level=level,
+            start_day=start_day,
+            end_day=end_day,
+            privacy_status=privacy_status,
+            publish_at=publish_at,
+        )
+
+        results.append({
+            "level": level,
+            "video_id": video_id
+        })
+
+    return results
+
+
+def create_then_upload_levels_from(
+    start_level="N2",
+    start_day=1,
+    end_day=25,
+    privacy_status="private",
+    upload_enabled=True,
+    publish_at=None,
+):
+    target_levels = get_target_levels(start_level)
+
+    generated_results = create_compilations_for_levels(
+        levels=target_levels,
+        start_day=start_day,
+        end_day=end_day
+    )
+
+    if not upload_enabled:
+        print("업로드는 건너뜁니다.")
+        return {
+            "generated": generated_results,
+            "uploaded": []
+        }
+
+    print("풀영상 업로드를 시작합니다.")
+
+    uploaded_results = upload_compilations_for_levels(
+        levels=target_levels,
+        privacy_status=privacy_status,
+        start_day=start_day,
+        end_day=end_day,
+        publish_at=publish_at,
+    )
+
+    return {
+        "generated": generated_results,
+        "uploaded": uploaded_results
+    }
+
+
 # ==================================================
 # 7. 테스트 실행
 # ==================================================
 
 if __name__ == "__main__":
-    create_level_compilation(
-        level="N1",
-        start_day=1,
-        end_day=25
+    parser = argparse.ArgumentParser(
+        description="JLPT 레벨별 풀영상 생성 및 업로드"
+    )
+    parser.add_argument(
+        "--from-level",
+        default="N2",
+        help="이 레벨부터 순차적으로 생성/업로드 (예: N2)"
+    )
+    parser.add_argument(
+        "--start-day",
+        type=int,
+        default=1,
+        help="시작 DAY"
+    )
+    parser.add_argument(
+        "--end-day",
+        type=int,
+        default=25,
+        help="끝 DAY"
+    )
+    parser.add_argument(
+        "--privacy-status",
+        default="private",
+        help="YouTube 공개 상태"
+    )
+    parser.add_argument(
+        "--generate-only",
+        action="store_true",
+        help="풀영상 생성만 하고 업로드는 하지 않음"
+    )
+
+    args = parser.parse_args()
+
+    create_then_upload_levels_from(
+        start_level=args.from_level,
+        start_day=args.start_day,
+        end_day=args.end_day,
+        privacy_status=args.privacy_status,
+        upload_enabled=not args.generate_only
     )

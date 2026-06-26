@@ -12,6 +12,10 @@
 import os
 
 from moviepy import ImageClip, AudioFileClip, concatenate_audioclips
+from src.utils.filename_utils import (
+    normalize_romaji_filename,
+    resolve_romaji_file_path,
+)
 
 
 # ==================================================
@@ -35,6 +39,9 @@ if not os.path.exists(video_folder):
     os.makedirs(video_folder)
 
 
+SAFE_AUDIO_TAIL_SECONDS = 0.05
+
+
 # ==================================================
 # 3. 단어 영상 생성 함수 섹션
 # ==================================================
@@ -53,24 +60,25 @@ if not os.path.exists(video_folder):
 
 # 단어 1개에 대한 쇼츠 영상생성 함수
 def create_word_video(romaji):
-    image_path = os.path.join(
-        image_folder,
-        romaji + ".png"
+    safe_romaji = normalize_romaji_filename(romaji)
+
+    image_path = resolve_romaji_file_path(image_folder, romaji, ".png")
+
+    jp_audio_path = resolve_romaji_file_path(
+        audio_folder,
+        f"{romaji}_jp",
+        ".mp3"
     )
 
-    jp_audio_path = os.path.join(
+    kr_audio_path = resolve_romaji_file_path(
         audio_folder,
-        romaji + "_jp.mp3"
-    )
-
-    kr_audio_path = os.path.join(
-        audio_folder,
-        romaji + "_kr.mp3"
+        f"{romaji}_kr",
+        ".mp3"
     )
 
     video_path = os.path.join(
         video_folder,
-        romaji + ".mp4"
+        safe_romaji + ".mp4"
     )
 
 
@@ -96,44 +104,71 @@ def create_word_video(romaji):
         return ""
 
 
-    # mp3 파일을 moviepy 오디오 클립으로 변환
-    jp_audio = AudioFileClip(jp_audio_path)
-    kr_audio = AudioFileClip(kr_audio_path)
+    jp_audio = None
+    kr_audio = None
+    final_audio = None
+    trimmed_audio = None
+    image_clip = None
 
+    try:
+        # mp3 파일을 moviepy 오디오 클립으로 변환
+        jp_audio = AudioFileClip(jp_audio_path)
+        kr_audio = AudioFileClip(kr_audio_path)
 
+        # 일본어 음성 + 한국어 음성을 하나의 오디오로 연결 (음성 반복 역할)
+        final_audio = concatenate_audioclips([
+            jp_audio,
+            kr_audio,
+            jp_audio,
+            kr_audio,
+            jp_audio,
+            kr_audio
+        ])
 
-    # 일본어 음성 + 한국어 음성을 하나의 오디오로 연결 (음성 반복 역할)
-    final_audio = concatenate_audioclips([
-        jp_audio,
-        kr_audio,
-        jp_audio,
-        kr_audio,
-        jp_audio,
-        kr_audio
-    ])
+        # MoviePy가 클립 끝단을 아주 조금 넘어 읽는 상황을 막기 위해
+        # 실제 길이보다 짧은 안전 구간만 사용한다.
+        safe_duration = max(0, final_audio.duration - SAFE_AUDIO_TAIL_SECONDS)
 
+        if safe_duration <= 0:
+            raise ValueError(
+                f"오디오 길이가 너무 짧아 영상을 만들 수 없습니다: {romaji}"
+            )
 
-    # 영상길이를 오디오 길이에 맞추기 위해 사용
-    duration = final_audio.duration - 0.1
+        trimmed_audio = final_audio.subclipped(0, safe_duration)
 
-    # 단어 이미지 파일을 영상 클립으로 변환
-    image_clip = ImageClip(image_path)
+        # 단어 이미지 파일을 영상 클립으로 변환
+        image_clip = ImageClip(image_path).with_duration(safe_duration)
 
-    image_clip = image_clip.with_duration(duration)
+        # 이미지 클립에 최종 오디오를 붙인다.
+        image_clip = image_clip.with_audio(trimmed_audio)
 
+        # 최종 mp4 파일로 저장한다.
+        image_clip.write_videofile(
+            video_path,
+            fps=24,
+            codec="libx264",
+            audio_codec="aac"
+        )
 
-    # 이미지 클립에 최종 오디오를 붙인다.
-    image_clip = image_clip.with_audio(final_audio)
+        print("영상 생성 완료:", video_path)
 
+        return video_path
 
+    finally:
+        if image_clip is not None:
+            image_clip.close()
 
-    # 최종 mp4 파일로 저장한다.
-    image_clip.write_videofile(video_path, fps=24, codec="libx264", audio_codec="aac")
+        if trimmed_audio is not None:
+            trimmed_audio.close()
 
+        if final_audio is not None:
+            final_audio.close()
 
-    print("영상 생성 완료:", video_path)
+        if jp_audio is not None:
+            jp_audio.close()
 
-    return video_path
+        if kr_audio is not None:
+            kr_audio.close()
 
 
 # ==================================================

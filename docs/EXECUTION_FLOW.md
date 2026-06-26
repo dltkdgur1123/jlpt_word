@@ -104,20 +104,7 @@
 - `src/youtube/compilation_uploader.py`
 - 풀영상 mp4와 썸네일을 일반 YouTube 영상으로 업로드한다.
 
-## 8. TikTok 업로드 흐름
-### 8-1. 전용 실행 파일
-- `upload_tiktok_only.py`
-- 이미 생성된 DAY 영상을 TikTok에만 업로드할 때 사용
-
-### 8-2. Playwright 기반 업로드
-- `src/tiktok/tiktok_uploader.py`
-- 업로드 페이지 이동
-- 파일 선택
-- 캡션 입력
-- 게시 버튼 클릭 시도
-- 브라우저 프로필을 재사용해 로그인 세션을 유지
-
-## 9. 데이터 흐름 요약
+## 8. 데이터 흐름 요약
 ```text
 JLPT CSV
 -> used=false 항목 선별
@@ -132,10 +119,10 @@ JLPT CSV
 -> day_status.json 증가
 ```
 
-## 10. 자동화 범위 정리
+## 9. 자동화 범위 정리
 - 입력 데이터 관리: CSV, JSON
 - 생성 자산: 이미지, mp3, mp4, 썸네일
-- 배포 채널: YouTube, TikTok
+- 배포 채널: YouTube
 - 상태 관리: DAY 번호, 업로드 로그
 - 확장 구조: DAY 영상에서 풀영상으로 재가공 가능
 - 데이터 보강 구조: 원천 vocab와 문법 CSV를 기반으로 지속 확장 가능

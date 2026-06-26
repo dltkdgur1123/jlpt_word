@@ -14,6 +14,7 @@ import json
 
 from src.image.prompt_generator import generate_image_prompt
 from src.image.background_generator import generate_background_image
+from src.utils.filename_utils import normalize_romaji_filename
 
 
 # ==================================================
@@ -81,7 +82,7 @@ def create_background_for_word(current_word):
 
         return ""
 
-    filename = romaji + ".png"
+    filename = normalize_romaji_filename(romaji) + ".png"
 
     save_path = os.path.join(background_folder, filename)
 

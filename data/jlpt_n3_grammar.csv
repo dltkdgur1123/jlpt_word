@@ -37,27 +37,27 @@
 ～ておく,～ておく,～해 두다,teoku,60,true,DAY 025
 ～てみる,～てみる,～해 보다,temiru,60,true,DAY 026
 ～ていく,～ていく,～해 가다,teiku,60,true,DAY 026
-～てくる,～てくる,～해 오다,tekuru,60,false,
+～てくる,～てくる,～해 오다,tekuru,60,true,DAY 036
 ～そうだ(전문),～そうだ,～라고 한다,souda,100,true,DAY 006
-～ようだ,～ようだ,～인 것 같다,youda,60,false,
+～ようだ,～ようだ,～인 것 같다,youda,60,true,DAY 036
 ～みたいだ,～みたいだ,～같다,mitaida,100,true,DAY 006
-～かもしれない,～かもしれない,～일지도 모른다,kamoshirenai,60,false,
-～に違いない,～にちがいない,～임에 틀림없다,nichigainai,60,false,
-～はずだ,～はずだ,～일 것이다,hazuda,60,false,
-～はずがない,～はずがない,～일 리가 없다,hazuganai,60,false,
-～わけだ,～わけだ,"～라는 것이다, ～인 셈이다",wakeda,60,false,
-～わけではない,～わけではない,～인 것은 아니다,wakedewanai,60,false,
+～かもしれない,～かもしれない,～일지도 모른다,kamoshirenai,60,true,DAY 036
+～に違いない,～にちがいない,～임에 틀림없다,nichigainai,60,true,DAY 036
+～はずだ,～はずだ,～일 것이다,hazuda,60,true,DAY 037
+～はずがない,～はずがない,～일 리가 없다,hazuganai,60,true,DAY 037
+～わけだ,～わけだ,"～라는 것이다, ～인 셈이다",wakeda,60,true,DAY 038
+～わけではない,～わけではない,～인 것은 아니다,wakedewanai,60,true,DAY 038
 ～という,～という,～라고 하는,toiu,70,true,DAY 015
-～といっても,～といっても,～라고 해도,toittemo,60,false,
+～といっても,～といっても,～라고 해도,toittemo,60,true,DAY 039
 ～によると,～によると,～에 따르면,niyoruto,100,true,DAY 007
 ～によれば,～によれば,～에 따르면,niyoreba,100,true,DAY 007
-～に対して,～にたいして,～에 대해서,nitaishite,60,false,
-～について,～について,～에 대해,nitsuite,60,false,
-～につれて,～につれて,～함에 따라,nitsurete,60,false,
-～たびに,～たびに,～할 때마다,tabini,60,false,
+～に対して,～にたいして,～에 대해서,nitaishite,60,true,DAY 039
+～について,～について,～에 대해,nitsuite,60,true,DAY 040
+～につれて,～につれて,～함에 따라,nitsurete,60,true,DAY 040
+～たびに,～たびに,～할 때마다,tabini,60,true,DAY 041
 ～間,～あいだ,～동안,aida,100,true,DAY 008
 ～間に,～あいだに,～하는 사이에,aidani,100,true,DAY 008
-～うちに,～うちに,"～하는 동안에, ～하는 사이에",uchini,60,false,
+～うちに,～うちに,"～하는 동안에, ～하는 사이에",uchini,60,true,DAY 041
 ～ながら,～ながら,～하면서,nagara,60,false,
 ～し,～し,～하고,shi,60,false,
 ～たり～たり,～たり～たり,～하거나 ～하거나,taritari,100,true,DAY 009
@@ -105,23 +105,23 @@
 ～ものだ,～ものだ,～하는 법이다,monoda,60,false,
 ～ことだ,～ことだ,～하는 게 좋다,kotoda,60,false,
 ～ことになると,～ことになると,"～하게 되면, ～에 관한 일이 되면",kotoninaruto,100,true,DAY 014
-～おかげで,～おかげで,～덕분에,okagede_n3,90,false,
-～せいで,～せいで,～탓에,seide_n3,90,false,
-～ところに,～ところに,마침 ～할 때,tokoroni,90,false,
-～ところへ,～ところへ,마침 ～하던 곳에,tokorohe,90,false,
-～一方で,～いっぽうで,한편으로는,ippoude_n3,90,false,
-～ばかりか,～ばかりか,～뿐만 아니라,bakarika_n3,90,false,
-～にしては,～にしては,～치고는,nishitewa_n3,90,false,
-～わりに,～わりに,"～치고는, ～에 비해",warini,90,false,
-～にしたがって,～にしたがって,～함에 따라,ni_shitagatte_n3,90,false,
-～にともなって,～にともなって,～에 따라,ni_tomonatte_n3,90,false,
-～につれて,～につれて,～함에 따라,nitsurete_n3,90,false,
-～を通じて,～をつうじて,～을 통해,wo_tsuujite_n3,90,false,
-～を中心に,～をちゅうしんに,～을 중심으로,wo_chuushin_ni_n3,90,false,
-～に対する,～にたいする,～에 대한,ni_taisuru_n3,90,false,
-～としても,～としても,～라고 해도,toshitemo,90,false,
-～に反して,～にはんして,～에 반하여,ni_hanshite_n3,90,false,
-～に比べて,～にくらべて,～에 비해,ni_kurabete_n3,90,false,
-～に加えて,～にくわえて,～에 더해,ni_kuwaete_n3,90,false,
-～たびに,～たびに,～할 때마다,tabini_n3,90,false,
-～ぶりに,～ぶりに,～만에,buri_ni,90,false,
+～おかげで,～おかげで,～덕분에,okagede_n3,90,true,DAY 027
+～せいで,～せいで,～탓에,seide_n3,90,true,DAY 027
+～ところに,～ところに,마침 ～할 때,tokoroni,90,true,DAY 028
+～ところへ,～ところへ,마침 ～하던 곳에,tokorohe,90,true,DAY 028
+～一方で,～いっぽうで,한편으로는,ippoude_n3,90,true,DAY 029
+～ばかりか,～ばかりか,～뿐만 아니라,bakarika_n3,90,true,DAY 029
+～にしては,～にしては,～치고는,nishitewa_n3,90,true,DAY 030
+～わりに,～わりに,"～치고는, ～에 비해",warini,90,true,DAY 030
+～にしたがって,～にしたがって,～함에 따라,ni_shitagatte_n3,90,true,DAY 031
+～にともなって,～にともなって,～에 따라,ni_tomonatte_n3,90,true,DAY 031
+～につれて,～につれて,～함에 따라,nitsurete_n3,90,true,DAY 032
+～を通じて,～をつうじて,～을 통해,wo_tsuujite_n3,90,true,DAY 032
+～を中心に,～をちゅうしんに,～을 중심으로,wo_chuushin_ni_n3,90,true,DAY 033
+～に対する,～にたいする,～에 대한,ni_taisuru_n3,90,true,DAY 033
+～としても,～としても,～라고 해도,toshitemo,90,true,DAY 034
+～に反して,～にはんして,～에 반하여,ni_hanshite_n3,90,true,DAY 034
+～に比べて,～にくらべて,～에 비해,ni_kurabete_n3,90,true,DAY 035
+～に加えて,～にくわえて,～에 더해,ni_kuwaete_n3,90,true,DAY 035
+～たびに,～たびに,～할 때마다,tabini_n3,90,true,DAY 036
+～ぶりに,～ぶりに,～만에,buri_ni,90,true,DAY 036

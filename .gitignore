@@ -10,8 +10,11 @@ venv/
 
 # Local environment and secrets
 .env
+.env.local
 client_secret.json
 token.json
+drive_token.json
+.streamlit/secrets.toml
 
 # Editor
 .vscode/
@@ -44,11 +47,15 @@ todo.txt
 기타파일/
 요청사항 정리.md
 최종 구조.md
-README.md
 
 # Runtime state
 data/words.json
 data/day_status.json
 data/uploaded_log.json
+data/streamlit_run_log.json
 data/translation_cache.json
 data/임시 백업/
+
+# Local agent/runtime helpers
+.agents/
+__pycache__/

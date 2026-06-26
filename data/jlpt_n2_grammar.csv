@@ -51,47 +51,47 @@
 ～に反して,～にはんして,"～에 반하여, ～와 달리",nihanshite,60,true,DAY 026
 ～にほかならない,～にほかならない,～에 다름 아니다,nihokanarani_n2,60,true,DAY 026
 ～ぬきで,～ぬきで,～없이,nukide,100,true,DAY 009
-～のみならず,～のみならず,～뿐만 아니라,nominarazu,60,false,
+～のみならず,～のみならず,～뿐만 아니라,nominarazu,60,true,DAY 038
 ～ばかりか,～ばかりか,～뿐만 아니라,bakarika,100,true,DAY 009
-～ばかりでなく,～ばかりでなく,～뿐만 아니라,bakaridenaku,60,false,
-～ものの,～ものの,～이지만,monono,60,false,
-～ものなら,～ものなら,～할 수만 있다면,mononara,60,false,
-～わけにはいかない,～わけにはいかない,～할 수는 없다,wakenihaikanai,60,false,
+～ばかりでなく,～ばかりでなく,～뿐만 아니라,bakaridenaku,60,true,DAY 038
+～ものの,～ものの,～이지만,monono,60,true,DAY 039
+～ものなら,～ものなら,～할 수만 있다면,mononara,60,true,DAY 039
+～わけにはいかない,～わけにはいかない,～할 수는 없다,wakenihaikanai,60,true,DAY 040
 ～を通して,～をとおして,～을 통해,wotooshite,100,true,DAY 010
-～を中心に,～をちゅうしんに,～을 중심으로,wochuushinni,60,false,
-????????,????????,??? ????,nimo_kakawarazu,95,false,
-～にしては,～にしては,～치고는,ni_shite_wa,95,false,
-?????,??????,?? ??,ni_oujite_2,95,false,
-?????,???????,?? ???,ni_shitagatte_2,95,false,
-～につき,～につき,"～당, ～에 대해",nitsuki,95,false,
-～に際し,～にさいし,～에 즈음하여,ni_saishi,95,false,
-～に伴って,～にともなって,"～에 따라, ～와 함께",ni_tomonatte,95,false,
-??????,??????,??? ??,ni_atatte_2,95,false,
-～に限って,～にかぎって,"～에 한해서, ～만은",ni_kagitte,95,false,
-～に限らず,～にかぎらず,～에 한하지 않고,ni_kagirazu,95,false,
-??????,???????,??? ????,ni_chigai_nai_2,95,false,
-?????,?????,??? ??,ni_shite_mo,95,false,
-????,????,???,ni_shiro,95,false,
-????,????,???,ni_seyo,95,false,
-????????,????????,??? ???,ni_seyo_ni_seyo,95,false,
-???????,???????,?? ????,ni_kakawarazu_2,95,false,
-?????,??????,?? ??,ni_kuwaete_2,95,false,
-??????,???????,?? ??,ni_sakidatte,95,false,
-?????,??????,?? ??,ni_sakidachi,95,false,
-?????,?????,?? ????,wo_to_wazu,95,false,
-?????,????????,?? ????,wo_chuushin_ni_2,95,false,
-?????,?????,?? ???,wo_hajime,95,false,
-??????,??????,?? ??,ni_watatte_2,95,false,
-?????,?????,"???, ?? ???",ni_oite_2,95,false,
-??????,??????,?? ????,wo_megutte_2,95,false,
-～を問わず,～をとわず,～을 불문하고,wo_towazu,95,false,
-～に沿って,～にそって,～에 따라,ni_sotte,95,false,
-～をはじめとして,～をはじめとして,～을 비롯해,wo_hajime_to_shite,95,false,
-～に加え,～にくわえ,～에 더해,ni_kuwae,95,false,
-～のもとで,～のもとで,"～아래에서, ～밑에서",no_moto_de,95,false,
-～を前にして,～をまえにして,～을 앞에 두고,wo_mae_ni_shite,95,false,
-～にかけて,～にかけて,"～에 걸쳐, ～에 이르기까지",ni_kakete,95,false,
-～にわたる,～にわたる,～에 걸친,ni_wataru,95,false,
-～をめぐる,～をめぐる,～을 둘러싼,wo_meguru,95,false,
-～における,～における,～에 있어서의,ni_okeru,95,false,
-～にしてからが,～にしてからが,～라고 해도 벌써,ni_shite_kara_ga,95,false,
+～を中心に,～をちゅうしんに,～을 중심으로,wochuushinni,60,true,DAY 040
+～にもかかわらず,～にもかかわらず,～에도 불구하고,nimo_kakawarazu,95,true,DAY 027
+～にしては,～にしては,～치고는,ni_shite_wa,95,true,DAY 027
+～に応じて,～におうじて,～에 따라,ni_oujite_2,95,true,DAY 027
+～に従って,～にしたがって,～에 따라,ni_shitagatte_2,95,true,DAY 027
+～につき,～につき,"～당, ～에 대해",nitsuki,95,true,DAY 027
+～に際し,～にさいし,～에 즈음하여,ni_saishi,95,true,DAY 027
+～に伴って,～にともなって,"～에 따라, ～와 함께",ni_tomonatte,95,true,DAY 027
+～に当たって,～にあたって,～에 즈음하여,ni_atatte_2,95,true,DAY 027
+～に限って,～にかぎって,"～에 한해서, ～만은",ni_kagitte,95,true,DAY 027
+～に限らず,～にかぎらず,～에 한하지 않고,ni_kagirazu,95,true,DAY 027
+～に違いない,～にちがいない,～임에 틀림없다,ni_chigai_nai_2,95,true,DAY 028
+～にしても,～にしても,"～라고 해도, ～이더라도",ni_shite_mo,95,true,DAY 028
+～にしろ,～にしろ,"～라고 해도, ～이든, ～하더라도",ni_shiro,95,true,DAY 028
+～にせよ,～にせよ,"～이든, ～라고 해도, ～하더라도",ni_seyo,95,true,DAY 028
+～にせよ～にせよ,～にせよ～にせよ,"～이든 ～이든, ～하든 ～하든",ni_seyo_ni_seyo,95,true,DAY 028
+～にかかわらず,～にかかわらず,～에 관계없이,ni_kakawarazu_2,95,true,DAY 028
+～に加えて,～にくわえて,～에 더해,ni_kuwaete_2,95,true,DAY 029
+～に先立って,～にさきだって,～에 앞서,ni_sakidatte,95,true,DAY 029
+～に先立ち,～にさきだち,"～에 앞서, ～을 앞두고",ni_sakidachi,95,true,DAY 030
+～を問わず,～をとわず,～을 불문하고,wo_to_wazu,95,true,DAY 030
+～を中心に,～をちゅうしんに,～을 중심으로,wo_chuushin_ni_2,95,true,DAY 031
+～をはじめ,～をはじめ,～을 비롯해,wo_hajime,95,true,DAY 031
+～にわたって,～にわたって,～에 걸쳐,ni_watatte_2,95,true,DAY 032
+～において,～において,"～에서, ～에 있어서",ni_oite_2,95,true,DAY 032
+～をめぐって,～をめぐって,～을 둘러싸고,wo_megutte_2,95,true,DAY 033
+～を問わず,～をとわず,～을 불문하고,wo_towazu,95,true,DAY 033
+～に沿って,～にそって,～에 따라,ni_sotte,95,true,DAY 034
+～をはじめとして,～をはじめとして,～을 비롯해,wo_hajime_to_shite,95,true,DAY 034
+～に加え,～にくわえ,～에 더해,ni_kuwae,95,true,DAY 035
+～のもとで,～のもとで,"～아래에서, ～밑에서",no_moto_de,95,true,DAY 035
+～を前にして,～をまえにして,～을 앞에 두고,wo_mae_ni_shite,95,true,DAY 036
+～にかけて,～にかけて,"～에 걸쳐, ～에 이르기까지",ni_kakete,95,true,DAY 036
+～にわたる,～にわたる,～에 걸친,ni_wataru,95,true,DAY 037
+～をめぐる,～をめぐる,～을 둘러싼,wo_meguru,95,true,DAY 037
+～における,～における,～에 있어서의,ni_okeru,95,true,DAY 037
+～にしてからが,～にしてからが,～라고 해도 벌써,ni_shite_kara_ga,95,true,DAY 037

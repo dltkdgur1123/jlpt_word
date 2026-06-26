@@ -1,0 +1,199 @@
+﻿word,hiragana,meaning,romaji,score,used,day
+会社,かいしゃ,회사,kaisha,50,true,DAY 001
+企業,きぎょう,기업,kigyou,50,true,DAY 001
+職場,しょくば,"직장, 근무처",shokuba,50,true,DAY 001
+部署,ぶしょ,부서,busho,50,true,DAY 002
+部門,ぶもん,"부문, 부서",bumon,50,true,DAY 002
+本社,ほんしゃ,본사,honsha,50,true,DAY 002
+支社,ししゃ,지사,shisha,50,true,DAY 003
+支店,してん,지점,shiten,50,true,DAY 003
+営業部,えいぎょうぶ,영업부,eigyoubu,50,true,DAY 003
+総務部,そうむぶ,총무부,soumubu,50,true,DAY 004
+人事部,じんじぶ,인사부,jinjibu,50,true,DAY 004
+経理部,けいりぶ,"경리부, 재무부서",keiribu,50,true,DAY 004
+企画部,きかくぶ,기획부,kikakubu,50,true,DAY 005
+広報部,こうほうぶ,홍보부,kouhoubu,50,true,DAY 005
+担当,たんとう,담당,tantou,50,true,DAY 005
+担当者,たんとうしゃ,담당자,tantousha,50,true,DAY 006
+責任者,せきにんしゃ,책임자,sekininsha,50,true,DAY 006
+上司,じょうし,상사,joushi,50,true,DAY 006
+部下,ぶか,부하 직원,buka,50,true,DAY 007
+同僚,どうりょう,동료,douryou,50,true,DAY 007
+先輩,せんぱい,선배,senpai,50,true,DAY 007
+後輩,こうはい,후배,kouhai,50,true,DAY 008
+社員,しゃいん,"사원, 직원",shain,50,true,DAY 008
+新入社員,しんにゅうしゃいん,신입 사원,shinnyuushain,50,true,DAY 008
+正社員,せいしゃいん,정사원,seishain,50,true,DAY 009
+契約社員,けいやくしゃいん,계약직 사원,keiyakushain,50,true,DAY 009
+派遣社員,はけんしゃいん,파견 직원,hakenshain,50,true,DAY 009
+取引先,とりひきさき,거래처,torihikisaki,50,true,DAY 010
+顧客,こきゃく,고객,kokyaku,50,true,DAY 010
+お客様,おきゃくさま,고객님,okyakusama,50,true,DAY 010
+来客,らいきゃく,"방문객, 내방객",raikyaku,50,true,DAY 011
+商談,しょうだん,"상담, 비즈니스 협의",shoudan,50,true,DAY 011
+契約,けいやく,계약,keiyaku,50,true,DAY 011
+見積もり,みつもり,견적,mitsumori,50,true,DAY 012
+見積書,みつもりしょ,견적서,mitsumorisho,50,true,DAY 012
+請求書,せいきゅうしょ,청구서,seikyuusho,50,true,DAY 012
+領収書,りょうしゅうしょ,영수증,ryoushuusho,50,true,DAY 013
+納品書,のうひんしょ,납품서,nouhinsho,50,true,DAY 013
+発注,はっちゅう,발주,hatchuu,50,true,DAY 013
+受注,じゅちゅう,수주,juchuu,50,false,
+納期,のうき,납기,nouki,50,false,
+在庫,ざいこ,재고,zaiko,50,false,
+欠品,けっぴん,"품절, 결품",keppin,50,false,
+入荷,にゅうか,입고,nyuuka,50,false,
+出荷,しゅっか,출하,shukka,50,false,
+売上,うりあげ,매출,uriage,50,false,
+利益,りえき,이익,rieki,50,false,
+経費,けいひ,경비,keihi,50,false,
+予算,よさん,예산,yosan,50,false,
+決算,けっさん,결산,kessan,50,false,
+会議,かいぎ,회의,kaigi,50,false,
+打ち合わせ,うちあわせ,"미팅, 사전 협의",uchiawase,50,false,
+議題,ぎだい,의제,gidai,50,false,
+議事録,ぎじろく,회의록,gijiroku,50,false,
+日程,にってい,일정,nittei,50,false,
+予定,よてい,"예정, 일정",yotei,50,false,
+締め切り,しめきり,마감,shimekiri,50,false,
+期限,きげん,기한,kigen,50,false,
+進捗,しんちょく,진척,shinchoku,50,false,
+進行,しんこう,진행,shinkou,50,false,
+確認,かくにん,확인,kakunin,50,false,
+共有,きょうゆう,공유,kyouyuu,50,false,
+連絡,れんらく,연락,renraku,50,false,
+報告,ほうこく,보고,houkoku,50,false,
+相談,そうだん,"상담, 상의",soudan,50,false,
+提案,ていあん,제안,teian,50,false,
+依頼,いらい,"의뢰, 부탁",irai,50,false,
+承認,しょうにん,승인,shounin,50,false,
+決裁,けっさい,결재,kessai_2,50,false,
+許可,きょか,허가,kyoka,50,false,
+対応,たいおう,대응,taiou,50,false,
+対策,たいさく,대책,taisaku,50,false,
+改善,かいぜん,개선,kaizen,50,false,
+課題,かだい,"과제, 문제점",kadai,50,false,
+問題点,もんだいてん,문제점,mondaiten,50,false,
+原因,げんいん,원인,genin,50,false,
+対処,たいしょ,대처,taisho,50,false,
+資料,しりょう,자료,shiryou,50,false,
+書類,しょるい,서류,shorui,50,false,
+案内,あんない,안내,annai,50,false,
+通知,つうち,"통지, 안내",tsuuchi,50,false,
+連携,れんけい,"연계, 협업",renkei,50,false,
+協力,きょうりょく,협력,kyouryoku,50,false,
+出張,しゅっちょう,출장,shucchou,50,false,
+外出,がいしゅつ,외출,gaishutsu,50,false,
+直行,ちょっこう,직행 출근,chokkou,50,false,
+直帰,ちょっき,"직귀, 바로 퇴근",chokki,50,false,
+出勤,しゅっきん,출근,shukkin,50,false,
+退勤,たいきん,퇴근,taikin,50,false,
+休暇,きゅうか,휴가,kyuuka,50,false,
+有給休暇,ゆうきゅうきゅうか,유급 휴가,yuukyuukyuuka,50,false,
+欠勤,けっきん,결근,kekkin,50,false,
+遅刻,ちこく,지각,chikoku,50,false,
+早退,そうたい,조퇴,soutai,50,false,
+名刺,めいし,명함,meishi,50,false,
+受付,うけつけ,"접수, 안내 데스크",uketsuke,50,false,
+来訪,らいほう,방문,raihou,50,false,
+訪問,ほうもん,방문,houmon,50,false,
+応接室,おうせつしつ,응접실,ousetsushitsu,50,false,
+電話,でんわ,전화,denwa,50,false,
+内線,ないせん,내선 전화,naisen,50,false,
+外線,がいせん,외선 전화,gaisen,50,false,
+留守番電話,るすばんでんわ,음성사서함,rusubandenwa,50,false,
+メール,メール,이메일,meeru,50,false,
+件名,けんめい,제목,kenmei,50,false,
+本文,ほんぶん,본문,honbun,50,false,
+添付,てんぷ,첨부,tenpu,50,false,
+ファイル,ファイル,파일,fairu,50,false,
+資料請求,しりょうせいきゅう,자료 요청,shiryouseikyuu,50,false,
+予約,よやく,예약,yoyaku,50,false,
+変更,へんこう,변경,henkou,50,false,
+キャンセル,キャンセル,취소,kyanseru,50,false,
+確認事項,かくにんじこう,확인 사항,kakuninjikou,50,false,
+注意事項,ちゅういじこう,주의 사항,chuuijikou,50,false,
+手順,てじゅん,절차,tejun,50,false,
+流れ,ながれ,"흐름, 진행 순서",nagare,50,false,
+優先事項,ゆうせんじこう,우선 사항,yuusenjikou,50,false,
+役員,やくいん,임원,yakuin,50,false,
+社長,しゃちょう,사장,shachou,50,false,
+部長,ぶちょう,부장,buchou,50,false,
+課長,かちょう,과장,kachou,50,false,
+係長,かかりちょう,계장,kakarichou,50,false,
+主任,しゅにん,주임,shunin,50,false,
+代表,だいひょう,대표,daihyou,50,false,
+法人,ほうじん,법인,houjin,50,false,
+業務,ぎょうむ,업무,gyoumu,50,false,
+事業,じぎょう,사업,jigyou,50,false,
+顧問,こもん,고문,komon,50,false,
+研修,けんしゅう,"연수, 교육",kenshuu,50,false,
+採用,さいよう,채용,saiyou,50,false,
+面接,めんせつ,면접,mensetsu,50,false,
+履歴書,りれきしょ,이력서,rirekisho,50,false,
+職務経歴書,しょくむけいれきしょ,경력기술서,shokumukeirekisho,50,false,
+異動,いどう,"이동, 인사이동",idou,50,false,
+昇進,しょうしん,승진,shoushin,50,false,
+昇格,しょうかく,승격,shoukaku,50,false,
+異議,いぎ,이의,igi,50,false,
+稟議,りんぎ,품의,ringi,50,false,
+稟議書,りんぎしょ,품의서,ringisho,50,false,
+決議,けつぎ,결의,ketsugi,50,false,
+議決,ぎけつ,의결,giketsu,50,false,
+手配,てはい,"준비, 수배",tehai,50,false,
+手続き,てつづき,"절차, 수속",tetsuzuki,50,false,
+申請,しんせい,신청,shinsei,50,false,
+申込,もうしこみ,"신청, 접수",moushikomi,50,false,
+承諾,しょうだく,승낙,shoudaku,50,false,
+了承,りょうしょう,양해,ryoushou,50,false,
+拒否,きょひ,거부,kyohi,50,false,
+保留,ほりゅう,보류,horyuu,50,false,
+未定,みてい,미정,mitei,50,false,
+確定,かくてい,확정,kakutei,50,false,
+暫定,ざんてい,잠정,zantei,50,false,
+優先,ゆうせん,우선,yuusen,50,false,
+優先度,ゆうせんど,우선순위,yuusendo,50,false,
+至急,しきゅう,긴급,shikyuu,50,false,
+急募,きゅうぼ,긴급 모집,kyuubo,50,false,
+連休,れんきゅう,연휴,renkyuu,50,false,
+残業,ざんぎょう,"잔업, 야근",zangyou,50,false,
+定時,ていじ,"정시, 정시 퇴근 시간",teiji,50,false,
+始業,しぎょう,업무 시작,shigyou,50,false,
+終業,しゅうぎょう,업무 종료,shuugyou,50,false,
+休憩,きゅうけい,휴식,kyuukei,50,false,
+欠席,けっせき,"결석, 불참",kesseki,50,false,
+出席,しゅっせき,"출석, 참석",shusseki,50,false,
+参加,さんか,"참가, 참석",sanka,50,false,
+出欠,しゅっけつ,참석 여부,shukketsu,50,false,
+招待,しょうたい,초대,shoutai,50,false,
+案件,あんけん,"안건, 건",anken,50,false,
+要件,ようけん,"용건, 요건",youken,50,false,
+詳細,しょうさい,상세,shousai,50,false,
+概要,がいよう,개요,gaiyou,50,false,
+方針,ほうしん,방침,houshin,50,false,
+目標,もくひょう,목표,mokuhyou,50,false,
+実績,じっせき,실적,jisseki,50,false,
+評価,ひょうか,평가,hyouka,50,false,
+見直し,みなおし,"재검토, 재점검",minaoshi,50,false,
+調整,ちょうせい,조정,chousei,50,false,
+周知,しゅうち,"주지, 공지",shuuchi,50,false,
+告知,こくち,"고지, 안내",kokuchi,50,false,
+返答,へんとう,답변,hentou,50,false,
+回答,かいとう,"회답, 답변",kaitou,50,false,
+受信,じゅしん,수신,jushin,50,false,
+送信,そうしん,송신,soushin,50,false,
+転送,てんそう,"전달, 전달 발송",tensou,50,false,
+宛先,あてさき,수신처,atesaki,50,false,
+差出人,さしだしにん,발신인,sashidashinin,50,false,
+署名,しょめい,서명,shomei,50,false,
+印鑑,いんかん,도장,inkan,50,false,
+押印,おういん,날인,ouin,50,false,
+捺印,なついん,날인,natsuin,50,false,
+受付番号,うけつけばんごう,접수 번호,uketsukebangou,50,false,
+管理番号,かんりばんごう,관리 번호,kanribangou,50,false,
+会場,かいじょう,"행사장, 회의장",kaijou,50,false,
+受付時間,うけつけじかん,접수 시간,uketsukejikan,50,false,
+持参,じさん,지참,jisan,50,false,
+持ち帰り,もちかえり,"가져감, 반출",mochikaeri,50,false,
+返却,へんきゃく,반납,henkyaku,50,false,
+貸出,かしだし,대여,kashidashi,50,false,

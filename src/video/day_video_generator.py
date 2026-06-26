@@ -13,6 +13,7 @@ import json
 
 from moviepy import VideoFileClip, concatenate_videoclips
 from src.data.day_manager import get_current_day_filename
+from src.utils.filename_utils import resolve_romaji_file_path
 
 
 # ==================================================
@@ -24,6 +25,11 @@ WORDS_FILE = "data/words.json"
 WORD_VIDEO_FOLDER = "output/videos"
 
 DAY_VIDEO_FOLDER = "output/day_videos"
+
+
+def get_level_day_video_folder(level):
+    level = str(level).strip().upper()
+    return os.path.join(DAY_VIDEO_FOLDER, level)
 
 
 if not os.path.exists(DAY_VIDEO_FOLDER):
@@ -60,9 +66,10 @@ def get_word_video_path(current_word):
         print("romaji 값이 없어서 영상 경로를 만들 수 없습니다.")
         return ""
 
-    video_path = os.path.join(
+    video_path = resolve_romaji_file_path(
         WORD_VIDEO_FOLDER,
-        romaji + ".mp4"
+        romaji,
+        ".mp4"
     )
 
     if not os.path.exists(video_path):
@@ -111,9 +118,11 @@ def create_day_video(level="N1"):
     day_video_name = get_current_day_filename(level)
 
     save_path = os.path.join(
-        DAY_VIDEO_FOLDER,
+        get_level_day_video_folder(level),
         day_video_name
     )
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
     final_clip.write_videofile(
         save_path,

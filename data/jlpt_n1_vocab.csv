@@ -1,30 +1,30 @@
 ﻿word,hiragana,meaning,romaji,score,used,day
 現像,げんぞう,현상(필름),genzou,50,false,
-原則,げんそく,"원칙, 기본 규칙",gensoku,70,true,DAY 001
+原則,げんそく,"원칙, 일반 규칙",gensoku,70,true,DAY 001
 見地,けんち,관점,kenchi,50,false,
-現地,げんち,"현지, 실제 현장",genchi,60,true,DAY 020
-限定,げんてい,제한,gentei,60,true,DAY 020
+現地,げんち,"실제 장소, 현지",genchi,60,true,DAY 022
+限定,げんてい,제한,gentei,60,true,DAY 022
 原点,げんてん,"원점(좌표, 시작점)",genten,50,false,
 原典,げんてん,"원본, 소스",genten_2,50,false,
 原爆,げんばく,원자폭탄,genbaku,50,false,
 原文,げんぶん,"본문, 원본",genbun,50,false,
-厳密,げんみつ,"엄밀한, 정확한",genmitsu,60,true,DAY 020
-賢明,けんめい,"현명함, 신중함",kenmei,50,false,
+厳密,げんみつ,"엄격한, 가까운",genmitsu,60,true,DAY 023
+賢明,けんめい,"지혜, 총명, 신중함",kenmei,50,false,
 倹約,けんやく,절약,kenyaku,50,false,
 原油,げんゆ,원유,genyu,50,false,
 兼用,けんよう,"다용도, 복합용",kenyou,50,false,
-権力,けんりょく,"(정치적) 권력, 권위, 영향력",kenryoku,60,true,DAY 020
+権力,けんりょく,"(정치적) 권력, 권위, 영향력",kenryoku,60,true,DAY 023
 言論,げんろん,"토론, 연설",genron,50,false,
 故～,こ～,"사망하다, 늦다",ko～,50,false,
 語彙,ごい,"어휘, 용어집",goi,50,false,
 恋する,こいする,"사랑에 빠지다, 사랑하다",koisuru,50,false,
 甲,こう,"순위 1위, 껍데기",kou,50,false,
-～光,～こう,～교,～kou,60,true,DAY 020
-好意,こうい,"선의, 호의, 예의",koui,60,true,DAY 020
-行為,こうい,"행위, 행실",koui_2,60,true,DAY 020
+～光,～こう,빛,～kou,60,true,DAY 023
+好意,こうい,"선의, 호의, 예의",koui,60,true,DAY 023
+行為,こうい,"행위, 행실",koui_2,60,true,DAY 023
 合意,ごうい,"동의, 상호 이해",goui,50,false,
 工学,こうがく,공학,kougaku,50,false,
-抗議,こうぎ,"항의, 반대",kougi,60,true,DAY 021
+抗議,こうぎ,"항의, 반대",kougi,60,true,DAY 024
 合議,ごうぎ,"상담, 컨퍼런스",gougi,50,false,
 皇居,こうきょ,황궁,koukyo,50,false,
 好況,こうきょう,"번영하는 환경, 건강한 경제",koukyou,50,false,
@@ -34,45 +34,45 @@
 交互,こうご,"상호적인, 대체적인",kougo,50,false,
 煌々と,こうこうと,밝게,koukouto,50,false,
 考古学,こうこがく,고고학,koukogaku,50,false,
-工作,こうさく,"수공예품, 기동",kousaku,60,true,DAY 021
+工作,こうさく,"수공예품, 기동",kousaku,60,true,DAY 024
 耕作,こうさく,"재배, 농업",kousaku_2,50,false,
 鉱山,こうざん,내 거,kouzan,50,false,
 講習,こうしゅう,"단기 코스, 훈련",koushuu,50,false,
 口述,こうじゅつ,구두 진술,koujutsu,50,false,
 控除,こうじょ,"보조금, 공제",koujo,50,false,
-交渉,こうしょう,협상,koushou,60,true,DAY 021
+交渉,こうしょう,협상,koushou,60,true,DAY 024
 高尚,こうしょう,"높은, 고귀한, 세련된",koushou_2,50,false,
-向上,こうじょう,"상승, 개선, 진보",koujou,60,true,DAY 021
+向上,こうじょう,"상승, 개선, 진보",koujou,60,true,DAY 024
 行進,こうしん,"행진, 퍼레이드",koushin,50,false,
 香辛料,こうしんりょう,향료,koushinryou,50,false,
 降水,こうすい,강수량,kousui,50,false,
 洪水,こうずい,홍수,kouzui,50,false,
-合成,ごうせい,"합성, 혼합",gousei,60,true,DAY 021
+合成,ごうせい,"합성, 혼합",gousei,60,true,DAY 024
 公然,こうぜん,공공연히,kouzen,50,false,
 抗争,こうそう,"분쟁, 저항",kousou,50,false,
 構想,こうそう,"계획, 음모, 아이디어, 개념",kousou_2,50,false,
 後退,こうたい,"후퇴, 백스페이스",koutai,50,false,
 光沢,こうたく,"광택, 윤기있는 마무리 (사진)",koutaku,50,false,
 公団,こうだん,공기업,koudan,50,false,
-好調,こうちょう,"만족스럽습니다, 상태 좋습니다",kouchou,60,true,DAY 021
+好調,こうちょう,"호조, 좋은 상태",kouchou,60,true,DAY 025
 口頭,こうとう,경구,koutou,50,false,
 講読,こうどく,독서,koudoku,50,false,
 購読,こうどく,신청,koudoku_2,50,false,
 購入,こうにゅう,구매하다,kounyuu,70,true,DAY 001
 公認,こうにん,"공식 인정, 승인",kounin,50,false,
-光熱費,こうねつひ,연료비와 조명비,kounetsuhi,60,true,DAY 021
+光熱費,こうねつひ,연료비와 조명비,kounetsuhi,60,true,DAY 025
 購買,こうばい,구매하다,koubai,50,false,
 好評,こうひょう,"인기, 호평",kouhyou,50,false,
 交付,こうふ,"배달, 제공(사본 포함)",koufu,50,false,
 公募,こうぼ,"대중 호소, 대중 기여",koubo,50,false,
 巧妙,こうみょう,"독창적인, 능숙한, 영리한",koumyou,50,false,
-公用,こうよう,"정부 사업, 공공 사용, 공공 비용",kouyou,50,false,
-小売,こうり,소매,kouri,60,true,DAY 021
+公用,こうよう,"공용, 공무",kouyou,50,false,
+小売,こうり,소매,kouri,60,true,DAY 025
 効率,こうりつ,능률,kouritsu,70,true,DAY 001
-公立,こうりつ,공기,kouritsu_2,60,true,DAY 021
+公立,こうりつ,공기,kouritsu_2,60,true,DAY 025
 護衛,ごえい,"경비병, 호송대, 호위대",goei,50,false,
 コーナー,コーナー,모서리,koonaa,50,false,
-小柄,こがら,"작은, 아주 작은",kogara,60,true,DAY 021
+小柄,こがら,"작은, 아주 작은",kogara,60,true,DAY 025
 小切手,こぎって,"수표, 확인하다",kogitte,50,false,
 国産,こくさん,국내 제품,kokusan,50,false,
 国定,こくてい,"국가 후원, 국가",kokutei,50,false,
@@ -89,11 +89,11 @@
 心掛ける,こころがける,"염두에 두다, ～을 목표로 삼다",kokorogakeru,50,false,
 志,こころざし,"의지, 의도, 동기",kokorozashi,50,false,
 志す,こころざす,"계획하다, 의도하다, 열망하다",kokorozasu,50,false,
-心強い,こころづよい,"격려하는, 안심시키는",kokorozuyoi,60,true,DAY 022
+心強い,こころづよい,"격려하는, 안심시키는",kokorozuyoi,60,true,DAY 026
 心細い,こころぼそい,"무기력한, 절망적인, 낙담시키는",kokorobosoi,50,false,
-試み,こころみ,"재판, 실험",kokoromi,60,true,DAY 022
-試みる,こころみる,"시도하다, 테스트하다",kokoromiru,60,true,DAY 022
-快い,こころよい,기분 좋은,kokoroyoi,60,true,DAY 022
+試み,こころみ,"재판, 실험",kokoromi,60,true,DAY 026
+試みる,こころみる,"시도하다, 테스트하다",kokoromiru,60,true,DAY 026
+快い,こころよい,기분 좋은,kokoroyoi,60,true,DAY 026
 誤差,ごさ,오류,gosa,50,false,
 ございます (かん),ございます (かん),"(존재하다, 정중하다)",gozaimasu_(kan),50,false,
 孤児,こじ,유아,koji,50,false,
@@ -110,18 +110,18 @@
 滑稽,こっけい,"재미있다, 유머러스하다, 우스꽝스럽다",kokkei,50,false,
 国交,こっこう,외교관계,kokkou,50,false,
 骨董品,こっとうひん,진품,kottouhin,50,false,
-固定,こてい,"고정, 고정(예: 급여, 자본)",kotei,70,true,DAY 001
-事柄,ことがら,"문제, 일, 사건, 상황",kotogara,60,true,DAY 022
+固定,こてい,고정,kotei,70,true,DAY 001
+事柄,ことがら,"문제, 일, 사건, 상황",kotogara,60,true,DAY 026
 孤独,こどく,"고립, 외로움, 고독",kodoku,70,true,DAY 002
-ことごとく,ことごとく,"전적으로, 완전히",kotogotoku,60,true,DAY 022
-言付け,ことづけ,메시지를 남기려고,kotozuke,50,false,
+ことごとく,ことごとく,"모조리, 남김없이",kotogotoku,60,true,DAY 027
+言付け,ことづけ,"전갈, 전하는 말",kotozuke,50,false,
 殊に,ことに,"특히, 무엇보다도",kotoni,50,false,
 粉々,こなごな,아주 작은 조각으로,konagona,50,false,
-好ましい,このましい,"좋다, 마음에 든다, 바람직하다",konomashii,60,true,DAY 022
+好ましい,このましい,"좋다, 마음에 든다, 바람직하다",konomashii,60,true,DAY 027
 碁盤,ごばん,탑승,goban,50,false,
-個別,こべつ,특별한 경우,kobetsu,60,true,DAY 022
+個別,こべつ,개별,kobetsu,60,true,DAY 027
 ごまかす,ごまかす,"속이다, 위조하다, 허위로 나타내다",gomakasu,50,false,
-細やか,こまやか,"빈약한, 겸손한",komayaka,60,true,DAY 022
+細やか,こまやか,"빈약한, 겸손한",komayaka,60,true,DAY 027
 コマーシャル,コマーシャル,광고,komaasharu,50,false,
 込める,こめる,"포함시키다, 넣다",komeru,50,false,
 コメント,コメント,논평,komento,50,false,
@@ -130,11 +130,11 @@
 暦,こよみ,"달력, 연감",koyomi,50,false,
 凝らす,こらす,"집중하다, 전념하다, 자세히 들여다보다",korasu,50,false,
 ごらんなさい (かん),ごらんなさい (かん),"보세요, (제발) 해보세요",gorannasai_(kan),50,false,
-孤立,こりつ,"고립, 무력감",koritsu,60,true,DAY 022
+孤立,こりつ,"고립, 무력감",koritsu,60,true,DAY 027
 懲りる,こりる,"경험을 통해 배우다, 혐오감을 느끼다",koriru,50,false,
 凝る,こる,굳어지다,koru,50,false,
-根気,こんき,"인내심, 인내, 에너지",konki,60,true,DAY 023
-根拠,こんきょ,기초,konkyo,60,true,DAY 023
+根気,こんき,"인내심, 인내, 에너지",konki,60,true,DAY 028
+根拠,こんきょ,기초,konkyo,60,true,DAY 028
 混血,こんけつ,혼혈,konketsu,50,false,
 コンタクト (レンズ),コンタクト (レンズ),"연락하다, 콘택트 렌즈",kontakuto_(renzu),50,false,
 昆虫,こんちゅう,"곤충, 벌레",konchuu,50,false,
@@ -146,8 +146,8 @@
 根本,こんぽん,"기초, 뿌리",konpon,50,false,
 財,ざい,"행운, 재물",zai,50,false,
 再会,さいかい,"다시 만나다, 재회하다",saikai,50,false,
-災害,さいがい,"재난, 불행",saigai,60,true,DAY 023
-細菌,さいきん,"간균, 세균",saikin,60,true,DAY 023
+災害,さいがい,"재난, 불행",saigai,60,true,DAY 028
+細菌,さいきん,"간균, 세균",saikin,60,true,DAY 028
 細工,さいく,"일, 장인정신, 트릭",saiku,50,false,
 採掘,さいくつ,채광,saikutsu,50,false,
 サイクル,サイクル,주기,saikuru,50,false,
@@ -159,18 +159,18 @@
 採算,さいさん,이익,saisan,50,false,
 サイズ,サイズ,크기,saizu,50,false,
 再生,さいせい,"재생, 소생",saisei,70,true,DAY 002
-財政,ざいせい,"경제, 재정",zaisei,60,true,DAY 023
-最善,さいぜん,가장 좋은,saizen,60,true,DAY 024
+財政,ざいせい,"경제, 재정",zaisei,60,true,DAY 028
+最善,さいぜん,가장 좋은,saizen,60,true,DAY 029
 採択,さいたく,"채택, 선택",saitaku,50,false,
-栽培,さいばい,경작,saibai,60,true,DAY 024
-再発,さいはつ,"복귀, 재발",saihatsu,60,true,DAY 024
+栽培,さいばい,경작,saibai,60,true,DAY 029
+再発,さいはつ,"복귀, 재발",saihatsu,60,true,DAY 029
 細胞,さいぼう,셀,saibou,50,false,
 採用,さいよう,"사용하다, 채택하다",saiyou,70,true,DAY 002
 遮る,さえぎる,방해하다,saegiru,50,false,
 さえずる,さえずる,"노래하다, 지저귀다, 트위터하다",saezuru,50,false,
 冴える,さえる,"맑다, 밝다, 능숙하다",saeru,50,false,
 竿,さお,"막대, 기둥(예: 세탁물 건조용)",sao,50,false,
-栄える,さかえる,번영하다,sakaeru,60,true,DAY 024
+栄える,さかえる,번영하다,sakaeru,60,true,DAY 029
 差額,さがく,"균형, 차이, 여백",sagaku,50,false,
 杯,さかずき,와인 잔,sakazuki,50,false,
 逆立ち,さかだち,물구나무서기,sakadachi,50,false,
@@ -178,27 +178,27 @@
 詐欺,さぎ,사기,sagi,50,false,
 削減,さくげん,"잘라내다, 줄이다",sakugen,50,false,
 錯誤,さくご,실수,sakugo,50,false,
-作戦,さくせん,"군사 작전, 전술, 전략",sakusen,60,true,DAY 024
+作戦,さくせん,"군사 작전, 전술, 전략",sakusen,60,true,DAY 029
 叫び,さけび,"소리치다, 비명을 지르다, 부르짖다",sakebi,50,false,
 捧げる,ささげる,"들어 올리다, 주다, 제안하다",sasageru,50,false,
 差し掛かる,さしかかる,"가까이 다가가다, 접근하다",sashikakaru,50,false,
 指図,さしず,"지시, 위임",sashizu,50,false,
-差し出す,さしだす,"제시하다, 제출하다, 내세우다",sashidasu,60,true,DAY 025
-差し支える,さしつかえる,방해하다,sashitsukaeru,60,true,DAY 025
+差し出す,さしだす,"제시하다, 제출하다, 내세우다",sashidasu,60,true,DAY 030
+差し支える,さしつかえる,방해하다,sashitsukaeru,60,true,DAY 030
 授ける,さずける,"부여하다, 수여하다, 가르치다",sazukeru,50,false,
 摩する,さする,"문지르다, 쓰다듬다",sasuru,50,false,
 さぞ (さぞや。さぞかし),さぞ (さぞや。さぞかし),"나는 확신해요, 확실히, 의심의 여지가 없어요",sazo_(sazoya.sazokashi),50,false,
 定まる,さだまる,"안정되다, 고정되다",sadamaru,50,false,
 定める,さだめる,결정하다,sadameru,70,true,DAY 002
-座談会,ざだんかい,"심포지엄, 라운드 테이블 토론",zadankai,50,false,
+座談会,ざだんかい,좌담회,zadankai,50,false,
 雑,ざつ,"거친, 조잡한",zatsu,50,false,
 雑貨,ざっか,잡화,zakka,50,false,
 殺人,さつじん,살인,satsujin,50,false,
 察する,さっする,"추측하다, 감지하다, 판단하다",sassuru,50,false,
-雑談,ざつだん,"채팅, 잡담",zatsudan,60,true,DAY 025
+雑談,ざつだん,"채팅, 잡담",zatsudan,60,true,DAY 030
 さっと,さっと,"갑자기, 순조롭게",satto,50,false,
 さっぱりする,さっぱりする,새로 고치다,sapparisuru,50,false,
-悟る,さとる,"깨달음을 얻다, 이해하다",satoru,60,true,DAY 025
+悟る,さとる,"깨달음을 얻다, 이해하다",satoru,60,true,DAY 030
 最中,さなか,"중간에, 한가운데에",sanaka,50,false,
 座標,ざひょう,좌표,zahyou,50,false,
 さほど,さほど,"그렇지 않아, 그다지 많지는 않아",sahodo,50,false,
@@ -206,7 +206,7 @@
 様,さま,"상태, 방법(사람이 어떤 일을 하는 것), 씨 또는 부인",sama,50,false,
 寒気,さむけ,"오한, 떨림, 추위",samuke,50,false,
 侍,さむらい,사무라이,samurai,50,false,
-さも,さも,"즐겁게, 만족스럽게",samo,60,true,DAY 025
+さも,さも,"즐겁게, 만족스럽게",samo,60,true,DAY 030
 作用,さよう,"작동, 효과, 기능",sayou,50,false,
 さらう (こどもを～),さらう (こどもを～),납치하다,sarau_(kodomowo～),50,false,
 障る,さわる,"방해하다, 간섭하다, 영향을 미치다",sawaru,50,false,
@@ -217,9 +217,9 @@
 サンキュー,サンキュー,감사합니다,sankyuu_2,50,false,
 残金,ざんきん,남은 돈,zankin,50,false,
 産後,さんご,"산후, 출산 후",sango,50,false,
-残酷,ざんこく,"잔인함, 가혹함",zankoku,60,true,DAY 026
+残酷,ざんこく,"잔인함, 가혹함",zankoku,60,true,DAY 031
 産出,さんしゅつ,"산출하다, 생산하다",sanshutsu,50,false,
-参照,さんしょう,"참고, 상담",sanshou,60,true,DAY 026
+参照,さんしょう,"참고, 상담",sanshou,60,true,DAY 031
 参上,さんじょう,"전화하다, 방문하다",sanjou,50,false,
 残高,ざんだか,"(은행) 잔액, 잔액",zandaka,50,false,
 サンタクロース,サンタクロース,산타클로스,santakuroosu,50,false,
@@ -231,13 +231,13 @@
 山脈,さんみゃく,산맥,sanmyaku,50,false,
 仕上がり,しあがり,"끝내다, 끝, 완성하다",shiagari,50,false,
 仕上,しあげ,"끝, 마무리",shiage,50,false,
-仕上げる,しあげる,"끝내다, 완료하다",shiageru,60,true,DAY 026
+仕上げる,しあげる,"끝내다, 완료하다",shiageru,60,true,DAY 031
 飼育,しいく,"번식, 사육",shiiku,50,false,
 強いて,しいて,"감히 주장하다, 주장하다",shiite,50,false,
 シート,シート,"좌석, 시트",shiito,50,false,
 ジーパン,ジーパン,청바지,jiipan,50,false,
 仕入れる,しいれる,"재고를 확보하다, 재고를 보충하다, 조달하다",shiireru,50,false,
-強いる,しいる,강요하다,shiiru,60,true,DAY 026
+強いる,しいる,강요하다,shiiru,60,true,DAY 031
 潮,しお,조류,shio,50,false,
 歯科,しか,치과,shika,50,false,
 自我,じが,"자기, 자아",jiga,50,false,
@@ -246,25 +246,25 @@
 仕掛ける,しかける,"놓다, 임금을 주다",shikakeru,50,false,
 しかしながら,しかしながら,그러나 그럼에도 불구하고,shikashinagara,50,false,
 色彩,しきさい,색상,shikisai,50,false,
-式場,しきじょう,"예식장, 결혼식 장소(예: 결혼식)",shikijou,50,false,
-しきたり,しきたり,"관습, 관례, 전통",shikitari,50,false,
+式場,しきじょう,식장,shikijou,50,false,
+しきたり,しきたり,"관습, 관행, 전통",shikitari,50,false,
 事業,じぎょう,"프로젝트, 기업, 사업",jigyou,70,true,DAY 003
 軽蔑,けいべつ,경멸,keibetsu,50,false,
-経歴,けいれき,"개인 이력, 경력",keireki,60,true,DAY 026
-経路,けいろ,"코스, 루트, 채널",keiro,60,false,
+経歴,けいれき,"개인 이력, 경력",keireki,60,true,DAY 031
+経路,けいろ,"코스, 루트, 채널",keiro,60,true,DAY 032
 けがらわしい,けがらわしい,"더러운, 불공평한",kegarawashii,50,false,
 劇団,げきだん,"극단, 연극단",gekidan,50,false,
 激励,げきれい,격려,gekirei,50,false,
 ゲスト,ゲスト,손님,gesuto,50,false,
 獣,けだもの,짐승,kedamono,50,false,
 決,けつ,"결정, 투표",ketsu,50,false,
-決意,けつい,"결정, 결심",ketsui,60,false,
+決意,けつい,"결정, 결심",ketsui,60,true,DAY 032
 結核,けっかく,결핵,kekkaku,50,false,
 決議,けつぎ,"결의, 투표, 결정",ketsugi,50,false,
 結合,けつごう,조합,ketsugou,50,false,
 決算,けっさん,"대차대조표, 결산",kessan,50,false,
 月謝,げっしゃ,월 수업료,gessha,50,false,
-決勝,けっしょう,결승전 (스포츠),kesshou,60,false,
+決勝,けっしょう,결승전 (스포츠),kesshou,60,true,DAY 032
 結晶,けっしょう,"결정, 결정화",kesshou_2,50,false,
 結成,けっせい,형성,kessei,50,false,
 結束,けっそく,"노동조합, 단결",kessoku,50,false,
@@ -283,10 +283,10 @@
 兼業,けんぎょう,두 가지 직업을 동시에 갖고 있는,kengyou,50,false,
 原形,げんけい,"원래 형태, 기본 형태",genkei,50,false,
 原型,げんけい,"프로토타입, 모형, 원형",genkei_2,50,false,
-権限,けんげん,"권력, 권위, 관할권",kengen,60,false,
+権限,けんげん,"권력, 권위, 관할권",kengen,60,true,DAY 032
 現行,げんこう,"현재, 작동 중",genkou,50,false,
 健在,けんざい,"건강하게, 뭐",kenzai,50,false,
-原作,げんさく,원작,gensaku,60,false,
+原作,げんさく,원작,gensaku,60,true,DAY 032
 検事,けんじ,검사,kenji,50,false,
 原子,げんし,원자,genshi,50,false,
 元首,げんしゅ,"통치자, 주권자",genshu,50,false,
@@ -295,7 +295,7 @@
 健全,けんぜん,"건강, 건전함, 건강한",kenzen,50,false,
 元素,げんそ,요소,genso,50,false,
 同調,どうちょう,"동정하다, 동의하다, 일치하다",douchou,50,false,
-到底,とうてい,(할 수 없다) 아마도,toutei,60,false,
+到底,とうてい,(할 수 없다) 아마도,toutei,60,true,DAY 033
 動的,どうてき,"역동적인, 운동적인",douteki,50,false,
 尊い,とうとい,"귀중한, 고귀한",toutoi,50,false,
 貴い,とうとい,"귀중한, 고귀한",toutoi_2,50,false,
@@ -303,68 +303,68 @@
 堂々,どうどう,"웅장하다, 인상적이다",doudou,50,false,
 尊ぶ,とうとぶ,"소중히 여기다, 상을 주다, 존중하다",toutobu,50,false,
 どうにか,どうにか,어떤 식으로든,dounika,50,false,
-投入,とうにゅう,"던지기, 투자하기, 만들기 (전기회로)",tounyuu,60,false,
-導入,どうにゅう,"소개, 도입, 인도",dounyuu,60,false,
+投入,とうにゅう,"던지기, 투자하기, 만들기 (전기회로)",tounyuu,60,true,DAY 033
+導入,どうにゅう,"소개, 도입, 인도",dounyuu,60,true,DAY 033
 当人,とうにん,"관계자, 그 사람",tounin,50,false,
 同封,どうふう,동봉물(예: 편지),doufuu,50,false,
-逃亡,とうぼう,탈출하다,toubou,60,false,
+逃亡,とうぼう,탈출하다,toubou,60,true,DAY 033
 冬眠,とうみん,"동면, 겨울잠",toumin,50,false,
-同盟,どうめい,"동맹, 연합, 연맹",doumei,60,false,
-どうやら,どうやら,왠지 그럴 것 같아,douyara,60,false,
+同盟,どうめい,"동맹, 연합, 연맹",doumei,60,true,DAY 033
+どうやら,どうやら,왠지 그럴 것 같아,douyara,60,true,DAY 034
 動力,どうりょく,"힘, 원동력, 동적인 힘",douryoku,50,false,
-登録,とうろく,"등록, 기록",touroku,60,false,
+登録,とうろく,"등록, 기록",touroku,60,true,DAY 034
 討論,とうろん,"논의, 토론",touron,70,true,DAY 003
 遠ざかる,とおざかる,멀리 떠나다,toozakaru,50,false,
-遠回り,とおまわり,우회로,toomawari,60,false,
+遠回り,とおまわり,우회로,toomawari,60,true,DAY 034
 トーン,トーン,음정,toon,50,false,
 とかく,とかく,어쨌든,tokaku,50,false,
 とがめる,とがめる,"비난하다, 꾸짖다",togameru,50,false,
 時折,ときおり,때때로,tokiori,50,false,
 とぎれる,とぎれる,"일시 중지하다, 중단되다",togireru,50,false,
 研ぐ,とぐ,"갈다, 광택을 내다",togu,50,false,
-特技,とくぎ,"특별한 재능, 기능",tokugi,50,false,
-独裁,どくさい,"독재, 전제주의",dokusai,60,false,
+特技,とくぎ,특기,tokugi,50,false,
+独裁,どくさい,"독재, 전제주의",dokusai,60,true,DAY 034
 特産,とくさん,특산품,tokusan,50,false,
 独自,どくじ,"독창적인, 특이한, 독특한",dokuji,50,false,
-特集,とくしゅう,"특집(예: 신문, 특별판, 보고서)",tokushuu,60,false,
+特集,とくしゅう,특집,tokushuu,60,true,DAY 034
 独占,どくせん,전매권,dokusen,70,true,DAY 003
 独創,どくそう,독창,dokusou,50,false,
-得点,とくてん,"점수, 득점",tokuten,60,false,
+得点,とくてん,"점수, 득점",tokuten,60,true,DAY 035
 特派,とくは,특사를 보내다,tokuha,50,false,
 特有,とくゆう,"특징(～의, 독특한(～의))",tokuyuu,50,false,
 とげ (をさす),とげ (をさす),가시,toge_(wosasu),50,false,
 遂げる,とげる,"달성하다, 수행하다",togeru,50,false,
-～どころか,～どころか,오히려 거리가 멀다,～dokoroka,60,false,
+～どころか,～どころか,오히려 거리가 멀다,～dokoroka,60,true,DAY 035
 年頃,としごろ,"나이, 결혼 적령기, 청소년기",toshigoro,50,false,
 戸締り,とじまり,"닫다, 문을 잠그다",tojimari,50,false,
 途上,とじょう,"경로 중/중, 중간",tojou,50,false,
-土台,どだい,기초,dodai,70,true,DAY 003
+土台,どだい,기초,dodai,70,true,DAY 004
 途絶える,とだえる,"멈추다, 끝나다",todaeru,50,false,
-特許,とっきょ,"특별 허가, 특허",tokkyo,50,false,
-特権,とっけん,"특권, 특별한 권리",tokken,60,false,
-とっさに,とっさに,즉시,tossani,60,false,
+特許,とっきょ,특허,tokkyo,50,false,
+特権,とっけん,특권,tokken,60,true,DAY 035
+とっさに,とっさに,즉시,tossani,60,true,DAY 035
 突如,とつじょ,갑자기,totsujo,50,false,
 とって,とって,"손잡이, 그립",totte,50,false,
-突破,とっぱ,"돌파하다, 침투하다",toppa,60,false,
+突破,とっぱ,"돌파하다, 침투하다",toppa,60,true,DAY 035
 土手,どて,"제방, 은행",dote,50,false,
 届,とどけ,"신고, 통지, 등록",todoke,50,false,
 滞る,とどこおる,"정체되다, 지체되다",todokooru,50,false,
-整える,ととのえる,"정리하다, 조정하다, 준비하다, 돈을 모으기 위해",totonoeru,70,true,DAY 003
-止める,とどめる,"끝내다, 그만두다, 사임하다",todomeru,60,false,
+整える,ととのえる,"정리하다, 조정하다, 준비하다, 돈을 모으기 위해",totonoeru,70,true,DAY 004
+止める,とどめる,"끝내다, 그만두다, 사임하다",todomeru,60,true,DAY 036
 唱える,となえる,"낭송하다, 노래하다, 부르다",tonaeru,50,false,
 殿様,とのさま,영주,tonosama,50,false,
 土俵,どひょう,투기장,dohyou,50,false,
-扉,とびら,"문, 여는 것",tobira,60,false,
-溝,どぶ,"도랑, 배수구, 틈새",dobu,60,false,
-徒歩,とほ,"걷기, 걸어서 가다",toho,60,false,
-土木,どぼく,공공사업,doboku,50,false,
-とぼける,とぼける,"멍청한 척하다, 무지한 척하다, 순진한 척하다, 멍한 표정을 짓다, 바보처럼 행동하다, 쇠약해지다",tobokeru,50,false,
-乏しい,とぼしい,"빈약한, 부족한, 힘든, 가난한",toboshii,70,true,DAY 003
-富,とみ,"부, 행운",tomi,60,false,
-富む,とむ,부자가 되다,tomu,60,false,
-共稼ぎ,ともかせぎ,(남편과 아내가) 함께 일하며 생계를 유지하다,tomokasegi,50,false,
-伴う,ともなう,"동행하다, 데리고 가다",tomonau,60,false,
-共働き,ともばたらき,맞벌이 소득(남편과 아내가 모두 일함),tomobataraki,60,false,
+扉,とびら,"문, 여는 것",tobira,60,true,DAY 036
+溝,どぶ,"도랑, 배수구, 틈새",dobu,60,true,DAY 036
+徒歩,とほ,"걷기, 걸어서 가다",toho,60,true,DAY 036
+土木,どぼく,토목,doboku,50,false,
+とぼける,とぼける,"시치미를 떼다, 모른 척하다",tobokeru,50,false,
+乏しい,とぼしい,"빈약한, 부족한, 힘든, 가난한",toboshii,70,true,DAY 004
+富,とみ,"부, 행운",tomi,60,true,DAY 036
+富む,とむ,부자가 되다,tomu,60,true,DAY 037
+共稼ぎ,ともかせぎ,맞벌이,tomokasegi,50,false,
+伴う,ともなう,"동행하다, 데리고 가다",tomonau,60,true,DAY 037
+共働き,ともばたらき,맞벌이,tomobataraki,60,true,DAY 037
 ドライ,ドライ,마른,dorai,50,false,
 ドライクリーニング,ドライクリーニング,드라이 클리닝,doraikuriiningu,50,false,
 ドライバー,ドライバー,드라이버,doraibaa,50,false,
@@ -372,25 +372,25 @@
 トラブル,トラブル,문제 (때때로 동사로 사용됨),toraburu,50,false,
 トランジスター,トランジスター,트랜지스터,toranjisutaa,50,false,
 とりあえず,とりあえず,"일단, 우선 당분간은",toriaezu,50,false,
-取扱,とりあつかい,"치료, 취급, 관리",toriatsukai,60,false,
+取扱,とりあつかい,"치료, 취급, 관리",toriatsukai,60,true,DAY 037
 取り扱う,とりあつかう,처리하다,toriatsukau,50,false,
 鳥居,とりい,신사 아치길,torii,50,false,
 取り替え,とりかえ,교환하다,torikae,50,false,
-取り組む,とりくむ,"태클을 걸다, 시합에 참여하다, 맞서 싸우다",torikumu,60,false,
+取り組む,とりくむ,"태클을 걸다, 시합에 참여하다, 맞서 싸우다",torikumu,60,true,DAY 037
 取締り,とりしまり,"통제, 단속, 감독",torishimari,50,false,
 取り締まる,とりしまる,"단속하다, 통제하다, 감독하다",torishimaru,50,false,
 取り調べる,とりしらべる,조사하다,torishiraberu,50,false,
 取り立てる,とりたてる,"수집하다, 강탈하다",toritateru,50,false,
 取り次ぐ,とりつぐ,"(누군가를) 알리다, (메시지)를 전달하다, 대리인 역할을 하다",toritsugu,50,false,
 取り付ける,とりつける,"제공하다, 설치하다, 누군가의 동의를 얻으려면",toritsukeru,50,false,
-取り除く,とりのぞく,"제거하다, 떼어내다, 분리하다",torinozoku,60,false,
-取引,とりひき,"거래, 사업",torihiki,60,false,
+取り除く,とりのぞく,"제거하다, 떼어내다, 분리하다",torinozoku,60,true,DAY 038
+取引,とりひき,"거래, 사업",torihiki,60,true,DAY 038
 取り巻く,とりまく,둘러싸다,torimaku,50,false,
 取り混ぜる,とりまぜる,"섞다, 합치다",torimazeru,50,false,
-取り戻す,とりもどす,되찾다,torimodosu,60,false,
-取り寄せる,とりよせる,"주문하다, 멀리 보내다",toriyoseru,60,false,
-ドリル,ドリル,송곳,doriru,50,false,
-副,とりわけ,"특히, 무엇보다도",toriwake,60,false,
+取り戻す,とりもどす,되찾다,torimodosu,60,true,DAY 038
+取り寄せる,とりよせる,"주문하다, 멀리 보내다",toriyoseru,60,true,DAY 038
+ドリル,ドリル,드릴,doriru,50,false,
+副,とりわけ,"특히, 무엇보다도",toriwake,60,true,DAY 038
 とろける,とろける,"녹다, 매혹되다",torokeru,50,false,
 鈍感,どんかん,둔감,donkan,50,false,
 とんだ,とんだ,"끔찍하다, 심각하다, 절대 그렇지 않다",tonda,50,false,
@@ -398,11 +398,11 @@
 問屋,とんや,도매점,tonya,50,false,
 内閣,ないかく,"내각, (정부)",naikaku,50,false,
 乃至,ないし,"...에서, 사이...그리고, 또는",naishi,50,false,
-内緒,ないしょ,"비밀, 사생활",naisho,60,false,
+内緒,ないしょ,"비밀, 사생활",naisho,60,true,DAY 039
 内心,ないしん,"가장 깊은 생각, 진정한 의도, 가장 깊은 마음",naishin,50,false,
 内蔵,ないぞう,"내부 장기, 내장",naizou,50,false,
 ナイター,ナイター,"조명 아래에서 하는 게임(예: 야구), 야간 게임",naitaa,50,false,
-内部,ないぶ,내부,naibu,60,false,
+内部,ないぶ,내부,naibu,60,true,DAY 039
 内乱,ないらん,"내전, 국내 갈등",nairan,50,false,
 内陸,ないりく,내륙,nairiku,50,false,
 苗,なえ,벼 모종,nae,50,false,
@@ -411,10 +411,10 @@
 長々,ながなが,"길다, 늘어지다, 아주 길다",naganaga,50,false,
 中程,なかほど,중간,nakahodo,50,false,
 渚,なぎさ,"물가, 해변, 해안",nagisa,50,false,
-嘆く,なげく,"한숨을 쉬다, 한탄하다, 슬퍼하다",nageku,60,false,
+嘆く,なげく,"한숨을 쉬다, 한탄하다, 슬퍼하다",nageku,60,true,DAY 039
 投げ出す,なげだす,"버리다, 내쫓다",nagedasu,50,false,
 仲人,なこうど,중매인,nakoudo,50,false,
-和やか,なごやか,"온화한, 차분한, 조화로운",nagoyaka,60,false,
+和やか,なごやか,"온화한, 차분한, 조화로운",nagoyaka,60,true,DAY 039
 名残,なごり,"유적, 흔적, 기억",nagori,50,false,
 情け,なさけ,"동정, 연민",nasake,50,false,
 情無い,なさけない,"비참하다, 불쌍하다, 부끄럽다",nasakenai,50,false,
@@ -433,15 +433,15 @@
 生温い,なまぬるい,"미지근한, 마음이 반듯한",namanurui,50,false,
 生身,なまみ,"살아있는 살, 살과 피, 빠른 것",namami,50,false,
 鉛,なまり,납(금속),namari,50,false,
-滑らか,なめらか,"매끄러움, 유리질",nameraka,60,false,
+滑らか,なめらか,"매끄러움, 유리질",nameraka,60,true,DAY 039
 嘗める,なめる,"핥다, 경험하다, 놀리려고",nameru,50,false,
 悩ましい,なやましい,"매혹적인, 우울한, 나른한",nayamashii,50,false,
 悩ます,なやます,괴롭히다,nayamasu,50,false,
-悩み,なやみ,"문제, 걱정, 괴로움",nayami,70,true,DAY 003
+悩み,なやみ,"문제, 걱정, 괴로움",nayami,70,true,DAY 004
 並びに,ならびに,그리고,narabini,50,false,
-成り立つ,なりたつ,"구성하다, 실용적이다(논리적, 실현 가능, 실행 가능함), 결론을 내리다, 진실을 유지하다",naritatsu,60,false,
+成り立つ,なりたつ,"구성하다, 실용적이다(논리적, 실현 가능, 실행 가능함), 결론을 내리다, 진실을 유지하다",naritatsu,60,true,DAY 040
 なるたけ,なるたけ,가능하다면 최대한,narutake,50,false,
-慣れ,なれ,"연습, 경험",nare,60,false,
+慣れ,なれ,"연습, 경험",nare,60,true,DAY 040
 馴々しい,なれなれしい,"익숙하다, 자유롭게 하다",narenareshii,50,false,
 ～なんか,～なんか,적어도 ～,～nanka,50,false,
 ナンセンス,ナンセンス,무의미한 말,nansensu,50,false,
@@ -452,16 +452,16 @@
 似通う,にかよう,밀접하게 닮다,nikayou,50,false,
 にきび,にきび,여드름,nikibi,50,false,
 賑わう,にぎわう,"번영하다, 사람들로 북적거리다",nigiwau,50,false,
-憎しみ,にくしみ,증오,nikushimi,70,true,DAY 003
+憎しみ,にくしみ,증오,nikushimi,70,true,DAY 004
 肉親,にくしん,"혈연, 혈족",nikushin,50,false,
-肉体,にくたい,"몸, 살",nikutai,60,false,
+肉体,にくたい,"몸, 살",nikutai,60,true,DAY 040
 逃げ出す,にげだす,"도망가다, ～로부터 탈출하다",nigedasu,50,false,
 西日,にしび,서쪽으로 가는 태양,nishibi,50,false,
 滲む,にじむ,"달리다, 흐릿하게 하다, 퍼지다",nijimu,50,false,
 にせ物,にせもの,"모방, 위조",nisemono,50,false,
-日夜,にちや,"낮과 밤, 언제나",nichiya,60,false,
-荷造り,にづくり,"포장, 상자 포장",nizukuri,60,false,
-担う,になう,"어깨에 짊어지다, 부담하다(짐), 어깨에 짊어지다(총)",ninau,60,false,
+日夜,にちや,"낮과 밤, 언제나",nichiya,60,true,DAY 040
+荷造り,にづくり,"포장, 상자 포장",nizukuri,60,true,DAY 040
+担う,になう,"어깨에 짊어지다, 부담하다(짐), 어깨에 짊어지다(총)",ninau,60,true,DAY 041
 鈍る,にぶる,"능력이 떨어지다, 무뎌지다, 약해지다",niburu,50,false,
 にも関わらず,にもかかわらず,그럼에도 불구하고,nimokakawarazu,50,false,
 ニュアンス,ニュアンス,미묘한 차이,nyuansu,50,false,
@@ -470,8 +470,8 @@
 入賞,にゅうしょう,(대회에서) 상이나 장소를 얻다,nyuushou,50,false,
 入浴,にゅうよく,목욕하다,nyuuyoku,50,false,
 尿,にょう,오줌,nyou,50,false,
-認識,にんしき,"인식, 인지",ninshiki,70,true,DAY 004
-妊娠,にんしん,임신,ninshin,60,false,
+認識,にんしき,"인식, 인지",ninshiki,70,true,DAY 005
+妊娠,にんしん,임신,ninshin,60,true,DAY 041
 任務,にんむ,"의무, 임무",ninmu,50,false,
 任命,にんめい,"임명, 지명, 안수",ninmei,50,false,
 抜かす,ぬかす,생략하다,nukasu,50,false,
@@ -486,12 +486,12 @@
 捩れる,ねじれる,"비틀다, 긴장하다",nejireru,50,false,
 妬む,ねたむ,"질투하다, 부러워하다",netamu,50,false,
 ねだる,ねだる,"잔소리하다, 요구하다",nedaru,50,false,
-熱意,ねつい,"열심, 열정",netsui,60,false,
+熱意,ねつい,"열심, 열정",netsui,60,true,DAY 041
 熱湯,ねっとう,끓는 물,nettou,50,false,
 熱量,ねつりょう,발열량,netsuryou,50,false,
 粘り,ねばり,"끈적임, 점도",nebari,50,false,
 粘る,ねばる,"끈적끈적하다, 끈끈하다, 지속하다, 달라붙다",nebaru,50,false,
-値引き,ねびき,"가격 인하, 할인",nebiki,60,false,
+値引き,ねびき,"가격 인하, 할인",nebiki,60,true,DAY 041
 根回し,ねまわし,필요한 조치를 취하다,nemawashi,50,false,
 眠たい,ねむたい,졸린,nemutai,50,false,
 練る,ねる,"반죽하다, 다듬다",neru,50,false,
@@ -501,11 +501,11 @@
 年号,ねんごう,"연호, 연도",nengou,50,false,
 燃焼,ねんしょう,연소,nenshou,50,false,
 年長,ねんちょう,선임 순위,nenchou,50,false,
-燃料,ねんりょう,연료,nenryou,60,false,
+燃料,ねんりょう,연료,nenryou,60,true,DAY 041
 年輪,ねんりん,연간 나무 반지,nenrin,50,false,
 ノイローゼ,ノイローゼ,신경증 (GER: 신경증),noirooze,50,false,
 農耕,のうこう,농업,noukou,50,false,
-農場,のうじょう,농장,noujou,60,false,
+農場,のうじょう,농장,noujou,60,true,DAY 041
 農地,のうち,농경지,nouchi,50,false,
 納入,のうにゅう,"결제, 공급",nounyuu,50,false,
 逃す,のがす,"자유롭게 하다, 도망가게 하다",nogasu,50,false,
@@ -521,32 +521,32 @@
 刃,は,"칼날, 검",ha,50,false,
 ～派,～は,"그룹, 파티, 섹션(백만)",～ha,50,false,
 バー,バー,술집,baa,50,false,
-把握,はあく,"붙잡다, 이해하다",haaku,60,false,
+把握,はあく,"붙잡다, 이해하다",haaku,60,true,DAY 041
 パート,パート,아르바이트,paato,50,false,
 廃棄,はいき,"처분하다, 버리다",haiki,50,false,
 配給,はいきゅう,"배급(예: 영화, 쌀",haikyuu,50,false,
 ばい菌,ばいきん,"박테리아, 세균",baikin,50,false,
 配偶者,はいぐうしゃ,배우자,haiguusha,50,false,
-拝啓,はいけい,-- 편지의 시작 부분에 사용되는 공식적인 인사말 --,haikei,50,false,
-背景,はいけい,"배경, 풍경, 설정",haikei_2,60,false,
-背後,はいご,뒤,haigo,60,false,
-廃止,はいし,폐지,haishi,70,true,DAY 004
+拝啓,はいけい,삼가 아룁니다,haikei,50,false,
+背景,はいけい,"배경, 풍경, 설정",haikei_2,60,true,DAY 041
+背後,はいご,뒤,haigo,60,true,DAY 041
+廃止,はいし,폐지,haishi,70,true,DAY 005
 拝借,はいしゃく,(겸손하게) (정중하게) 빌려주기,haishaku,50,false,
-排除,はいじょ,"제외, 제거, 거부",haijo,60,false,
+排除,はいじょ,"제외, 제거, 거부",haijo,60,true,DAY 041
 賠償,ばいしょう,"배상, 면책, 보상",baishou,50,false,
 排水,はいすい,배수,haisui,50,false,
 敗戦,はいせん,"패배, 전쟁에서 패하다",haisen,50,false,
 配置,はいち,"(자원의) 배치, 배치",haichi,60,false,
 配布,はいふ,분포,haifu,50,false,
 配分,はいぶん,"분배, 할당",haibun,50,false,
-敗北,はいぼく,패배 (동사로는 '패배하다'를 의미),haiboku,50,false,
+敗北,はいぼく,패배,haiboku,50,false,
 倍率,ばいりつ,"직경, 배율",bairitsu,50,false,
 配慮,はいりょ,"고려, 관심, 사전 고려",hairyo,60,false,
 配列,はいれつ,"배열, 배열(프로그래밍)",hairetsu,50,false,
 破壊,はかい,파괴,hakai,60,false,
 いたわる,いたわる,"동정하다, 위로하다, 배려하다",itawaru,50,false,
 一概に,いちがいに,"무조건, 필연적으로",ichigaini,50,false,
-著しい,いちじるしい,"주목할 만한, 상당한",ichijirushii,70,true,DAY 004
+著しい,いちじるしい,"두드러진, 현저한",ichijirushii,70,true,DAY 005
 一同,いちどう,"참석한 모든 사람, 관련된 모든 사람, 우리 모두",ichidou,50,false,
 一部分,いちぶぶん,부분,ichibubun,50,false,
 一別,いちべつ,이별,ichibetsu,50,false,
@@ -559,11 +559,11 @@
 一気,いっき,한 번에,ikki,50,false,
 一挙に,いっきょに,"단번에, 한 번의 급습으로",ikkyoni,50,false,
 一見,いっけん,"훑어보기, 살짝, 생면",ikken,60,false,
-一切,いっさい,예외 없이 전체적으로,issai,50,false,
+一切,いっさい,"일절, 전혀",issai,50,false,
 一心,いっしん,"한 마음, 열중하여",isshin,50,false,
 いっそ,いっそ,"오히려, 더 빨리, 어쩌면",isso,50,false,
 一変,いっぺん,완전한 변화,ippen,50,false,
-意図,いと,"의도, 목표, 디자인",ito,70,true,DAY 004
+意図,いと,"의도, 목표, 디자인",ito,70,true,DAY 005
 営む,いとなむ,"(예: 행사에서) 계속하다, 사업을 운영하다",itonamu,60,false,
 挑む,いどむ,도전하다,idomu,50,false,
 稲光,いなびかり,(번쩍이는) 번개,inabikari,50,false,
@@ -576,7 +576,7 @@
 卑しい,いやしい,"탐욕스러운, 저속한, 초라한",iyashii,50,false,
 いやに,いやに,끔찍하게,iyani,50,false,
 いやらしい,いやらしい,"불쾌한, 역겨운, 음란한",iyarashii,50,false,
-意欲,いよく,"의지, 욕망, 야망",iyoku,70,true,DAY 004
+意欲,いよく,"의지, 욕망, 야망",iyoku,70,true,DAY 005
 威力,いりょく,"힘, 권위",iryoku,50,false,
 衣類,いるい,"옷, 의복",irui,60,false,
 異論,いろん,"다른 의견, 반대",iron,50,false,
@@ -597,11 +597,11 @@
 受け止める,うけとめる,"붙잡다, 반응하다, 받아들이다",uketomeru,50,false,
 受身,うけみ,수동태,ukemi,50,false,
 受持ち,うけもち,"(무엇의) 책임, 책임 있는 일",ukemochi,50,false,
-動き,うごき,"움직임, 활동, 추세",ugoki,70,true,DAY 005
+動き,うごき,"움직임, 활동, 추세",ugoki,70,true,DAY 006
 埋める,うずめる,"묻다, 채우다",uzumeru,60,false,
 嘘つき,うそつき,거짓말쟁이,usotsuki,50,false,
 うたた寝,うたたね,"졸다, 낮잠을 자다",utatane,50,false,
-打ち明ける,うちあける,"고백하다, 공개하다",uchiakeru,70,true,DAY 005
+打ち明ける,うちあける,"고백하다, 공개하다",uchiakeru,70,true,DAY 006
 打ち切る,うちきる,"중지하다, 중단하다",uchikiru,50,false,
 打ち消し,うちけし,"(그램) 부정, 부정",uchikeshi,50,false,
 打ち込む,うちこむ,～에 전념하다,uchikomu,50,false,
@@ -615,9 +615,9 @@
 器,うつわ,"그릇, 용기",utsuwa,60,false,
 腕前,うでまえ,"능력, 기술, 시설",udemae,50,false,
 雨天,うてん,비오는 날씨,uten,60,false,
-促す,うながす,"촉구하다, 제안하다, 요구하다",unagasu,70,true,DAY 005
+促す,うながす,"촉구하다, 제안하다, 요구하다",unagasu,70,true,DAY 006
 うぬぼれ,うぬぼれ,"가식, 자만, 오만",unubore,50,false,
-生まれつき,うまれつき,"본성적으로, 태어날 때부터, 원주민",umaretsuki,50,false,
+生まれつき,うまれつき,"타고난, 선천적인",umaretsuki,50,false,
 埋め込む,うめこむ,"매립하다, 이식하다",umekomu,60,false,
 梅干し,うめぼし,말린 매실,umeboshi,50,false,
 裏返し,うらがえし,"뒤집어서, 거꾸로",uragaeshi,50,false,
@@ -640,7 +640,7 @@
 ～営,～えい,～달리다,～ei,50,false,
 英字,えいじ,영문자(문자),eiji,50,false,
 映写,えいしゃ,투사,eisha,50,false,
-映像,えいぞう,"반사, 이미지",eizou,70,true,DAY 005
+映像,えいぞう,"반사, 이미지",eizou,70,true,DAY 006
 英雄,えいゆう,"영웅, 위대한 사람",eiyuu,50,false,
 液,えき,액체,eki,50,false,
 閲覧,えつらん,"검사, 참조, 찾아보기",etsuran,50,false,
@@ -653,7 +653,7 @@
 婉曲,えんきょく,"완곡어법적인, 간접적인, 암시적인",enkyoku,50,false,
 演出,えんしゅつ,"프로덕션 (에르그. 플레이, 연출)",enshutsu,50,false,
 エンジニア,エンジニア,엔지니어,enjinia,50,false,
-演じる,えんじる,"(일부)연주하다, 연기하다",enjiru,70,true,DAY 005
+演じる,えんじる,"(일부)연주하다, 연기하다",enjiru,70,true,DAY 006
 演ずる,えんずる,"(일부)연주하다, 연기하다",enzuru,50,false,
 沿線,えんせん,철도 노선을 따라,ensen,50,false,
 縁談,えんだん,결혼 제안,endan,50,false,
@@ -674,7 +674,7 @@
 大筋,おおすじ,"개요, 요약",oosuji,50,false,
 大空,おおぞら,"천국, 하늘",oozora,50,false,
 オートマチック,オートマチック,오토매틱,ootomachikku,50,false,
-大幅,おおはば,"전체 폭, 대규모, 과감한",oohaba,70,true,DAY 006
+大幅,おおはば,"전체 폭, 대규모, 과감한",oohaba,70,true,DAY 007
 おおまかな,おおまかな,대략적인,oomakana,50,false,
 大水,おおみず,홍수,oomizu,50,false,
 公,おおやけ,공공의,ooyake,50,false,
@@ -682,7 +682,7 @@
 侵す,おかす,침입하다,okasu_2,50,false,
 臆病,おくびょう,"비겁함, 소심함",okubyou,60,false,
 遅らす,おくらす,지연시키다,okurasu,50,false,
-厳か,おごそか,"장엄한, 위엄 있는",ogosoka,50,false,
+厳か,おごそか,"엄숙한, 장엄한",ogosoka,50,false,
 行い,おこない,"행위, 행동",okonai,50,false,
 おごる (ゆうしょくを～),おごる (ゆうしょくを～),(누군가에게) 대접을 주다,ogoru_(yuushokuwo～),50,false,
 収まる,おさまる,"정착하다, 얻어야 할",osamaru,60,false,
@@ -698,7 +698,7 @@
 襲う,おそう,공격하다,osou,60,false,
 遅くとも,おそくとも,늦어도,osokutomo,50,false,
 恐れ,おそれ,공포,osore,60,false,
-恐れ入る,おそれいる,"경외감으로 가득 차다, 작아진다고 느끼다",osoreiru,50,false,
+恐れ入る,おそれいる,"송구하다, 죄송하다",osoreiru,50,false,
 おだてる,おだてる,아첨하다,odateru,50,false,
 落ち込む,おちこむ,우울해지다,ochikomu,60,false,
 落ち着き,おちつき,"차분함, 침착함",ochitsuki,50,false,
@@ -709,7 +709,7 @@
 お手上げ,おてあげ,"포기하다, 포기하다 희망",oteage,50,false,
 おどおど,おどおど,"움츠려, 머뭇거리며",odoodo,50,false,
 脅す,おどす,협박하다,odosu,50,false,
-訪れる,おとずれる,방문하다,otozureru,70,true,DAY 006
+訪れる,おとずれる,방문하다,otozureru,70,true,DAY 007
 お供,おとも,"수행자, 동반자",otomo,50,false,
 衰える,おとろえる,"약해지다, 쇠퇴하다",otoroeru,50,false,
 同い年,おないどし,같은 나이의,onaidoshi,50,false,
@@ -736,16 +736,16 @@
 オリエンテーション,オリエンテーション,정위,orienteeshon,50,false,
 折り返す,おりかえす,접히다,orikaesu,50,false,
 織物,おりもの,"섬유, 직물",orimono,50,false,
-俺,おれ,나(ego)(자랑스러운 1인칭 대명사),ore,50,false,
+俺,おれ,나,ore,50,false,
 愚か,おろか,바보 같은,oroka,60,false,
 おろそか,おろそか,"방치, 태만, 부주의",orosoka,50,false,
-おんぶ,おんぶ,등에 업다 (erg. Baby),onbu,50,false,
+おんぶ,おんぶ,업기,onbu,50,false,
 オンライン,オンライン,온라인,onrain,50,false,
 温和,おんわ,"온화하다, 보통이다",onwa,50,false,
 我,が～,자아,ga～,50,false,
 カーペット,カーペット,양탄자,kaapetto,50,false,
-～界,～かい,～회,～kai,50,false,
-～街,～がい,"～산, ～제",～gai,60,false,
+～界,～かい,"세계, 원, 왕국",～kai,50,false,
+～街,～がい,도시,～gai,60,false,
 改悪,かいあく,"악화, 악화로 변화",kaiaku,50,false,
 海運,かいうん,해상운송,kaiun,50,false,
 外貨,がいか,외화,gaika,50,false,
@@ -777,7 +777,7 @@
 ガイドブック,ガイドブック,안내서,gaidobukku,50,false,
 介入,かいにゅう,간섭,kainyuu,60,false,
 概念,がいねん,"일반적인 생각, 개념",gainen,60,false,
-開発,かいはつ,"개발, 착취",kaihatsu,70,true,DAY 006
+開発,かいはつ,"개발, 착취",kaihatsu,70,true,DAY 007
 海抜,かいばつ,해발 높이,kaibatsu,50,false,
 介抱,かいほう,"간호, 돌보기",kaihou,50,false,
 解剖,かいぼう,"해부, 부검",kaibou,50,false,
@@ -803,15 +803,15 @@
 拡散,かくさん,"산란, 확산",kakusan,50,false,
 学士,がくし,대학 졸업,gakushi,50,false,
 各種,かくしゅ,모든 종류,kakushu,50,false,
-隔週,かくしゅう,격주로,kakushuu,50,false,
-確信,かくしん,"확신, 자신감",kakushin,70,true,DAY 006
+隔週,かくしゅう,격주,kakushuu,50,false,
+確信,かくしん,"확신, 자신감",kakushin,70,true,DAY 007
 革新,かくしん,"개혁, 혁신",kakushin_2,50,false,
 学説,がくせつ,이론,gakusetsu,50,false,
 確定,かくてい,"고정, 결정",kakutei,60,false,
 カクテル,カクテル,칵테일,kakuteru,50,false,
 獲得,かくとく,"획득, 소유",kakutoku,60,false,
 楽譜,がくふ,"악보(음악, 악보)",gakufu,50,false,
-確保,かくほ,"보증하다, 확보하다",kakuho,70,true,DAY 006
+確保,かくほ,"보증하다, 확보하다",kakuho,70,true,DAY 007
 革命,かくめい,혁명,kakumei,60,false,
 確立,かくりつ,설립,kakuritsu,50,false,
 賭,かけ,도박,kake,50,false,
@@ -893,7 +893,7 @@
 勧告,かんこく,조언,kankoku,50,false,
 換算,かんさん,"변환, 변화, 교환",kansan,50,false,
 監視,かんし,"관찰, 경비, 감시",kanshi,60,false,
-慣習,かんしゅう,관습,kanshuu,50,false,
+慣習,かんしゅう,일반적인 (역사적) 관습,kanshuu,50,false,
 観衆,かんしゅう,"관중, 관객",kanshuu_2,50,false,
 願書,がんしょ,신청서,gansho,50,false,
 干渉,かんしょう,"간섭, 개입",kanshou,60,false,
@@ -919,7 +919,7 @@
 寛容,かんよう,"관용, 관대함, 참여",kanyou,60,false,
 元来,がんらい,원래는 자연스럽게,ganrai,50,false,
 観覧,かんらん,보기,kanran,50,false,
-慣例,かんれい,"관례, 전례",kanrei,50,false,
+慣例,かんれい,"관습, 전례",kanrei,50,false,
 還暦,かんれき,환갑,kanreki,50,false,
 貫禄,かんろく,"존재감, 위엄",kanroku,50,false,
 緩和,かんわ,"구호, 완화",kanwa,50,false,
@@ -933,12 +933,12 @@
 危機,きき,위기,kiki,60,false,
 聞き取り,ききとり,듣기 이해,kikitori,50,false,
 効き目,ききめ,"효과, 미덕, 효능",kikime,50,false,
-帰京,ききょう,귀경,kikyou,50,false,
+帰京,ききょう,도쿄로 복귀,kikyou,50,false,
 戯曲,ぎきょく,"연극, 드라마",gikyoku,50,false,
 基金,ききん,"기금, 재단",kikin,50,false,
 喜劇,きげき,"코미디, 재미있는 쇼",kigeki,50,false,
 議決,ぎけつ,"결의, 결정, 투표",giketsu,50,false,
-棄権,きけん,기권,kiken,50,false,
+棄権,きけん,기권하다,kiken,50,false,
 既婚,きこん,기혼,kikon,50,false,
 気障,きざ,"가식, 자만, 속물근성",kiza,50,false,
 記載,きさい,"언급, 입장",kisai,50,false,
@@ -946,7 +946,7 @@
 気質,きしつ,"성격, 기질",kishitsu,50,false,
 期日,きじつ,"확정일, 결산일",kijitsu,60,false,
 きしむ,きしむ,"항아리에 넣다, 삐걱거리다, 갈다",kishimu,50,false,
-議事堂,ぎじどう,의사당,gijidou,50,false,
+議事堂,ぎじどう,다이어트 빌딩,gijidou,50,false,
 記述,きじゅつ,설명하다,kijutsu,50,false,
 気象,きしょう,"날씨, 기후",kishou,60,false,
 傷付く,きずつく,상처를 입다,kizutsuku,50,false,
@@ -965,7 +965,7 @@
 きっかり,きっかり,정확하게,kikkari,50,false,
 きっちり,きっちり,"정확하게, 단단히",kitchiri,50,false,
 きっぱり,きっぱり,"분명하게, 분명히",kippari,50,false,
-規定,きてい,"규제, 조항",kitei,70,true,DAY 007
+規定,きてい,"규제, 조항",kitei,70,true,DAY 008
 起点,きてん,출발점,kiten,50,false,
 軌道,きどう,"궤도, 길",kidou,50,false,
 技能,ぎのう,"기술, 능력",ginou,50,false,
@@ -973,7 +973,7 @@
 気品,きひん,우아함,kihin,50,false,
 気風,きふう,"성격, 특성, 정신",kifuu,50,false,
 起伏,きふく,파동,kifuku,50,false,
-規模,きぼ,"규모, 범위, 계획, 구조",kibo,70,true,DAY 007
+規模,きぼ,"규모, 범위, 계획, 구조",kibo,70,true,DAY 008
 気まぐれ,きまぐれ,"변덕, 고르지 못한 성격",kimagure,50,false,
 生真面目,きまじめ,"진지함, 성실함",kimajime,50,false,
 期末,きまつ,(시즌이나 학기의 끝),kimatsu,50,false,
@@ -1031,13 +1031,13 @@
 強烈,きょうれつ,"강한, 강렬한, 심한",kyouretsu,60,false,
 共和,きょうわ,"공화주의, 협력",kyouwa,50,false,
 局限,きょくげん,"제한하다, 현지화하다",kyokugen,50,false,
-極端,きょくたん,극단,kyokutan,70,true,DAY 007
+極端,きょくたん,극단,kyokutan,70,true,DAY 008
 居住,きょじゅう,거주,kyojuu,50,false,
 拒絶,きょぜつ,거절,kyozetsu,50,false,
 漁船,ぎょせん,낚시 보트,gyosen,50,false,
 漁村,ぎょそん,어촌 마을,gyoson,50,false,
-拒否,きょひ,"거부, 거절",kyohi,70,true,DAY 007
-許容,きょよう,"허가, 용서",kyoyou,50,false,
+拒否,きょひ,"거부, 거절",kyohi,70,true,DAY 008
+許容,きょよう,"허용, 용인",kyoyou,50,false,
 清らか,きよらか,"깨끗하다, 순수하다, 순결하다",kiyoraka,50,false,
 きらびやか,きらびやか,"화려한, 눈부신",kirabiyaka,50,false,
 ～きり,～きり,오직,～kiri,60,false,
@@ -1085,7 +1085,7 @@
 グレー,グレー,회색,guree,50,false,
 クレーン,クレーン,기중기,kureen,50,false,
 玄人,くろうと,전문가,kurouto,50,false,
-黒字,くろじ,흑자,kuroji,50,false,
+黒字,くろじ,검정색의 균형 (그림),kuroji,50,false,
 軍艦,ぐんかん,"군함, 전함",gunkan,50,false,
 軍事,ぐんじ,군사,gunji,60,false,
 君主,くんしゅ,"통치자, 군주",kunshu,50,false,
@@ -1098,33 +1098,33 @@
 軽快,けいかい,"활기찬, 캐주얼한, 가벼운",keikai,50,false,
 警戒,けいかい,"경고, 훈계, 경계",keikai_2,60,false,
 敬具,けいぐ,감사합니다(편지 끝에 사용됨),keigu,50,false,
-軽減,けいげん,"감소하다, 줄이다",keigen,70,true,DAY 007
+軽減,けいげん,"감소하다, 줄이다",keigen,70,true,DAY 008
 掲載,けいさい,외관(예: 종이로 된 기사),keisai,60,false,
 傾斜,けいしゃ,"경사, 딥",keisha,50,false,
 形成,けいせい,형성,keisei,60,false,
 形勢,けいせい,"상황, 전망",keisei_2,50,false,
 軽率,けいそつ,"생각이 없는, 부주의한, 성급한",keisotsu,50,false,
 刑罰,けいばつ,"심판, 형벌",keibatsu,50,false,
-経費,けいひ,"비용, 지출",keihi,70,true,DAY 008
+経費,けいひ,"비용, 지출",keihi,70,true,DAY 009
 警部,けいぶ,경찰 조사관,keibu,50,false,
-転換,てんかん,"개종하다, 전환시키다",tenkan,70,true,DAY 008
+転換,てんかん,"개종하다, 전환시키다",tenkan,70,true,DAY 009
 転居,てんきょ,"이사하다, 거주지를 바꾸다",tenkyo,50,false,
-転勤,てんきん,(회사의 다른 사무실로) 이전,tenkin,60,false,
-点検,てんけん,"검사, 점검",tenken,70,true,DAY 008
-電源,でんげん,"전기의 근원, 전력(예: TV의 버튼)",dengen,60,false,
+転勤,てんきん,전근,tenkin,60,false,
+点検,てんけん,"검사, 점검",tenken,70,true,DAY 009
+電源,でんげん,"전원, 전력",dengen,60,false,
 天国,てんごく,천국,tengoku,50,false,
-天才,てんさい,천재,tensai,70,true,DAY 008
+天才,てんさい,천재,tensai,70,true,DAY 009
 天災,てんさい,"자연재해, 재난",tensai_2,50,false,
-展示,てんじ,"전시, 디스플레이",tenji,70,true,DAY 008
+展示,てんじ,"전시, 디스플레이",tenji,70,true,DAY 009
 伝説,でんせつ,"전통, 전설, 민속",densetsu,50,false,
 点線,てんせん,점선,tensen,50,false,
 転じる,てんじる,"돌리다, 변속하다",tenjiru,50,false,
 転ずる,てんずる,"돌리다, 변속하다",tenzuru,50,false,
 天体,てんたい,천체,tentai,50,false,
-伝達,でんたつ,"전송(예: 뉴스, 커뮤니케이션, 배달)",dentatsu,60,false,
+伝達,でんたつ,"전달, 전파",dentatsu,60,false,
 天地,てんち,"하늘과 땅, 우주",tenchi,50,false,
-てんで,てんで,"(아님) 전혀, 전혀, 전적으로",tende,50,false,
-転任,てんにん,게시물 변경,tennin,50,false,
+てんで,てんで,"전혀, 도무지",tende,50,false,
+転任,てんにん,"전근, 전임",tennin,50,false,
 展望,てんぼう,전망,tenbou,50,false,
 伝来,でんらい,"조상, 유전, 수입",denrai,50,false,
 転落,てんらく,"추락, 저하",tenraku,50,false,
@@ -1136,7 +1136,7 @@
 同感,どうかん,"동의, 같은 의견, 같은 느낌",doukan,50,false,
 陶器,とうき,도자기,touki,60,false,
 討議,とうぎ,"논쟁, 토론",tougi,50,false,
-動機,どうき,"동기, 유인",douki,70,true,DAY 009
+動機,どうき,"동기, 유인",douki,70,true,DAY 010
 等級,とうきゅう,"학년, 수업",toukyuu,50,false,
 同級,どうきゅう,"같은 학년, 같은 반",doukyuu,50,false,
 同居,どうきょ,동거하다,doukyo,60,false,
@@ -1150,7 +1150,7 @@
 当選,とうせん,"당선되다, 상을 받다",tousen,50,false,
 逃走,とうそう,"도주, 탈영, 탈출",tousou,50,false,
 統率,とうそつ,"지휘, 장군, 지도력",tousotsu,50,false,
-到達,とうたつ,"도달하다, 달성하다, 도착하다",toutatsu,70,true,DAY 009
+到達,とうたつ,"도달하다, 달성하다, 도착하다",toutatsu,70,true,DAY 010
 統治,とうち,"지배하다, 통치하다",touchi,50,false,
 仕切る,しきる,"구분하다, 나누다, 표시하다",shikiru,50,false,
 資金,しきん,"자금, 자본",shikin,60,false,
@@ -1160,7 +1160,7 @@
 死刑,しけい,사형,shikei,50,false,
 湿気る,しける,촉촉해야,shikeru,50,false,
 施行,しこう,"집행, 운영",shikou,50,false,
-思考,しこう,생각,shikou_2,70,true,DAY 009
+思考,しこう,생각,shikou_2,70,true,DAY 010
 志向,しこう,"의도, 목표",shikou_3,50,false,
 嗜好,しこう,"취향, 좋아하는 것, 선호하는 것",shikou_4,50,false,
 事項,じこう,"문제, 항목, 사실",jikou,50,false,
@@ -1170,7 +1170,7 @@
 自在,じざい,"자유롭게, 마음대로",jizai,50,false,
 視察,しさつ,"검사, 관찰",shisatsu,60,false,
 資産,しさん,"재산, 재물, 자산",shisan,60,false,
-支持,しじ,지원하다,shiji,70,true,DAY 009
+支持,しじ,지원하다,shiji,70,true,DAY 010
 自主,じしゅ,"독립, 자율",jishu,60,false,
 自首,じしゅ,항복하다,jishu_2,50,false,
 刺繍,ししゅう,자수,shishuu,50,false,
@@ -1180,9 +1180,9 @@
 システム,システム,체계,shisutemu,50,false,
 沈める,しずめる,가라앉다,shizumeru,60,false,
 施設,しせつ,"설립, 시설",shisetsu,60,false,
-事前,じぜん,미리,jizen,70,true,DAY 009
+事前,じぜん,미리,jizen,70,true,DAY 010
 子息,しそく,(아들) 아들,shisoku,50,false,
-持続,じぞく,"지속, 인내",jizoku,70,true,DAY 010
+持続,じぞく,"지속, 인내",jizoku,70,true,DAY 011
 自尊心,じそんしん,"자존심, 자만심",jisonshin,50,false,
 慕う,したう,동경하다,shitau,50,false,
 下心,したごころ,"비밀 의도, 동기",shitagokoro,50,false,
@@ -1194,8 +1194,8 @@
 合間,あいま,간격,aima,60,false,
 敢えて,あえて,"대담하다(하다), 모험하다(하다), 도전하다(하다)",aete,50,false,
 仰ぐ,あおぐ,"존경하다, 부탁하다",aogu,50,false,
-垢,あか,"빨강, 빨간색",aka,50,false,
-赤字,あかじ,"적자, 적자에 들어가다",akaji,70,true,DAY 010
+垢,あか,"흙, 오물",aka,50,false,
+赤字,あかじ,"적자, 적자에 들어가다",akaji,70,true,DAY 011
 明かす,あかす,"공개하다, 깨어있다",akasu,50,false,
 赤らむ,あからむ,"붉어지다, 얼굴이 붉어지다",akaramu,50,false,
 上がり,あがり,"오르막, 소득, 완료, 중지",agari,50,false,
@@ -1231,7 +1231,7 @@
 跡継ぎ,あとつぎ,"상속인, 후계자",atotsugi,50,false,
 後回し,あとまわし,연기하다,atomawashi,60,false,
 油絵,あぶらえ,유화,aburae,50,false,
-アプローチ,アプローチ,어프로치,apuroochi,50,false,
+アプローチ,アプローチ,접근 (골프에서),apuroochi,50,false,
 あべこべ,あべこべ,반대,abekobe,50,false,
 甘える,あまえる,"버릇없는 아이처럼 행동하다, 아첨하다",amaeru,50,false,
 雨具,あまぐ,비옷,amagu,50,false,
@@ -1256,10 +1256,10 @@
 ありのまま,ありのまま,사실은 있는 그대로 솔직하게,arinomama,50,false,
 ありふれる,ありふれる,"일반적인, 보통의, 일상적인",arifureru,50,false,
 アルカリ,アルカリ,알칼리,arukari,50,false,
-アルミ,アルミ,알루미늄,arumi,50,false,
-アワー,アワー,아워(시간),awaa,50,false,
+アルミ,アルミ,"알루미늄(Al, 알루미늄)",arumi,50,false,
+アワー,アワー,시간,awaa,50,false,
 合わす,あわす,"함께하다, 마주하다, 단결하다",awasu,50,false,
-～合せ,～あわせ,전체적으로,～awase,50,false,
+～合せ,～あわせ,"~맞춤, ~용",～awase,50,false,
 アンコール,アンコール,연주,ankooru,50,false,
 暗殺,あんさつ,암살,ansatsu,50,false,
 暗算,あんざん,암산,anzan,50,false,
@@ -1271,7 +1271,7 @@
 言い訳,いいわけ,"변명, 설명",iiwake,60,false,
 イェス,イェス,"예, 예수",iesu,50,false,
 家出,いえで,집에서 도망치다,iede,50,false,
-生かす,いかす,"살리다, 활용하다",ikasu,60,false,
+生かす,いかす,"무언가를 살려두다, 활용하다",ikasu,60,false,
 いかに,いかに,"어떻게, 어떤 식으로",ikani,60,false,
 いかにも,いかにも,정말로 (実に (じつに) 와 동일),ikanimo,60,false,
 異議,いぎ,"반대, 항의",igi,50,false,
@@ -1283,13 +1283,13 @@
 "(花を～) 生ける, 活ける",(はなを～) いける,(꽃을) 배열하다,(hanawo～)_ikeru,50,false,
 異見,いけん,"다른 의견, 반대",iken,50,false,
 意向,いこう,"의도, 생각, 성향",ikou,50,false,
-移行,いこう,으로 전환하다,ikou_2,70,true,DAY 010
+移行,いこう,으로 전환하다,ikou_2,70,true,DAY 011
 いざ,いざ,"자, 와라(이제) 결정적인 순간",iza,50,false,
 移住,いじゅう,"이주, 이민",ijuu,60,false,
 衣装,いしょう,"의복, 의상, 차림새",ishou,60,false,
 いじる,いじる,"만지다, 함부로 다루다",ijiru,50,false,
 異性,いせい,이성,isei,50,false,
-遺跡,いせき,유적,iseki,50,false,
+遺跡,いせき,역사적인 유적,iseki,50,false,
 依存,いぞん,의존,izon,60,false,
 委託,いたく,"(판매용) 상품을 회사에) 위탁하다, 위탁하다",itaku,50,false,
 いたって,いたって,"아주, 엄청나게, 극도로",itatte,50,false,
@@ -1305,22 +1305,22 @@
 手法,しゅほう,기술,shuhou,60,false,
 樹木,じゅもく,"나무와 관목, 정자",jumoku,50,false,
 樹立,じゅりつ,"확립하다, 창조하다",juritsu,50,false,
-準急,じゅんきゅう,준급(급행보다 느린 열차),junkyuu,50,false,
+準急,じゅんきゅう,준급,junkyuu,50,false,
 準じる,じゅんじる,"따르다, 적용하다",junjiru,50,false,
 ～署,～しょ,부서,～sho,50,false,
 ～症,～しょう,질병,～shou,50,false,
 ～証,～しょう,"증명, 증명서",～shou_2,50,false,
-～嬢,～じょう,"～조, ～항",～jou,50,false,
+～嬢,～じょう,젊은 숙녀,～jou,50,false,
 上位,じょうい,"우월한, 더 높은 질서",joui,60,false,
 上演,じょうえん,예술 공연,jouen,50,false,
 城下,じょうか,성 근처 땅,jouka,50,false,
 消去,しょうきょ,"제거, 지우기",shoukyo,50,false,
-上空,じょうくう,"하늘, 높은 고도의 하늘, 상공",joukuu,60,false,
+上空,じょうくう,"상공, 하늘 위",joukuu,60,false,
 衝撃,しょうげき,"충격, 충돌, 탄도",shougeki,50,false,
 証言,しょうげん,"증거, 증언",shougen,60,false,
 証拠,しょうこ,증거,shouko,60,false,
 照合,しょうごう,"확인, 검증",shougou,50,false,
-詳細,しょうさい,세부사항,shousai,70,true,DAY 010
+詳細,しょうさい,세부사항,shousai,70,true,DAY 011
 上昇,じょうしょう,"오르다, 오름차순",joushou,60,false,
 昇進,しょうしん,홍보,shoushin,60,false,
 称する,しょうする,"이름을 따오다, 자기 자신을 부르다",shousuru,50,false,
@@ -1329,14 +1329,14 @@
 承諾,しょうだく,"동의, 합의",shoudaku,50,false,
 情緒,じょうちょ,"감정, 느낌",joucho,50,false,
 情緒,じょうしょ,"감정, 느낌",jousho,50,false,
-象徴,しょうちょう,상징,shouchou,70,true,DAY 010
+象徴,しょうちょう,상징,shouchou,70,true,DAY 011
 小児科,しょうにか,소아과,shounika,60,false,
 使用人,しようにん,"직원, 하인",shiyounin,50,false,
 情熱,じょうねつ,열정,jounetsu,60,false,
 譲歩,じょうほ,"양보, 조정, 타협",jouho,60,false,
 条約,じょうやく,조약,jouyaku,50,false,
 勝利,しょうり,승리,shouri,60,false,
-上陸,じょうりく,"착륙, 하선",jouriku,70,true,DAY 011
+上陸,じょうりく,"착륙, 하선",jouriku,70,true,DAY 012
 蒸溜,じょうりゅう,증류,jouryuu,50,false,
 奨励,しょうれい,"격려, 승진",shourei,60,false,
 ショー,ショー,보여주다,shoo,50,false,
@@ -1360,14 +1360,14 @@
 処分,しょぶん,"처분, 거래, 처벌",shobun,60,false,
 庶民,しょみん,"대중, 일반 사람들",shomin,50,false,
 庶務,しょむ,총무,shomu,50,false,
-所有,しょゆう,"소유물, 소유권",shoyuu,70,true,DAY 011
+所有,しょゆう,"소유물, 소유권",shoyuu,70,true,DAY 012
 調べ,しらべ,"조사, 검사",shirabe,50,false,
 自立,じりつ,"독립, 자립",jiritsu,50,false,
 記す,しるす,"메모하다, 적어 두다",shirusu,50,false,
 指令,しれい,"명령, 지시",shirei,50,false,
 ～心,～しん,～의 마음,～shin,60,false,
 陣,じん,"전투 대형, 캠프, 야영지",jin,50,false,
-進化,しんか,"진화, 진보",shinka,70,true,DAY 011
+進化,しんか,"진화, 진보",shinka,70,true,DAY 012
 人格,じんかく,성격,jinkaku,50,false,
 審議,しんぎ,숙고,shingi,50,false,
 新婚,しんこん,신혼,shinkon,50,false,
@@ -1443,14 +1443,14 @@
 すんなり,すんなり,"이의 없이 통과시키다, 호리호리한",sunnari,50,false,
 生育,せいいく,"성장, 발달, 번식",seiiku,50,false,
 成育,せいいく,"성장, 키우기",seiiku_2,50,false,
-成果,せいか,"결과, 과일",seika,70,true,DAY 011
+成果,せいか,"결과, 과일",seika,70,true,DAY 012
 正解,せいかい,"정답, 해결책",seikai,60,false,
 正義,せいぎ,"정의, 맞다",seigi,60,false,
 生計,せいけい,"생계, 생활",seikei,60,false,
 政権,せいけん,"(정치) 행정, 정치 권력",seiken,60,false,
 星座,せいざ,별자리,seiza,50,false,
 制裁,せいさい,"억제, 제재, 처벌",seisai,50,false,
-政策,せいさく,"정치적 조치, 정책",seisaku,70,true,DAY 011
+政策,せいさく,"정치적 조치, 정책",seisaku,70,true,DAY 012
 生死,せいし,삶과 죽음,seishi,50,false,
 静止,せいし,"고요함, 안식, 가만히 서 있음",seishi_2,50,false,
 誠実,せいじつ,"진실한, 정직한, 충실한",seijitsu,60,false,
@@ -1469,7 +1469,7 @@
 製鉄,せいてつ,철 제조,seitetsu,50,false,
 晴天,せいてん,좋은 날씨,seiten,50,false,
 正当,せいとう,"그냥, 마땅한, 적절한",seitou,60,false,
-制服,せいふく,제복,seifuku,70,true,DAY 012
+制服,せいふく,제복,seifuku,70,true,DAY 013
 征服,せいふく,"정복, 극복",seifuku_2,60,false,
 製法,せいほう,"제조방법, 레시피, 제조법",seihou,50,false,
 精密,せいみつ,"정확한, 세부적인, 분",seimitsu,50,false,
@@ -1493,7 +1493,7 @@
 接続詞,せつぞくし,접속사,setsuzokushi,50,false,
 設置,せっち,"설립, 기관",setchi,60,false,
 折衷,せっちゅう,"타협, 십자가, 혼합, 절충주의",setchuu,50,false,
-設定,せってい,"설립, 창조",settei,70,true,DAY 012
+設定,せってい,"설립, 창조",settei,70,true,DAY 013
 説得,せっとく,설득,settoku,60,false,
 切ない,せつない,"고통스러운, 노력하는, 슬픈",setsunai,50,false,
 絶版,ぜっぱん,절판,zeppan,50,false,
@@ -1516,7 +1516,7 @@
 先代,せんだい,"가족의 전임자, 이전 연령, 이전 세대",sendai,50,false,
 先だって,せんだって,"얼마 전, 어느 날",sendatte,50,false,
 先着,せんちゃく,첫 도착,senchaku,60,false,
-前提,ぜんてい,"서문, 전제, 전제조건",zentei,70,true,DAY 012
+前提,ぜんてい,"서문, 전제, 전제조건",zentei,70,true,DAY 013
 先天的,せんてんてき,"선천적인, 유전적인",sententeki,50,false,
 前途,ぜんと,"미래 전망, 전망, 앞으로의 여정",zento,50,false,
 戦闘,せんとう,"전투, 싸우다, 전투하다",sentou,60,false,
@@ -1524,7 +1524,7 @@
 船舶,せんぱく,배,senpaku,50,false,
 全滅,ぜんめつ,전멸,zenmetsu,50,false,
 専用,せんよう,"독점적 사용, 개인적 사용",senyou,60,false,
-占領,せんりょう,"직업, 소유, 혼자만의 방을 가지다",senryou,60,false,
+占領,せんりょう,"점령, 차지함",senryou,60,false,
 善良,ぜんりょう,"선함, 탁월함, 미덕",zenryou,50,false,
 戦力,せんりょく,전쟁 가능성,senryoku,50,false,
 前例,ぜんれい,전례,zenrei,50,false,
@@ -1538,8 +1538,8 @@
 送金,そうきん,송금,soukin,50,false,
 走行,そうこう,"바퀴가 달린 차량 운행(예: 자동차, 여행)",soukou,50,false,
 総合,そうごう,"종합, 일반화",sougou,60,false,
-捜索,そうさく,"수색(특히 누락된 사람이나 물건 찾기, 조사)",sousaku,50,false,
-蔵相,ぞうしょう,재무장관,zoushou,50,false,
+捜索,そうさく,"수색, 찾기",sousaku,50,false,
+蔵相,ぞうしょう,"대장상, 재무장관",zoushou,50,false,
 装飾,そうしょく,장식,soushoku,50,false,
 増進,ぞうしん,"촉진하다, 증가하다, 전진하다",zoushin,50,false,
 相対,そうたい,상대적인,soutai,50,false,
@@ -1551,7 +1551,7 @@
 創立,そうりつ,"설립, 창립",souritsu,60,false,
 添える,そえる,"추가하다, 첨부하다, 동행하다",soeru,60,false,
 ソース,ソース,원천,soosu,50,false,
-即座に,そくざに,즉시,sokuzani,70,true,DAY 012
+即座に,そくざに,즉시,sokuzani,70,true,DAY 013
 促進,そくしん,"승진, 촉진, 격려",sokushin,60,false,
 即する,そくする,"적응하다, 동의하다",sokusuru,50,false,
 束縛,そくばく,"속박, 제한, 감금",sokubaku,50,false,
@@ -1572,7 +1572,7 @@
 聳える,そびえる,솟아오르다,sobieru,50,false,
 素朴,そぼく,"단순함, 무능함, 순진함",soboku,50,false,
 背く,そむく,반대하다,somuku,50,false,
-染まる,そまる,염색하다,somaru,70,true,DAY 012
+染まる,そまる,염색하다,somaru,70,true,DAY 013
 染める,そめる,"염색하다, 색칠하다",someru,50,false,
 そらす,そらす,"구부리다, 휘게 하다",sorasu,50,false,
 そり (～にのる),そり (～にのる),썰매,sori_(～ninoru),50,false,
@@ -1584,7 +1584,7 @@
 損失,そんしつ,손실,sonshitsu,60,false,
 存続,そんぞく,지속,sonzoku,50,false,
 ダース,ダース,다스,daasu,50,false,
-対応,たいおう,다루는,taiou,70,true,DAY 013
+対応,たいおう,다루는,taiou,70,true,DAY 014
 大家,たいか,"부유한 집안, 귀한 집안",taika,60,false,
 退化,たいか,"퇴화, 퇴행",taika_2,50,false,
 大概,たいがい,일반적으로 주로,taigai,50,false,
@@ -1592,12 +1592,12 @@
 大金,たいきん,많은 돈,taikin,50,false,
 待遇,たいぐう,"진료, 접수",taiguu,50,false,
 対決,たいけつ,대결,taiketsu,50,false,
-体験,たいけん,개인적인 경험,taiken,70,true,DAY 013
+体験,たいけん,개인적인 경험,taiken,70,true,DAY 014
 対抗,たいこう,"반대, 적대감",taikou,60,false,
 退治,たいじ,구제,taiji,50,false,
 大衆,たいしゅう,일반 대중,taishuu,60,false,
-対処,たいしょ,"다루다, 대처하다",taisho,70,true,DAY 013
-退職,たいしょく,퇴직(직위에서),taishoku,70,true,DAY 013
+対処,たいしょ,"다루다, 대처하다",taisho,70,true,DAY 014
+退職,たいしょく,퇴직(직위에서),taishoku,70,true,DAY 014
 題する,だいする,제목에,daisuru,50,false,
 態勢,たいせい,"태도, 조건, 경향",taisei,60,false,
 対談,たいだん,"이야기, 대화",taidan,50,false,
@@ -1607,7 +1607,7 @@
 滞納,たいのう,"미납, 불이행",tainou,50,false,
 対比,たいひ,"대조, 비교",taihi,60,false,
 タイピスト,タイピスト,타이피스트,taipisuto,50,false,
-大部,たいぶ,"대부분의 (예: 대부분의, 더 큰, 상당히, 상당한, 많은)",taibu,50,false,
+大部,たいぶ,"대부분, 상당 부분",taibu,50,false,
 大便,だいべん,대변,daiben,50,false,
 代弁,だいべん,다른 사람을 위해 말하다,daiben_2,50,false,
 待望,たいぼう,"오랫동안 기다려온, 기다리고 있는",taibou,50,false,
@@ -1644,9 +1644,9 @@
 立ち寄る,たちよる,"들르다, 잠깐 들르다",tachiyoru,50,false,
 抱っこ,だっこ,(아이가) 포옹하다,dakko,50,false,
 達者,たっしゃ,"능숙하다, 건강하다",tassha,50,false,
-脱出,だっしゅつ,탈출하다,dasshutsu,70,true,DAY 013
+脱出,だっしゅつ,탈출하다,dasshutsu,70,true,DAY 014
 脱する,だっする,"～로부터 탈출하다, 나가다",dassuru,50,false,
-達成,たっせい,성취,tassei,70,true,DAY 014
+達成,たっせい,성취,tassei,70,true,DAY 015
 脱退,だったい,탈퇴,dattai,50,false,
 だったら,だったら,그렇다면,dattara,50,false,
 立て替える,たてかえる,"미리 지불하다, 다른 비용을 지불하다",tatekaeru,60,false,
@@ -1664,7 +1664,7 @@
 魂,たましい,"영혼, 정신",tamashii,50,false,
 溜まり,たまり,"수거물, 집결장소, 체납물",tamari,50,false,
 賜る,たまわる,"부여하다, 수여하다",tamawaru,50,false,
-保つ,たもつ,"유지하다, 보존하다",tamotsu,70,true,DAY 014
+保つ,たもつ,"유지하다, 보존하다",tamotsu,70,true,DAY 015
 たやすい,たやすい,"쉽다, 간단하다, 가볍다",tayasui,50,false,
 多様,たよう,다양성,tayou,60,false,
 だるい,だるい,"나른한, 나른한 (피곤한) 느낌",darui,50,false,
@@ -1677,7 +1677,7 @@
 短歌,たんか,31음절의 일본시,tanka,50,false,
 担架,たんか,"들것, 쓰레기",tanka_2,50,false,
 短気,たんき,성격이 급하다,tanki,60,false,
-団結,だんけつ,"단결, 연합, 연대",danketsu,70,true,DAY 014
+団結,だんけつ,"단결, 연합, 연대",danketsu,70,true,DAY 015
 探検,たんけん,탐험,tanken,50,false,
 断言,だんげん,"주장, 선언, 단언",dangen,50,false,
 短縮,たんしゅく,"단축, 약어, 축소",tanshuku,60,false,
@@ -1698,7 +1698,7 @@
 違える,ちがえる,변화하다,chigaeru,50,false,
 畜産,ちくさん,축산업,chikusan,50,false,
 畜生,ちくしょう,"짐승, 젠장",chikushou,50,false,
-蓄積,ちくせき,"축적하다, 저장하다",chikuseki,70,true,DAY 014
+蓄積,ちくせき,"축적하다, 저장하다",chikuseki,70,true,DAY 015
 地形,ちけい,지형,chikei,50,false,
 知性,ちせい,지능,chisei,60,false,
 乳,ちち,"우유, 유방, 루프",chichi,50,false,
@@ -1711,7 +1711,7 @@
 着席,ちゃくせき,앉다,chakuseki,50,false,
 着目,ちゃくもく,주목,chakumoku,50,false,
 着陸,ちゃくりく,"착륙, 터치다운",chakuriku,50,false,
-着工,ちゃっこう,(건축)작업의 시작,chakkou,50,false,
+着工,ちゃっこう,착공,chakkou,50,false,
 茶の間,ちゃのま,거실(일본식),chanoma,50,false,
 茶の湯,ちゃのゆ,다도,chanoyu,50,false,
 ちやほや,ちやほや,"애지중지하다, 소란을 피우다, 망치다",chiyahoya,50,false,
@@ -1722,7 +1722,7 @@
 中傷,ちゅうしょう,"비방, 명예훼손",chuushou,50,false,
 中枢,ちゅうすう,"중심, 주춧돌, 핵",chuusuu,50,false,
 抽選,ちゅうせん,"복권, 추첨",chuusen,60,false,
-中断,ちゅうだん,중단,chuudan,70,true,DAY 014
+中断,ちゅうだん,중단,chuudan,70,true,DAY 015
 中毒,ちゅうどく,중독,chuudoku,50,false,
 中腹,ちゅうふく,"산 쪽, 중간쯤",chuufuku,50,false,
 中立,ちゅうりつ,중립,chuuritsu,50,false,
@@ -1750,7 +1750,7 @@
 直感,ちょっかん,"직관, 본능",chokkan,60,false,
 著名,ちょめい,"잘 알려진, 주목받는, 유명한",chomei,50,false,
 ちらっと,ちらっと,"얼핏, 우연히",chiratto,50,false,
-塵,ちり,"먼지, 더러움",chiri,70,true,DAY 015
+塵,ちり,"먼지, 더러움",chiri,70,true,DAY 016
 塵取り,ちりとり,쓰레받기,chiritori,50,false,
 賃金,ちんぎん,임금,chingin,60,false,
 沈殿,ちんでん,"강수, 퇴적, 침전",chinden,50,false,
@@ -1763,14 +1763,14 @@
 費やす,ついやす,"소비하다, 헌신하다, 낭비하다",tsuiyasu,60,false,
 墜落,ついらく,"넘어지다, 부서지다",tsuiraku,50,false,
 痛感,つうかん,"예민하게 느끼다, 완전히 깨닫다",tsuukan,50,false,
-通常,つうじょう,보통의,tsuujou,70,true,DAY 015
+通常,つうじょう,보통의,tsuujou,70,true,DAY 016
 痛切,つうせつ,"예리한, 깊은",tsuusetsu,50,false,
 杖,つえ,지팡이,tsue,50,false,
 使い道,つかいみち,사용,tsukaimichi,50,false,
 仕える,つかえる,"봉사하다, 위해 일하다",tsukaeru,50,false,
 司る,つかさどる,"통치하다, 관리하다",tsukasadoru,50,false,
 つかの間,つかのま,"순간, 짧은 시간",tsukanoma,50,false,
-月並,つきなみ,"진부한, 평범한",tsukinami,50,false,
+月並,つきなみ,"관습적인, 진부한, 흔한",tsukinami,50,false,
 継目,つぎめ,"조인트, 솔기",tsugime,50,false,
 尽きる,つきる,"다 써 버리다, 고갈되다",tsukiru,50,false,
 尽くす,つくす,"지치다, 다 떨어지다, 헌신하다, 봉사하다",tsukusu,50,false,
@@ -1785,13 +1785,13 @@
 突く,つつく,"찌르다, 공격하다, 슬쩍 찌르다, 쑤셔넣다",tsutsuku,50,false,
 突っ突く,つっつく,누군가에게 메시지를 보내려고,tsuttsuku,50,false,
 謹む,つつしむ,"조심하다, 순결하다, 신중하다",tsutsushimu,50,false,
-突っ張る,つっぱる,"지지하다, 뻣뻣해지다, (상대방을) 밀어붙이다, (자신의 의견을) 고집하다, 주장하다",tsupparu,50,false,
-務まる,つとまる,"평등하다, 적합하다",tsutomaru,50,false,
+突っ張る,つっぱる,"버티다, 뻣뻣해지다, 고집부리다",tsupparu,50,false,
+務まる,つとまる,"감당할 수 있다, 역할을 해내다",tsutomaru,50,false,
 勤め先,つとめさき,일하는 장소,tsutomesaki,50,false,
 努めて,つとめて,"노력해라!, 열심히해라!",tsutomete,50,false,
 津波,つなみ,"쓰나미, 해일",tsunami,50,false,
 つねる,つねる,꼬집다,tsuneru,50,false,
-角,つの,뿔,tsuno,70,true,DAY 015
+角,つの,뿔,tsuno,70,true,DAY 016
 募る,つのる,"초대하다, 도움, 참여 등을 요청하다",tsunoru,60,false,
 唾,つば,"타액, 침, 가래",tsuba,50,false,
 呟く,つぶやく,중얼거리다,tsubuyaku,60,false,
@@ -1806,10 +1806,10 @@
 吊り革,つりかわ,견장,tsurikawa,50,false,
 手当,てあて,"수당, 보상, 치료",teate,50,false,
 定義,ていぎ,정의,teigi,50,false,
-提供,ていきょう,"제안, 프로그램 후원",teikyou,70,true,DAY 015
+提供,ていきょう,"제안, 프로그램 후원",teikyou,70,true,DAY 016
 提携,ていけい,"협력, 제휴, 공동사업",teikei,50,false,
 体裁,ていさい,"품위, 스타일, 형태, 외모",teisai,50,false,
-提示,ていじ,"프리젠테이션, 전시, 제안, 인용",teiji,60,false,
+提示,ていじ,"제시, 제안",teiji,60,false,
 ティシュペーパー,ティシュペーパー,조직,teishupeepaa,50,false,
 定食,ていしょく,"정액 점심, 정식, 저녁",teishoku,60,false,
 訂正,ていせい,"수정, 개정",teisei,60,false,
@@ -1833,7 +1833,7 @@
 手錠,てじょう,수갑,tejou,50,false,
 手数,てすう,"문제, 노동, 처리",tesuu,50,false,
 デコレーション,デコレーション,장식,dekoreeshon,50,false,
-手近,てぢか,"가까운, 손쉬운, 친숙한",tejika,50,false,
+手近,てぢか,"가까운, 편리한, 친숙한",tejika,50,false,
 てっきり,てっきり,"확실히, 의심할 여지 없이",tekkiri,60,false,
 鉄鋼,てっこう,철과 강철,tekkou,50,false,
 デッサン,デッサン,러프 스케치 (FRE: dessin),dessan,50,false,
@@ -1917,16 +1917,16 @@
 破損,はそん,손상,hason,50,false,
 叩く,はたく,"때리다, 박수치다, 먼지를 털다",hataku,60,false,
 裸足,はだし,맨발,hadashi,50,false,
-果たす,はたす,"완수하다, 성취하다, 수행하다, 달성하다",hatasu,70,true,DAY 015
+果たす,はたす,"완수하다, 달성하다",hatasu,70,true,DAY 016
 蜂蜜,はちみつ,꿀,hachimitsu,60,false,
 パチンコ,パチンコ,파칭코(일본 핀볼),pachinko,50,false,
 罰,ばつ,형벌,batsu,50,false,
 発育,はついく,"(육체적) 성장, 발달",hatsuiku,50,false,
 発芽,はつが,발아,hatsuga,50,false,
 発掘,はっくつ,"발굴, 발견(예: 새로운 재능)",hakkutsu,50,false,
-発言,はつげん,"발화, 연설, 제안",hatsugen,70,true,DAY 015
+発言,はつげん,"발화, 연설, 제안",hatsugen,70,true,DAY 017
 バッジ,バッジ,배지,bajji,50,false,
-発生,はっせい,발생,hassei,70,true,DAY 015
+発生,はっせい,발생,hassei,70,true,DAY 017
 仕立てる,したてる,"맞춤화하다, 만들다, 준비하다",shitateru,50,false,
 下取り,したどり,"트레이드 인, 부품 교환",shitadori,50,false,
 下火,したび,"약해지고, 쇠퇴하고",shitabi,50,false,
@@ -1940,13 +1940,13 @@
 じっくり,じっくり,"일부러, 조심스럽게",jikkuri,50,false,
 躾,しつけ,"규율, 훈련",shitsuke,50,false,
 躾ける,しつける,"훈계하다, 매너를 가르치다",shitsukeru,50,false,
-実践,じっせん,"연습하다, 실천하다",jissen,70,true,DAY 015
+実践,じっせん,"연습하다, 실천하다",jissen,70,true,DAY 017
 質素,しっそ,"단순함, 겸손함, 검소함",shisso,60,false,
 実態,じったい,"진실, 사실",jittai,50,false,
 失調,しっちょう,"조화의 부족, 불균형",shitchou,50,false,
 嫉妬,しっと,질투,shitto,60,false,
 実費,じっぴ,"실비, 원가",jippi,50,false,
-指摘,してき,"지적하다, 식별하다",shiteki,70,true,DAY 015
+指摘,してき,"지적하다, 식별하다",shiteki,70,true,DAY 017
 自転,じてん,"회전, 스핀",jiten,50,false,
 助動詞,じょどうし,조동사,jodoushi,50,false,
 淑やか,しとやか,우아한,shitoyaka,50,false,
@@ -1964,9 +1964,9 @@
 司法,しほう,정의의 행정,shihou,50,false,
 始末,しまつ,"처분, 나중에 청소하기",shimatsu,50,false,
 染みる,しみる,"담그다, 내뚫다",shimiru,50,false,
-使命,しめい,"임무, 심부름, 메시지",shimei,70,true,DAY 015
-地元,じもと,현지의,jimoto,70,true,DAY 016
-視野,しや,"시야, 전망",shiya,70,true,DAY 016
+使命,しめい,"사명, 임무",shimei,70,true,DAY 017
+地元,じもと,현지의,jimoto,70,true,DAY 018
+視野,しや,"시야, 전망",shiya,70,true,DAY 018
 弱,じゃく,"섬세한, 유연한",jaku,50,false,
 社交,しゃこう,사회생활,shakou,50,false,
 ジャズ,ジャズ,재즈,jazu,50,false,
@@ -1976,7 +1976,7 @@
 三味線,しゃみせん,3현 일본 기타,shamisen,50,false,
 斜面,しゃめん,경사면,shamen,50,false,
 砂利,じゃり,"자갈, 밸러스트",jari,50,false,
-洒落る,しゃれる,"농담을 하고, 말로 장난을 친다. 세련된",shareru,50,false,
+洒落る,しゃれる,"세련되다, 멋스럽다",shareru,50,false,
 ジャンパー,ジャンパー,"재킷, 점퍼",janpaa,50,false,
 ジャンプ,ジャンプ,도약,janpu,50,false,
 ジャンボ,ジャンボ,거대한 것,janbo,50,false,
@@ -1989,7 +1989,7 @@
 修学,しゅうがく,학습,shuugaku,50,false,
 周期,しゅうき,"주기, 기간",shuuki,50,false,
 衆議院,しゅうぎいん,하원,shuugiin,50,false,
-就業,しゅうぎょう,"취업, 일을 시작하다",shuugyou,50,false,
+就業,しゅうぎょう,"취업, 업무 시작",shuugyou,50,false,
 従業員,じゅうぎょういん,"직원, 노동자",juugyouin,60,false,
 集計,しゅうけい,"합산, 집계",shuukei,50,false,
 襲撃,しゅうげき,"공격하다, 돌격하다, 급습하다",shuugeki,50,false,
@@ -1999,11 +1999,11 @@
 従事,じゅうじ,"참여하다, 추구하다, 따르다",juuji,50,false,
 終日,しゅうじつ,하루 종일,shuujitsu,50,false,
 充実,じゅうじつ,"충만함, 완벽함",juujitsu,60,false,
-収集,しゅうしゅう,모으다,shuushuu,70,true,DAY 016
+収集,しゅうしゅう,모으다,shuushuu,70,true,DAY 018
 十字路,じゅうじろ,교차로,juujiro,50,false,
 執着,しゅうじゃく,"부착, 접착, 끈기",shuujaku,50,false,
 執着,しゅうちゃく,"부착, 접착, 끈기",shuuchaku,50,false,
-柔軟,じゅうなん,유연한,juunan,70,true,DAY 016
+柔軟,じゅうなん,유연한,juunan,70,true,DAY 018
 重複,じゅうふく,"중복, 반복",juufuku,50,false,
 収容,しゅうよう,"숙소, 좌석, 보관",shuuyou,50,false,
 従来,じゅうらい,"지금까지, 지금까지 전통적인",juurai,50,false,
@@ -2035,7 +2035,7 @@
 昼飯,ひるめし,점심 (정오 식사),hirumeshi,50,false,
 比例,ひれい,비율,hirei,60,false,
 疲労,ひろう,"피로, 권태",hirou,60,false,
-敏感,びんかん,"감수성, 민감성, 민감한 (～에)",binkan,70,true,DAY 016
+敏感,びんかん,"감수성, 민감성, 민감한 (～에)",binkan,70,true,DAY 018
 貧困,ひんこん,"가난, 결핍",hinkon,60,false,
 品質,ひんしつ,품질,hinshitsu,60,false,
 貧弱,ひんじゃく,"가난한, 빈약한, 실체가 없는",hinjaku,50,false,
@@ -2051,14 +2051,14 @@
 封,ふう,밀봉하다,fuu,50,false,
 封鎖,ふうさ,"봉쇄, 동결(자금)",fuusa,60,false,
 風車,ふうしゃ,풍차 비슷한 것,fuusha,50,false,
-風習,ふうしゅう,"풍습, 관습",fuushuu,50,false,
-風俗,ふうぞく,"풍속, 생활양식",fuuzoku,50,false,
+風習,ふうしゅう,관습,fuushuu,50,false,
+風俗,ふうぞく,"매너, 관습, 성산업",fuuzoku,50,false,
 ブーツ,ブーツ,부츠,buutsu,50,false,
 風土,ふうど,"자연의 특징, 기후",fuudo,50,false,
 ブーム,ブーム,팔,buumu,50,false,
 フォーム,フォーム,"거품, 형태",foomu,50,false,
-部下,ぶか,부하,buka,70,true,DAY 017
-不可欠,ふかけつ,"필수불가결한, 필수적인",fukaketsu,70,true,DAY 017
+部下,ぶか,부하,buka,70,true,DAY 019
+不可欠,ふかけつ,"필수불가결한, 필수적인",fukaketsu,70,true,DAY 019
 ぶかぶか,ぶかぶか,"너무 크다, 헐렁하다",bukabuka,50,false,
 不吉,ふきつ,"불길한, 불길한 징조",fukitsu,50,false,
 不況,ふきょう,"경기침체, 불황, 슬럼프",fukyou,50,false,
@@ -2067,7 +2067,7 @@
 福祉,ふくし,"복지, 웰빙",fukushi,60,false,
 覆面,ふくめん,"가면, 베일, 변장",fukumen,50,false,
 膨れる,ふくれる,"(부풀어오르다) 부풀어오르다, 부풀어오르다",fukureru,50,false,
-不景気,ふけいき,"사업 불황, 어려운 시기, 우울증",fukeiki,50,false,
+不景気,ふけいき,"불경기, 경기 침체",fukeiki,50,false,
 耽る,ふける,몰입하다,fukeru,50,false,
 老ける,ふける,나이가 들다,fukeru_2,50,false,
 富豪,ふごう,"부자, 백만장자",fugou,50,false,
@@ -2082,8 +2082,8 @@
 不審,ふしん,"의심스러운, 의혹, 불신앙",fushin,50,false,
 不振,ふしん,"둔함, 침체",fushin_2,50,false,
 武装,ぶそう,"무기, 군비, 무장하다",busou,60,false,
-札,ふだ,"토큰, 라벨, 티켓, 카드, 매력, 부적",fuda,60,false,
-負担,ふたん,"부담, 짐",futan,70,true,DAY 017
+札,ふだ,"패, 표, 명찰",fuda,60,false,
+負担,ふたん,"부담, 짐",futan,70,true,DAY 019
 不調,ふちょう,"나쁜 상태, 혼란, 슬럼프",fuchou,60,false,
 復活,ふっかつ,"부흥(예: 뮤지컬), 복원",fukkatsu,50,false,
 物議,ぶつぎ,공개 토론 (비판),butsugi,50,false,
@@ -2094,7 +2094,7 @@
 物体,ぶったい,물체,buttai,50,false,
 沸騰,ふっとう,"끓는 것, 끓어오르는 것",futtou,60,false,
 不当,ふとう,"불공정, 부적절, 불공평",futou,60,false,
-不動産,ふどうさん,부동산,fudousan,70,true,DAY 017
+不動産,ふどうさん,부동산,fudousan,70,true,DAY 019
 無難,ぶなん,"안전, 보안",bunan,50,false,
 赴任,ふにん,(계속해서) 새로운 약속,funin,50,false,
 腐敗,ふはい,"부패, 타락",fuhai,60,false,
@@ -2107,7 +2107,7 @@
 部門,ぶもん,"학급, 그룹, 카테고리, 부서, 분야, 지점",bumon,50,false,
 扶養,ふよう,"지원, 유지 보수",fuyou,50,false,
 ふらふら,ふらふら,"발이 불안정하다, 비틀거리다, 현기증이 난다",furafura,50,false,
-ぶらぶら,ぶらぶら,"무겁게 매달리다, 이리저리 흔들리다, 한가롭게 거닐다",burabura,50,false,
+ぶらぶら,ぶらぶら,"어슬렁어슬렁, 흔들흔들",burabura,50,false,
 振り返る,ふりかえる,"머리를 돌리다, 돌아서다, 뒤를 돌아보다",furikaeru,50,false,
 振り出し,ふりだし,"시작, 시작점, 도면 또는 발행(초안)",furidashi,50,false,
 不良,ふりょう,"불량, 실패",furyou,50,false,
@@ -2120,7 +2120,7 @@
 フロント,フロント,앞쪽,furonto,50,false,
 憤慨,ふんがい,분노,fungai,50,false,
 文化財,ぶんかざい,문화재,bunkazai,50,false,
-分業,ぶんぎょう,"분업, 전문화, 조립 라인 생산",bungyou,50,false,
+分業,ぶんぎょう,분업,bungyou,50,false,
 文語,ぶんご,"문자언어, 문학언어",bungo,50,false,
 分散,ぶんさん,"분산, 분산(통계)",bunsan,60,false,
 分子,ぶんし,분자,bunshi,50,false,
@@ -2131,7 +2131,7 @@
 ふんだん,ふんだん,"풍부한, 호화로운",fundan,50,false,
 分担,ぶんたん,"할당, 공유",buntan,60,false,
 奮闘,ふんとう,"힘든 투쟁, 분투",funtou,50,false,
-分配,ぶんぱい,나누기,bunpai,70,true,DAY 017
+分配,ぶんぱい,나누기,bunpai,70,true,DAY 019
 分母,ぶんぼ,분모,bunbo,50,false,
 粉末,ふんまつ,미세 분말,funmatsu,50,false,
 分離,ぶんり,분리,bunri,50,false,
@@ -2142,7 +2142,7 @@
 閉鎖,へいさ,폐쇄하다,heisa,60,false,
 兵士,へいし,군인,heishi,60,false,
 平常,へいじょう,보통,heijou,50,false,
-平方,へいほう,"정사각형(예: 미터, 정사각형)",heihou,50,false,
+平方,へいほう,"평방, 제곱",heihou,50,false,
 並列,へいれつ,"배열, 평행, 나란히",heiretsu,50,false,
 ベース,ベース,베이스,beesu,50,false,
 辟易,へきえき,"움츠러들다, 굴복하다, 겁을 먹다",hekieki,50,false,
@@ -2191,7 +2191,7 @@
 膨張,ぼうちょう,"팽창, 증가",bouchou,60,false,
 法廷,ほうてい,법정,houtei,60,false,
 報道,ほうどう,"취재, 보고",houdou,60,false,
-冒頭,ぼうとう,시작,boutou,50,false,
+冒頭,ぼうとう,"서두, 첫머리",boutou,50,false,
 暴動,ぼうどう,"반란, 폭동, 봉기",boudou,50,false,
 褒美,ほうび,"보상, 상",houbi,50,false,
 暴風,ぼうふう,"폭풍, 강풍",boufuu,50,false,
@@ -2228,7 +2228,7 @@
 墓地,ぼち,묘지,bochi,50,false,
 発作,ほっさ,"맞다, 공격하다",hossa,50,false,
 没収,ぼっしゅう,몰수,bosshuu,50,false,
-発足,ほっそく,"시작, 취임식",hossoku,50,false,
+発足,ほっそく,"발족, 출범",hossoku,50,false,
 ポット,ポット,냄비,potto,50,false,
 ほっぺた,ほっぺた,볼,hoppeta,50,false,
 ぼつぼつ,ぼつぼつ,점점 여기저기 얼룩이,botsubotsu,50,false,
@@ -2297,8 +2297,8 @@
 ～まみれ,～まみれ,"(에 의해, 안으로) ～으로 덮여있다",～mamire,60,false,
 眉,まゆ,눈썹,mayu,50,false,
 鞠,まり,공,mari,50,false,
-丸ごと,まるごと,"전체적으로, 전적으로",marugoto,50,false,
-まるっきり,まるっきり,"완전히, 완벽하게, 마치 마치",marukkiri,60,false,
+丸ごと,まるごと,"통째로, 몽땅",marugoto,50,false,
+まるっきり,まるっきり,"완전히, 전혀",marukkiri,60,false,
 丸々,まるまる,완전히,marumaru,50,false,
 丸める,まるめる,"둥글게 만들다, 말아 올리다",marumeru,50,false,
 満月,まんげつ,만월,mangetsu,50,false,
@@ -2325,24 +2325,24 @@
 見せびらかす,みせびらかす,"뽐내다, 과시하다",misebirakasu,50,false,
 見せ物,みせもの,"쇼, 전시회",misemono,50,false,
 溝,みぞ,"도랑, 하수구, 홈통, 간격",mizo,60,false,
-満たす,みたす,"만족시키다, 채우다, 성취하다",mitasu,70,true,DAY 018
+満たす,みたす,"만족시키다, 채우다, 성취하다",mitasu,70,true,DAY 020
 乱す,みだす,"혼란시키다, 어지럽히다",midasu,50,false,
 乱れる,みだれる,"당황하다, 어지러워지다",midareru,60,false,
 未知,みち,아직 알려지지 않음,michi,60,false,
-身近,みぢか,"가까운, 친숙한",mijika,70,true,DAY 018
+身近,みぢか,"자신에게 가까운, 가까운, 친숙한",mijika,70,true,DAY 020
 導く,みちびく,"안내하다, 보여주다",michibiku,60,false,
 密集,みっしゅう,"군중, 밀집된 형성, 밀집된",misshuu,50,false,
-密接,みっせつ,"밀접한, 긴밀한",missetsu,60,false,
+密接,みっせつ,"연결된, 가까운, 친밀한",missetsu,60,false,
 密度,みつど,밀도,mitsudo,50,false,
 見積もり,みつもり,견적,mitsumori,50,false,
 未定,みてい,"아직 수정되지 않은, 결정되지 않은, 보류 중인",mitei,50,false,
-見通し,みとおし,"원근감, 탁 트인 시야, 전망",mitooshi,60,false,
+見通し,みとおし,"전망, 내다봄",mitooshi,60,false,
 見なす,みなす,～로 간주하다,minasu,50,false,
 源,みなもと,"출처, 유래",minamoto,60,false,
 見習う,みならう,다른 사람의 모범을 따르다,minarau,50,false,
 身なり,みなり,개인적인 외모,minari,50,false,
 峰,みね,"봉우리, 능선",mine,50,false,
-身の上,みのうえ,"자신의 미래, 복지, 개인 이력",minoue,50,false,
+身の上,みのうえ,"신상, 처지",minoue,50,false,
 見逃す,みのがす,"놓치다, 간과하다, 크게 떠나다",minogasu,60,false,
 身の回り,みのまわり,"개인의 외모, 개인 소지품",minomawari,60,false,
 見計らう,みはからう,자기 마음대로 선택하다,mihakarau,50,false,
@@ -2352,7 +2352,7 @@
 ミュージック,ミュージック,음악,myuujikku,50,false,
 未練,みれん,"미련, 애착, 후회",miren,50,false,
 見渡す,みわたす,"(장면을) 살펴보다, 자세히 살펴보다, 광범위하게 살펴보다",miwatasu,60,false,
-民宿,みんしゅく,관광객에게 숙박과 식사를 제공하는 개인 주택,minshuku,50,false,
+民宿,みんしゅく,민박,minshuku,50,false,
 民族,みんぞく,"사람, 인종",minzoku,60,false,
 民俗,みんぞく,민속 풍습,minzoku_2,50,false,
 無意味,むいみ,"말도 안돼, 의미도 없어",muimi,50,false,
@@ -2372,11 +2372,11 @@
 無断,むだん,"허락 없이, 예고 없이",mudan,50,false,
 無知,むち,무지,muchi,50,false,
 無茶,むちゃ,"터무니없는, 불합리한",mucha,50,false,
-無茶苦茶,むちゃくちゃ,"뒤죽박죽된, 뒤섞인, 불합리한",muchakucha,50,false,
+無茶苦茶,むちゃくちゃ,"엉망진창, 뒤죽박죽",muchakucha,50,false,
 空しい,むなしい,"공허한, 쓸데없는, 헛된",munashii,50,false,
 無念,むねん,"억울하다, 후회하다",munen,50,false,
 無能,むのう,"비효율, 무능",munou,50,false,
-無闇に,むやみに,"불합리하게, 터무니없이, 무작위로",muyamini,50,false,
+無闇に,むやみに,"함부로, 무턱대고",muyamini,50,false,
 無用,むよう,"쓸모없는, 불필요함",muyou,50,false,
 斑,むら,"불균일, 불일치, 불규칙",mura,50,false,
 群がる,むらがる,"떼를 짓다, 모으다",muragaru,50,false,
@@ -2387,13 +2387,13 @@
 明白,めいはく,"명백한, 명확한",meihaku,60,false,
 名簿,めいぼ,이름 등록,meibo,60,false,
 名誉,めいよ,"명예, 신용, 명성",meiyo,60,false,
-明瞭,めいりょう,명쾌함,meiryou,70,true,DAY 018
+明瞭,めいりょう,명쾌함,meiryou,70,true,DAY 020
 明朗,めいろう,"밝고, 맑고, 명랑하다",meirou,50,false,
 メーカー,メーカー,제조업체,meekaa,50,false,
 目方,めかた,무게,mekata,50,false,
 恵み,めぐみ,축복,megumi,60,false,
-恵む,めぐむ,"축복하다, 자비를 베풀다",megumu,70,true,DAY 018
-目覚しい,めざましい,"눈부신, 주목할 만한",mezamashii,50,false,
+恵む,めぐむ,"축복하다, 자비를 베풀다",megumu,70,true,DAY 020
+目覚しい,めざましい,"눈부신, 괄목할 만한",mezamashii,50,false,
 目覚める,めざめる,일어나다,mezameru,60,false,
 召す,めす,"부르다, 보내다",mesu,50,false,
 雌,めす,암컷(동물),mesu_2,50,false,
@@ -2412,7 +2412,7 @@
 設ける,もうける,"창조하다, 확립하다",moukeru,50,false,
 申し入れる,もうしいれる,제안하다,moushiireru,50,false,
 申込,もうしこみ,"신청, 요청, 제안",moushikomi,50,false,
-申出,もうしで,"요구하다, 주장하다, 보고하다",moushide,50,false,
+申出,もうしで,"신청, 제의",moushide,50,false,
 申し出る,もうしでる,"보고하다, 말하다, 제안하다",moushideru,50,false,
 申し分,もうしぶん,"반대, 단점",moushibun,50,false,
 盲点,もうてん,맹점,mouten,50,false,
@@ -2428,7 +2428,7 @@
 もたらす,もたらす,가져오다,motarasu,50,false,
 持ち切り,もちきり,"화제, 동네이야기",mochikiri,50,false,
 目下,もっか,"현재, 지금",mokka,50,false,
-専ら,もっぱら,전적으로,moppara,50,false,
+専ら,もっぱら,"오로지, 주로",moppara,50,false,
 もてなす,もてなす,"즐겁게 하다, 환대하다",motenasu,50,false,
 もてる,もてる,인기가 좋다,moteru,50,false,
 モニター,モニター,(컴퓨터) 모니터,monitaa,50,false,
@@ -2444,9 +2444,9 @@
 漏らす,もらす,"누설하게 하다, 드러내다",morasu,60,false,
 盛り上がる,もりあがる,"일깨우다, 부풀다, 일으키다",moriagaru,60,false,
 漏る,もる,"새다, 고갈되다",moru,50,false,
-漏れる,もれる,"새어나오다, 탈출하다, 걸러내다",moreru,50,false,
+漏れる,もれる,"새다, 누설되다",moreru,50,false,
 脆い,もろい,"깨지기 쉬운, 연약한, 마음이 여린",moroi,50,false,
-もろに,もろに,"완전히, 전적으로, 육체적으로",moroni,50,false,
+もろに,もろに,"정면으로, 직접적으로, 고스란히",moroni,50,false,
 矢,や,화살,ya,50,false,
 野外,やがい,"들판, 외곽, 야외, 교외",yagai,50,false,
 ～薬,～やく,약,～yaku,60,false,
@@ -2455,12 +2455,12 @@
 役場,やくば,시청,yakuba,50,false,
 やけに,やけに,"물론이죠, 아주요",yakeni,50,false,
 屋敷,やしき,맨션,yashiki,50,false,
-養う,やしなう,"기르다, 유지하다",yashinau,70,true,DAY 018
+養う,やしなう,"기르다, 유지하다",yashinau,70,true,DAY 020
 野心,やしん,"야망, 열망",yashin,60,false,
 安っぽい,やすっぽい,"저렴해 보이는, 천박한",yasuppoi,50,false,
-休める,やすめる,"쉬다, 일시 중지하다, 안도감을 주다",yasumeru,50,false,
+休める,やすめる,"쉬게 하다, 쉬다",yasumeru,50,false,
 野生,やせい,야생의,yasei,50,false,
-奴,やつ,"(저속한) 동료, 남자, 친구",yatsu,50,false,
+奴,やつ,"녀석, 놈",yatsu,50,false,
 闇,やみ,"어둠, 그늘진, 불법",yami,60,false,
 病む,やむ,"병에 걸리다, 아프다",yamu,50,false,
 ややこしい,ややこしい,"수수께끼 같은, 얽힌, 복잡한",yayakoshii,50,false,
@@ -2478,11 +2478,11 @@
 融資,ゆうし,"자금 조달, 대출",yuushi,60,false,
 有する,ゆうする,"소유하다, 부여받다",yuusuru,60,false,
 優勢,ゆうせい,"우월, 우수한 권력, 우세",yuusei,50,false,
-優先,ゆうせん,"선호, 우선순위",yuusen,70,true,DAY 019
+優先,ゆうせん,"선호, 우선순위",yuusen,70,true,DAY 021
 誘導,ゆうどう,"지도하다, 유인하다",yuudou,50,false,
 融通,ゆうずう,"적응성, 다재다능함, 금융",yuuzuu,50,false,
 優美,ゆうび,"우아함, 세련됨",yuubi,50,false,
-有望,ゆうぼう,"좋은 전망, 희망이 가득한, 유망한",yuubou,50,false,
+有望,ゆうぼう,유망한,yuubou,50,false,
 遊牧,ゆうぼく,유목 생활,yuuboku,50,false,
 夕焼け,ゆうやけ,일몰,yuuyake,50,false,
 有力,ゆうりょく,"영향력, 명성, 유력한",yuuryoku,60,false,
@@ -2501,9 +2501,9 @@
 緩む,ゆるむ,느슨해지다,yurumu,50,false,
 緩める,ゆるめる,"느슨하게 하다, 속도를 늦추다",yurumeru,50,false,
 緩やか,ゆるやか,허술한,yuruyaka,60,false,
-要因,よういん,"주된 요인, 주된 원인",youin,70,true,DAY 019
+要因,よういん,"주된 요인, 주된 원인",youin,70,true,DAY 021
 溶液,ようえき,해결책,youeki,50,false,
-用件,ようけん,사업,youken,70,true,DAY 019
+用件,ようけん,사업,youken,70,true,DAY 021
 養護,ようご,"보호, 간호, 보호적 치료",yougo,50,false,
 用紙,ようし,양식,youshi,60,false,
 様式,ようしき,"스타일, 형태, 패턴",youshiki,60,false,
@@ -2515,7 +2515,7 @@
 用法,ようほう,"지침, 사용 규칙",youhou,50,false,
 要望,ようぼう,요구하다,youbou,50,false,
 余暇,よか,"여가, 여가 시간",yoka,50,false,
-予感,よかん,예감,yokan,70,true,DAY 019
+予感,よかん,예감,yokan,70,true,DAY 021
 余興,よきょう,"사이드쇼, 예능",yokyou,50,false,
 預金,よきん,"예금, 은행계좌",yokin,50,false,
 欲,よく,"탐욕, 원함",yoku,50,false,
@@ -2534,13 +2534,13 @@
 余所見,よそみ,"멀리 바라보다, 옆으로 바라보다",yosomi,50,false,
 余地,よち,"장소, 방, 여백",yochi,60,false,
 よって (よりどころ),よって (よりどころ),그러므로 결과적으로,yotte_(yoridokoro),50,false,
-与党,よとう,"여당, (여당) 집권당, 정부",yotou,50,false,
+与党,よとう,"여당, 집권당",yotou,50,false,
 呼び止める,よびとめる,깃발을 내리다,yobitomeru,60,false,
 夜更し,よふかし,늦게까지 자다,yofukashi,50,false,
 夜更け,よふけ,늦은 밤,yofuke,50,false,
 余程,よほど,"아주, 많이, 상당 부분, 꽤",yohodo,50,false,
 読み上げる,よみあげる,"큰 소리로 (그리고 명확하게) 읽다, 출석을 부르다",yomiageru,50,false,
-～寄り,～より,～쪽에 가까운,～yori,50,false,
+～寄り,～より,"~쪽, ~에 가까움",～yori,50,false,
 寄り掛かる,よりかかる,"기대다, 의지하다",yorikakaru,50,false,
 世論,よろん,여론,yoron,50,false,
 弱る,よわる,"약해지다, 고민하다, 수척해지다",yowaru,50,false,
@@ -2548,7 +2548,7 @@
 ライス,ライス,쌀,raisu,50,false,
 酪農,らくのう,낙농업,rakunou,50,false,
 落下,らっか,"떨어지다, 내려오다",rakka,50,false,
-楽観,らっかん,낙천주의,rakkan,70,true,DAY 019
+楽観,らっかん,낙천주의,rakkan,70,true,DAY 021
 ランプ,ランプ,"램프, 비탈길",ranpu,50,false,
 濫用,らんよう,"남용, 오용, 과도하게 사용",ranyou,50,false,
 リード,リード,"선두, 갈대",riido,50,false,
@@ -2564,7 +2564,7 @@
 略奪,りゃくだつ,"약탈, 강도",ryakudatsu,50,false,
 略語,りゃくご,"약어, 두문자어",ryakugo,50,false,
 流通,りゅうつう,"돈이나 물건의 유통, 유통",ryuutsuu,50,false,
-領域,りょういき,"지역, 영토, 지방",ryouiki,70,true,DAY 020
+領域,りょういき,"지역, 영토, 지방",ryouiki,70,true,DAY 022
 了解,りょうかい,"이해, 동의",ryoukai,60,false,
 領海,りょうかい,영해,ryoukai_2,50,false,
 両極,りょうきょく,"양쪽 끝, 북극과 남극",ryoukyoku,50,false,
@@ -2603,7 +2603,7 @@
 ばてる,ばてる,지치게 하다,bateru,50,false,
 パトカー,パトカー,순찰차,patokaa,50,false,
 甚だ,はなはだ,"아주, 크게, 엄청나게",hanahada,50,false,
-華々しい,はなばなしい,"눈부신, 장엄한, 장관을 이루는",hanabanashii,50,false,
+華々しい,はなばなしい,"화려한, 눈부신",hanabanashii,50,false,
 花びら,はなびら,(꽃) 꽃잎,hanabira,50,false,
 華やか,はなやか,"찬란한, 화려한",hanayaka,50,false,
 阻む,はばむ,"누군가가 하는 일을 막다, 멈추다, 반대하다",habamu,60,false,
@@ -2672,7 +2672,7 @@
 必然,ひつぜん,"불가피한, 필요한",hitsuzen,60,false,
 匹敵,ひってき,"비교하다, 경쟁하다, 동등하다",hitteki,60,false,
 一息,ひといき,"숨, 멈춤, 노력",hitoiki,50,false,
-人影,ひとかげ,"사람 그림자, 인기척",hitokage,50,false,
+人影,ひとかげ,"사람의 그림자, 영혼",hitokage,50,false,
 人柄,ひとがら,성격,hitogara,50,false,
 人気,ひとけ,생명의 표시,hitoke,60,false,
 一頃,ひところ,"한 번, 얼마 전에",hitokoro,50,false,
@@ -2683,8 +2683,8 @@
 雛,ひな,"어린 새, 병아리, 인형",hina,50,false,
 雛祭,ひなまつり,소녀(인형) 축제,hinamatsuri,50,false,
 日向,ひなた,햇볕이 잘 드는 곳,hinata,50,false,
-非難,ひなん,"비난, 공격",hinan,70,true,DAY 020
-避難,ひなん,피난처를 찾다,hinan_2,70,true,DAY 020
+非難,ひなん,"비난, 공격",hinan,70,true,DAY 022
+避難,ひなん,피난처를 찾다,hinan_2,70,true,DAY 022
 日の丸,ひのまる,일본 국기,hinomaru,50,false,
 火花,ひばな,불꽃,hibana,50,false,
 ひび (かべの～),ひび (かべの～),"균열, 결함",hibi_(kabeno～),50,false,

@@ -15,6 +15,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from src.image.prompt_generator import generate_image_prompt
+from src.utils.filename_utils import normalize_romaji_filename
 
 # ==================================================
 # 2. OpenAI 설정 섹션
@@ -105,6 +106,9 @@ if __name__ == "__main__":
         "romaji": "gakkou"
     }
     prompt = generate_image_prompt(current_word)
-    save_path = os.path.join(background_folder, current_word["romaji"] + ".png")
+    save_path = os.path.join(
+        background_folder,
+        normalize_romaji_filename(current_word["romaji"]) + ".png"
+    )
 
     generate_background_image(prompt, save_path)

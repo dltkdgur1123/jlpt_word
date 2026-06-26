@@ -80,8 +80,8 @@ def build_compilation_title(level, start_day, end_day):
     end_day_text = normalize_day(end_day)
 
     title = (
-        f"JLPT {level} DAY {start_day_text}~{end_day_text} 몰아보기 "
-        f"| 일본어 단어 + 문법"
+        f"JLPT {level} 일본어 단어 & 문법 모음집 "
+        f"| DAY{start_day_text}~{end_day_text}"
     )
 
     return title
@@ -95,23 +95,27 @@ def build_compilation_description(level, start_day, end_day):
     start_day_text = normalize_day(start_day)
     end_day_text = normalize_day(end_day)
 
-    description = f"""JLPT {level} DAY {start_day_text}~{end_day_text} 몰아보기 영상입니다.
+    description = f"""본 영상은 개인적인 학습과 지인의 학습용으로 제작된 영상으로 영상에 관한 피드백은 받지 않고 있습니다.
 
-일본어 단어와 문법을 한 번에 복습할 수 있도록 구성했습니다.
+JLPT {level} DAY{start_day_text}~{end_day_text} 학습 내용을 하나의 영상으로 정리했습니다.
+
+이 영상은 JLPT {level} 시험 대비를 위한 일본어 단어와 문법 학습 콘텐츠입니다.
 
 학습 구성:
-- JLPT {level}
-- DAY {start_day_text} ~ DAY {end_day_text}
-- 일본어 단어
-- 일본어 문법
+- JLPT {level} 단어
+- JLPT {level} 문법
+- 일본어 발음 학습
 - 반복 청취 학습
+- DAY{start_day_text} ~ DAY{end_day_text} 통합 복습
 
 #JLPT
-#{level}
+#jlpt{level.lower()}
 #일본어
 #일본어공부
 #일본어단어
-#일본어문법
+#일본문법
+#일본어듣기
+#일본어회화
 """
 
     return description
@@ -149,7 +153,8 @@ def upload_compilation_video(
     level="N1",
     start_day=1,
     end_day=25,
-    privacy_status=DEFAULT_PRIVACY_STATUS
+    privacy_status=DEFAULT_PRIVACY_STATUS,
+    publish_at=None,
 ):
     video_path = build_compilation_video_path(
         level=level,
@@ -200,6 +205,7 @@ def upload_compilation_video(
         description=description,
         thumbnail_file=thumbnail_path,
         privacy_status=privacy_status,
+        publish_at=publish_at,
         tags=tags
     )
 
