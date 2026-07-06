@@ -58,50 +58,50 @@
 ～間,～あいだ,～동안,aida,100,true,DAY 008
 ～間に,～あいだに,～하는 사이에,aidani,100,true,DAY 008
 ～うちに,～うちに,"～하는 동안에, ～하는 사이에",uchini,60,true,DAY 041
-～ながら,～ながら,～하면서,nagara,60,false,
-～し,～し,～하고,shi,60,false,
+～ながら,～ながら,～하면서,nagara,60,true,DAY 042
+～し,～し,～하고,shi,60,true,DAY 042
 ～たり～たり,～たり～たり,～하거나 ～하거나,taritari,100,true,DAY 009
-～ても,～ても,～해도,temo,60,false,
-～ば,～ば,～하면,ba,60,false,
-～なら,～なら,～라면,nara,60,false,
-～てもらう,～てもらう,남에게 ～해 받다,temorau,60,false,
-～おかげで,～おかげで,～덕분에,okagede,60,false,
-～せいで,～せいで,～탓에,seide,60,false,
+～ても,～ても,～해도,temo,60,true,DAY 043
+～ば,～ば,～하면,ba,60,true,DAY 043
+～なら,～なら,～라면,nara,60,true,DAY 044
+～てもらう,～てもらう,남에게 ～해 받다,temorau,60,true,DAY 044
+～おかげで,～おかげで,～덕분에,okagede,60,true,DAY 045
+～せいで,～せいで,～탓에,seide,60,true,DAY 045
 ～ため(に),～ために,～때문에,tameni_reason,100,true,DAY 009
 ～によって,～によって,～에 의해,niyotte,100,true,DAY 010
 ～による,～による,～에 의한,niyoru,100,true,DAY 010
 ～によっては,～によっては,～에 따라서는,niyottewa,100,true,DAY 010
 ～に対する,～にたいする,～에 대한,nitaisuru,100,true,DAY 010
 ～に関する,～にかんする,～에 관한,nikansuru,100,true,DAY 011
-～に比べて,～にくらべて,～에 비해,nikurabete,60,false,
-～に加えて,～にくわえて,～에 더해,nikuwaete,60,false,
+～に比べて,～にくらべて,～에 비해,nikurabete,60,true,DAY 046
+～に加えて,～にくわえて,～에 더해,nikuwaete,60,true,DAY 046
 ～に代わって,～にかわって,～을 대신해서,nikawatte,100,true,DAY 011
-～にとって,～にとって,"～에게는, ～에게 있어서",nitotte,60,false,
+～にとって,～にとって,"～에게는, ～에게 있어서",nitotte,60,true,DAY 047
 ～において,～において,"～에서, ～에 있어서",nioite,100,true,DAY 012
-～に応じて,～におうじて,～에 따라,nioujite,60,false,
-～に限る,～にかぎる,"～이 최고다, ～이 제일이다",nikagiru,60,false,
-～に決まっている,～にきまっている,～임에 틀림없다,nikimatteiru,60,false,
+～に応じて,～におうじて,～에 따라,nioujite,60,true,DAY 047
+～に限る,～にかぎる,"～이 최고다, ～이 제일이다",nikagiru,60,true,DAY 048
+～に決まっている,～にきまっている,～임에 틀림없다,nikimatteiru,60,true,DAY 048
 ～にすぎない,～にすぎない,～에 불과하다,nisuginai,100,true,DAY 012
-～にほかならない,～にほかならない,～에 다름 아니다,nihokanarani,60,false,
-～わけがない,～わけがない,～일 리가 없다,wakeganai,60,false,
-～というわけではない,～というわけではない,～라는 것은 아니다,toiuwakedewanai,60,false,
-～とは限らない,～とはかぎらない,～라고만 할 수는 없다,towakagiranai,60,false,
-～ないことはない,～ないことはない,～않는 건 아니다,naikotowanai,60,false,
+～にほかならない,～にほかならない,～에 다름 아니다,nihokanarani,60,true,DAY 049
+～わけがない,～わけがない,～일 리가 없다,wakeganai,60,true,DAY 049
+～というわけではない,～というわけではない,～라는 것은 아니다,toiuwakedewanai,60,true,DAY 050
+～とは限らない,～とはかぎらない,～라고만 할 수는 없다,towakagiranai,60,true,DAY 050
+～ないことはない,～ないことはない,～않는 건 아니다,naikotowanai,60,true,DAY 051
 ～ないわけではない,～ないわけではない,～않는 건 아니다,naiwakedewanai,100,true,DAY 013
-～ようとする,～ようとする,～하려고 하다,youtosuru,60,false,
+～ようとする,～ようとする,～하려고 하다,youtosuru,60,true,DAY 051
 ～ようものなら,～ようものなら,～라도 한다면,youmononara,100,true,DAY 013
-～たとたん,～たとたん,～하자마자,tatotan,60,false,
-～次第,～しだい,～하는 대로,shidai,60,false,
-～最中に,～さいちゅうに,～도중에,saichuuni,60,false,
-～っぱなし,～っぱなし,～한 채로,ppanashi,60,false,
-～気味,～ぎみ,"～한 기미가 있다, ～한 경향이 있다",gimi,60,false,
-～がち,～がち,～하기 쉽다,gachi,60,false,
-～向け,～むけ,"～용, ～대상",muke,60,false,
-～向き,～むき,"～에 어울림, ～에 적합함",muki,60,false,
-～っぽい,～っぽい,"～같다, ～스럽다",ppoi,60,false,
-～がする,～がする,～한 느낌이 들다,gasuru,60,false,
-～ことだから,～ことだから,～이니 만큼,kotodakara,60,false,
-～ものだから,～ものだから,"～이니까, ～때문에",monodakara,60,false,
+～たとたん,～たとたん,～하자마자,tatotan,60,true,DAY 052
+～次第,～しだい,～하는 대로,shidai,60,true,DAY 052
+～最中に,～さいちゅうに,～도중에,saichuuni,60,true,DAY 052
+～っぱなし,～っぱなし,～한 채로,ppanashi,60,true,DAY 052
+～気味,～ぎみ,"～한 기미가 있다, ～한 경향이 있다",gimi,60,true,DAY 053
+～がち,～がち,～하기 쉽다,gachi,60,true,DAY 053
+～向け,～むけ,"～용, ～대상",muke,60,true,DAY 054
+～向き,～むき,"～에 어울림, ～에 적합함",muki,60,true,DAY 054
+～っぽい,～っぽい,"～같다, ～스럽다",ppoi,60,true,DAY 055
+～がする,～がする,～한 느낌이 들다,gasuru,60,true,DAY 055
+～ことだから,～ことだから,～이니 만큼,kotodakara,60,true,DAY 054
+～ものだから,～ものだから,"～이니까, ～때문에",monodakara,60,true,DAY 054
 ～ものだ,～ものだ,～하는 법이다,monoda,60,false,
 ～ことだ,～ことだ,～하는 게 좋다,kotoda,60,false,
 ～ことになると,～ことになると,"～하게 되면, ～에 관한 일이 되면",kotoninaruto,100,true,DAY 014
@@ -125,3 +125,32 @@
 ～に加えて,～にくわえて,～에 더해,ni_kuwaete_n3,90,true,DAY 035
 ～たびに,～たびに,～할 때마다,tabini_n3,90,true,DAY 036
 ～ぶりに,～ぶりに,～만에,buri_ni,90,true,DAY 036
+〜うちに,〜うちに,〜하는 동안에,uchi_ni,50,false,
+〜ことはない,〜ことはない,〜할 필요는 없다,koto_wa_nai,50,false,
+〜わけではない,〜わけではない,꼭 〜인 것은 아니다,wake_dewa_nai_2,50,false,
+〜おかげで,〜おかげで,〜덕분에,okage_de,50,false,
+〜ように,〜ように,"〜처럼, 〜하도록",you_ni_2,50,false,
+〜たところ,〜たところ,"〜해 보니, 〜했더니",ta_tokoro,50,false,
+〜あいだに,〜あいだに,〜하는 사이에,aida_ni,50,false,
+〜にとって,〜にとって,"〜에게는, 〜에게 있어",ni_totte,50,false,
+〜に対して,〜にたいして,"〜에 대해서, 〜에 비해",ni_taishite_2,50,false,
+〜ようとする,〜ようとする,막 〜하려고 하다,you_to_suru,50,false,
+～あいだ,～あいだ,～동안,aida_n3,50,false,
+～あげく,～あげく,～한 끝에,ageku_n3,50,false,
+～かわりに,～かわりに,～대신에,kawari_ni_n3,50,false,
+～くせに,～くせに,"～하면서도, ～주제에",kuseni_n3,50,false,
+～さえ,～さえ,～조차,sae_n3,50,false,
+～てたまらない,～てたまらない,너무 ～해서 견딜 수 없다,te_tamaranai_n3,50,false,
+～ということだ,～ということだ,즉 ～라는 것이다,to_iu_koto_da_n3b,50,false,
+～というより,～というより,～라기보다,to_iu_yori_n3,50,false,
+～ところで,～ところで,"～한 곳에서, ～해도",tokoro_de_n3,50,false,
+～どころか,～どころか,～은커녕,dokoro_ka_n3,50,false,
+～なかなか～ない,～なかなか～ない,좀처럼 ～하지 않다,nakanaka_nai_n3,50,false,
+～に気がつく,～にきがつく,～을 알아차리다,ni_kiga_tsuku_n3,50,false,
+～にくい,～にくい,～하기 어렵다,nikui_n3,50,false,
+～にする,～にする,～으로 하다,ni_suru_n3,50,false,
+～にわたって,～にわたって,～에 걸쳐,ni_watatte_n3,50,false,
+～ばかりでなく,～ばかりでなく,～뿐만 아니라,bakari_denaku_n3,50,false,
+～ほど,～ほど,"～만큼, ～정도",hodo_n3,50,false,
+～ほど～ない,～ほど～ない,～만큼 ～하지는 않다,hodo_nai_n3,50,false,
+～まま,～まま,～한 채로,mama_n3,50,false,

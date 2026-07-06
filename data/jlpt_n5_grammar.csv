@@ -14,11 +14,10 @@
 ～も,～も,～도,mo,60,true,DAY 040
 ～から,～から,"～부터, ～이니까",kara,60,true,DAY 041
 ～まで,～まで,～까지,made,60,true,DAY 041
-～の,～の,"～의, ～것",no,60,false,
-～か,～か,～입니까?,ka,60,false,
+～の,～の,"～의, ～것",no,60,true,DAY 042
 ～ね,～ね,"～네요, ～지요",ne,100,true,DAY 005
 ～よ,～よ,～요,yo,100,true,DAY 005
-～てください,～てください,～해 주세요,te_kudasai,60,false,
+～てください,～てください,～해 주세요,te_kudasai,60,true,DAY 043
 ～てもいいです,～てもいいです,～해도 됩니다,temo_ii_desu,100,true,DAY 006
 ～てはいけません,～てはいけません,～해서는 안 됩니다,tewa_ikemasen,100,true,DAY 006
 ～たいです,～たいです,～하고 싶습니다,tai_desu,100,true,DAY 007
@@ -41,64 +40,60 @@
 ～い人,～いひと,～한 사람,i_hito,100,true,DAY 013
 ～いもの,～いもの,～한 것,i_mono,100,true,DAY 014
 ～くて,～くて,"～해서, ～하고",kute,100,true,DAY 014
-～で,～で,"～이고, ～해서",de_copula,60,false,
+～で,～で,"～이고, ～해서",de_copula,60,true,DAY 043
 ～て,～て,～하고/～해서,te,100,true,DAY 015
-～ないでください,～ないでください,～하지 말아 주세요,naide_kudasai,60,false,
-～ましょう,～ましょう,～합시다,mashou,60,false,
-～ましょうか,～ましょうか,～할까요?,mashouka,100,true,DAY 015
-～ませんか,～ませんか,～하지 않겠어요?,masen_ka,60,false,
-～たい,～たい,～하고 싶다,tai,60,false,
+～ないでください,～ないでください,～하지 말아 주세요,naide_kudasai,60,true,DAY 044
+～ましょう,～ましょう,～합시다,mashou,60,true,DAY 044
+～たい,～たい,～하고 싶다,tai,60,true,DAY 045
 ～たくない,～たくない,～하고 싶지 않다,takunai,100,true,DAY 016
 ～に行く,～にいく,～하러 가다,ni_iku,100,true,DAY 016
 ～に来る,～にくる,～하러 오다,ni_kuru,100,true,DAY 017
-～ませんでしたか,～ませんでしたか,"～하지 않았습니까?, ～하지 않았나요?",masen_deshita_ka,100,true,DAY 017
 ～から～まで,～から～まで,～부터 ～까지,kara_made,100,true,DAY 018
-～より,～より,～보다,yori,60,false,
+～より,～より,～보다,yori,60,true,DAY 046
 ～のほうが,～のほうが,～쪽이,no_hou_ga,100,true,DAY 018
 ～ほうがいいです,～ほうがいいです,～하는 편이 좋습니다,hou_ga_ii_desu,100,true,DAY 019
 ～と～とどちら,～と～とどちら,～와 ～ 중 어느 쪽,to_to_dochira,100,true,DAY 019
 ～が一番,～がいちばん,～이/가 가장,ga_ichiban,100,true,DAY 020
 ～だけ,～だけ,～만,dake,70,true,DAY 037
-～しか～ない,～しか～ない,～밖에 없다,shika_nai,60,false,
+～しか～ない,～しか～ない,～밖에 없다,shika_nai,60,true,DAY 046
 ～くらい,～くらい,～정도,kurai,70,true,DAY 038
 ～ぐらい,～ぐらい,～정도,gurai,100,true,DAY 020
-～ごろ,～ごろ,～쯤,goro,60,false,
-～時,～とき,～때,toki,60,false,
+～ごろ,～ごろ,～쯤,goro,60,true,DAY 047
+～時,～とき,～때,toki,60,true,DAY 047
 ～前に,～まえに,～전에,mae_ni,100,true,DAY 021
 ～後で,～あとで,～후에,ato_de,100,true,DAY 021
-～ながら,～ながら,～하면서,nagara,60,false,
-～てから,～てから,～하고 나서,te_kara,60,false,
+～ながら,～ながら,～하면서,nagara,60,true,DAY 048
+～てから,～てから,～하고 나서,te_kara,60,true,DAY 048
 ～たり～たり,～たり～たり,～하거나 ～하거나,tari_tari,100,true,DAY 022
-～ことがある,～ことがある,～한 적이 있다,koto_ga_aru,60,false,
+～ことがある,～ことがある,～한 적이 있다,koto_ga_aru,60,true,DAY 049
 ～ことができます,～ことができます,～할 수 있습니다,koto_ga_dekimasu,100,true,DAY 022
 ～方,～かた,～하는 방법,kata,70,true,DAY 038
 ～になる,～になる,～이/가 되다,ni_naru,100,true,DAY 023
 ～くなる,～くなる,～해지다,ku_naru,100,true,DAY 023
-～にする,～にする,～로 하다,ni_suru,60,false,
+～にする,～にする,～로 하다,ni_suru,60,true,DAY 049
 ～くする,～くする,～하게 하다,ku_suru,100,true,DAY 024
 ～と思います,～とおもいます,～라고 생각합니다,to_omoimasu,100,true,DAY 024
 ～と言います,～といいます,～라고 말합니다,to_iimasu,100,true,DAY 025
-～でしょう,～でしょう,～겠지요,deshou,60,false,
-～だろう,～だろう,～일 것이다,darou,60,false,
+～でしょう,～でしょう,～겠지요,deshou,60,true,DAY 050
+～だろう,～だろう,～일 것이다,darou,60,true,DAY 050
 ～かもしれません,～かもしれません,～일지도 모릅니다,kamoshiremasen,100,true,DAY 025
 ～なければなりません,～なければなりません,～하지 않으면 안 됩니다,nakereba_narimasen,100,true,DAY 026
 ～なくてもいいです,～なくてもいいです,～하지 않아도 됩니다,nakutemo_ii_desu,100,true,DAY 026
 ～ないといけません,～ないといけません,～하지 않으면 안 됩니다,nai_to_ikemasen,100,true,DAY 027
-～ても,～ても,～해도,temo,60,false,
-～てもいい,～てもいい,～해도 된다,temo_ii,60,false,
-～てはいけない,～てはいけない,～해서는 안 된다,tewa_ikenai,60,false,
-～ている,～ている,～하고 있다,te_iru,60,false,
+～ても,～ても,～해도,temo,60,true,DAY 051
+～てもいい,～てもいい,～해도 된다,temo_ii,60,true,DAY 051
+～てはいけない,～てはいけない,～해서는 안 된다,tewa_ikenai,60,true,DAY 052
+～ている,～ている,～하고 있다,te_iru,60,true,DAY 052
 ～ています,～ています,～하고 있습니다,te_imasu,100,true,DAY 027
-～てある,～てある,～해 놓여 있다,te_aru,60,false,
-～てしまう,～てしまう,～해 버리다,te_shimau,60,false,
-～てみる,～てみる,～해 보다,te_miru,60,false,
-～ておく,～ておく,～해 두다,te_oku,60,false,
-～すぎる,～すぎる,너무 ～하다,sugiru,60,false,
-～やすい,～やすい,～하기 쉽다,yasui,60,false,
-～にくい,～にくい,～하기 어렵다,nikui,60,false,
+～てある,～てある,～해 놓여 있다,te_aru,60,true,DAY 053
+～てしまう,～てしまう,～해 버리다,te_shimau,60,true,DAY 053
+～てみる,～てみる,～해 보다,te_miru,60,true,DAY 054
+～ておく,～ておく,～해 두다,te_oku,60,true,DAY 054
+～すぎる,～すぎる,너무 ～하다,sugiru,60,true,DAY 055
+～やすい,～やすい,～하기 쉽다,yasui,60,true,DAY 055
+～にくい,～にくい,～하기 어렵다,nikui,60,true,DAY 054
 ～からです,～からです,～이기 때문입니다,kara_desu,90,true,DAY 028
 ～から～まで,～から～まで,～부터 ～까지,kara_made_n5,90,true,DAY 028
-～でしょうか,～でしょうか,～일까요?,deshou_ka,90,true,DAY 028
 ～かどうか,～かどうか,～인지 아닌지,ka_douka_n5,90,true,DAY 028
 ～前に,～まえに,～하기 전에,mae_ni_n5,90,true,DAY 029
 ～後で,～あとで,～한 뒤에,ato_de_n5,90,true,DAY 029
@@ -112,7 +107,50 @@
 ～でしょう,～でしょう,～겠지요,deshou_n5,90,true,DAY 033
 ～かもしれません,～かもしれません,～일지도 모릅니다,kamoshiremasen_n5,90,true,DAY 034
 ～てみます,～てみます,～해 보겠습니다,te_mimasu,90,true,DAY 034
-～てくださいませんか,～てくださいませんか,～해 주시겠습니까?,te_kudasaimasenka,90,true,DAY 035
 ～てもかまいません,～てもかまいません,～해도 괜찮습니다,temo_kamawanai_n5,90,true,DAY 035
 ～てはいけません,～てはいけません,～해서는 안 됩니다,tewa_ikemasen_n5,90,true,DAY 036
 ～なければなりません,～なければなりません,～하지 않으면 안 됩니다,nakereba_narimasen_n5,90,true,DAY 036
+〜ましょう,〜ましょう,〜합시다,mashou_2,50,true,DAY 054
+〜ましょうか,〜ましょうか,〜할까요?,mashouka,50,false,
+〜ことができます,〜ことができます,〜할 수 있습니다,koto_ga_dekimasu_2,50,false,
+〜てから,〜てから,〜한 후에,te_kara_2,50,false,
+〜より,〜より,〜보다,yori_2,50,false,
+〜ないでください,〜ないでください,〜하지 마세요,naide_kudasai_2,50,false,
+〜くて,〜くて,"〜하고, 〜해서",kute_2,50,false,
+〜になる,〜になる,〜이 되다,ni_naru_2,50,false,
+〜にする,〜にする,〜으로 하다,ni_suru_2,50,false,
+〜つもりです,〜つもりです,〜할 생각입니다,tsumori_desu,50,false,
+～がある,～がある,～이 있다,ga_aru_n5,50,false,
+～がいる,～がいる,"～이 있다(사람, 동물)",ga_iru_n5,50,false,
+～がほしい,～がほしい,～을 원하다,ga_hoshii_n5,50,false,
+～こと,～こと,～것,koto_n5,50,false,
+～ことができる,～ことができる,～할 수 있다,koto_ga_dekiru_n5,50,false,
+～そうです,～そうです,～라고 합니다,sou_desu_hearsay_n5,50,false,
+～たことがある,～たことがある,～한 적이 있다,ta_koto_ga_aru_n5,50,false,
+～たり～たりする,～たり～たりする,～하기도 하고 ～하기도 하다,tari_tari_suru_n5,50,false,
+～ていく,～ていく,～해 가다,te_iku_n5,50,false,
+～てくる,～てくる,～해 오다,te_kuru_n5,50,false,
+～でも,～でも,"～라도, ～도",demo_n5,50,false,
+～という,～という,～라고 하는,to_iu_n5,50,false,
+～と思う,～とおもう,～라고 생각하다,to_omou_n5,50,false,
+～と言う,～という,～라고 말하다,to_iu_say_n5,50,false,
+～とき,～とき,～할 때,toki_n5,50,false,
+～ないで,～ないで,～하지 않고,naide_n5,50,false,
+～なくてもいい,～なくてもいい,～하지 않아도 된다,nakute_mo_ii_n5,50,false,
+～なければいけない,～なければいけない,～하지 않으면 안 된다,nakereba_ikenai_n5,50,false,
+～なければならない,～なければならない,～하지 않으면 안 된다,nakereba_naranai_n5b,50,false,
+～にいく,～にいく,～하러 가다,ni_iku_n5,50,false,
+～にくる,～にくる,～하러 오다,ni_kuru_n5,50,false,
+～のが上手だ,～のがじょうずだ,～을 잘하다,no_ga_jouzu_da_n5,50,false,
+～のが下手だ,～のがへただ,～을 못하다,no_ga_heta_da_n5,50,false,
+～のが好きだ,～のがすきだ,～을 좋아하다,no_ga_suki_da_n5,50,false,
+～のが嫌いだ,～のがきらいだ,～을 싫어하다,no_ga_kirai_da_n5,50,false,
+～ほうがいい,～ほうがいい,～하는 편이 좋다,hou_ga_ii_n5,50,false,
+～まえに,～まえに,～하기 전에,mae_ni_n5_2,50,false,
+～ませんか,～ませんか,～하지 않겠습니까?,masen_ka_n5,50,false,
+～よう,～よう,"의향형, ～하자",you_n5,50,false,
+～ようと思う,～ようとおもう,～하려고 생각하다,you_to_omou_n5,50,false,
+～られる,～られる,"수동, 가능 표현",rareru_n5,50,false,
+～ることができる,～ることができる,～할 수 있다,ru_koto_ga_dekiru_n5,50,false,
+～るつもりだ,～るつもりだ,～할 생각이다,ru_tsumori_da_n5,50,false,
+～るところだ,～るところだ,막 ～하려는 참이다,ru_tokoro_da_n5,50,false,

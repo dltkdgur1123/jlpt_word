@@ -4,6 +4,7 @@
 # ==================================================
 
 import os
+import time as time_module
 from datetime import datetime, date, time, timedelta
 from zoneinfo import ZoneInfo
 
@@ -11,6 +12,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 
 from src.youtube.upload_log import get_upload_entry, is_uploaded, save_uploaded, update_uploaded_entry

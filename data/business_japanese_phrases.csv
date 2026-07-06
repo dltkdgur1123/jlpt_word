@@ -51,38 +51,38 @@
 ただいま席を外しております,ただいませきをはずしております,지금 자리를 비웠습니다,tadaimasekiwohazushiteorimasu,50,true,DAY 013
 本日は休暇をいただいております,ほんじつはきゅうかをいただいております,오늘은 휴가를 내고 있습니다,honjitsuhakyuukawoitadaiteorimasu,50,true,DAY 013
 本日は不在にしております,ほんじつはふざいにしております,오늘은 부재중입니다,honjitsuhafuzainishiteorimasu,50,true,DAY 013
-お電話ありがとうございます,おでんわありがとうございます,전화 주셔서 감사합니다,odenwaarigatougozaimasu,50,false,
-お電話代わりました,おでんわかわりました,전화 바꿨습니다,odenwakawarimashita,50,false,
-少々お待ちいただけますでしょうか,しょうしょうおまちいただけますでしょうか,잠시만 기다려 주시겠습니까,shoushouomachiitadakemasudeshouka,50,false,
-お名前を頂戴してもよろしいでしょうか,おなまえをちょうだいしてもよろしいでしょうか,성함을 여쭤봐도 될까요,onamaewochoudaishitemoyoroshiideshouka,50,false,
-ご用件をお伺いしてもよろしいでしょうか,ごようけんをおうかがいしてもよろしいでしょうか,용건을 여쭤봐도 될까요,goyoukenwoukagaishitemoyoroshiideshouka,50,false,
-担当者におつなぎいたします,たんとうしゃにおつなぎいたします,담당자에게 연결해 드리겠습니다,tantoushaniotsunagiitashimasu,50,false,
-あいにく担当者が不在です,あいにくたんとうしゃがふざいです,공교롭게도 담당자가 부재중입니다,ainikutantoushagafuzaidesu,50,false,
-伝言を承ります,でんごんをうけたまわります,전언을 받겠습니다,dengonwouketamawarimasu,50,false,
-折り返しお電話いたします,おりかえしおでんわいたします,다시 전화드리겠습니다,orikaeshiodenwaitashimasu,50,false,
-お待たせいたしました,おまたせいたしました,기다리게 해드려 죄송합니다,omataseitashimashita,50,false,
-お忙しいところ恐れ入ります,おいそがしいところおそれいります,바쁘신 와중에 죄송합니다,oisogashiitokoroosoreirimasu,50,false,
-突然のご連絡失礼いたします,とつぜんのごれんらくしつれいいたします,갑작스러운 연락 죄송합니다,totsuzennogorenrakushitsureiitashimasu,50,false,
-先日はありがとうございました,せんじつはありがとうございました,지난번에는 감사했습니다,senjitsuhaarigatougozaimashita,50,false,
-先ほどはありがとうございました,さきほどはありがとうございました,방금 전에는 감사했습니다,sakihodowaarigatougozaimashita,50,false,
-ご対応ありがとうございます,ごたいおうありがとうございます,응대해 주셔서 감사합니다,gotaiouarigatougozaimasu,50,false,
-ご対応いただきありがとうございます,ごたいおういただきありがとうございます,대응해 주셔서 감사합니다,gotaiouitadakiarigatougozaimasu,50,false,
-ご迷惑をおかけして申し訳ございません,ごめいわくをおかけしてもうしわけございません,폐를 끼쳐 대단히 죄송합니다,gomeiwakuwookakeshitemoushiwakegozaimasen,50,false,
-お手数をおかけしますが,おてすうをおかけしますが,번거롭게 해드려 죄송하지만,otesuuwookakeshimasuga,50,false,
-お手数ですがご確認ください,おてすうですがごかくにんください,번거로우시겠지만 확인 부탁드립니다,otesuudesugagokakuninkudasai,50,false,
-差し支えなければ,さしつかえなければ,괜찮으시다면,sashitsukaenakereba,50,false,
-念のため確認させてください,ねんのためかくにんさせてください,확인을 위해 다시 한번 확인하겠습니다,nennotamekakuninsasetekudasai,50,false,
-念のため申し上げますと,ねんのためもうしあげますと,참고로 말씀드리면,nennotamemoushiagemasuto,50,false,
-ご認識のとおりです,ごにんしきのとおりです,인지하신 대로입니다,goninshikinotooridesu,50,false,
-承知のうえです,しょうちのうえです,알고 있습니다,shouchinouedesu,50,false,
-問題ございません,もんだいございません,문제 없습니다,mondaigozaimasen,50,false,
-差し支えございません,さしつかえございません,문제 없습니다,sashitsukaegozaimasen,50,false,
-可能でございます,かのうでございます,가능합니다,kanoudegozaimasu,50,false,
-難しい状況です,むずかしいじょうきょうです,어려운 상황입니다,muzukashiijoukyoudesu,50,false,
-再度ご確認ください,さいどごかくにんください,다시 확인해 주세요,saidogokakuninkudasai,50,false,
-修正いたします,しゅうせいいたします,수정하겠습니다,shuuseiitashimasu,50,false,
-訂正いたします,ていせいいたします,정정하겠습니다,teiseiitashimasu,50,false,
-更新いたしました,こうしんいたしました,업데이트했습니다,koushinitashimashita,50,false,
+お電話ありがとうございます,おでんわありがとうございます,전화 주셔서 감사합니다,odenwaarigatougozaimasu,50,true,DAY 013
+お電話代わりました,おでんわかわりました,전화 바꿨습니다,odenwakawarimashita,50,true,DAY 013
+少々お待ちいただけますでしょうか,しょうしょうおまちいただけますでしょうか,잠시만 기다려 주시겠습니까,shoushouomachiitadakemasudeshouka,50,true,DAY 013
+お名前を頂戴してもよろしいでしょうか,おなまえをちょうだいしてもよろしいでしょうか,성함을 여쭤봐도 될까요,onamaewochoudaishitemoyoroshiideshouka,50,true,DAY 013
+ご用件をお伺いしてもよろしいでしょうか,ごようけんをおうかがいしてもよろしいでしょうか,용건을 여쭤봐도 될까요,goyoukenwoukagaishitemoyoroshiideshouka,50,true,DAY 013
+担当者におつなぎいたします,たんとうしゃにおつなぎいたします,담당자에게 연결해 드리겠습니다,tantoushaniotsunagiitashimasu,50,true,DAY 013
+あいにく担当者が不在です,あいにくたんとうしゃがふざいです,공교롭게도 담당자가 부재중입니다,ainikutantoushagafuzaidesu,50,true,DAY 013
+伝言を承ります,でんごんをうけたまわります,전언을 받겠습니다,dengonwouketamawarimasu,50,true,DAY 013
+折り返しお電話いたします,おりかえしおでんわいたします,다시 전화드리겠습니다,orikaeshiodenwaitashimasu,50,true,DAY 014
+お待たせいたしました,おまたせいたしました,기다리게 해드려 죄송합니다,omataseitashimashita,50,true,DAY 014
+お忙しいところ恐れ入ります,おいそがしいところおそれいります,바쁘신 와중에 죄송합니다,oisogashiitokoroosoreirimasu,50,true,DAY 014
+突然のご連絡失礼いたします,とつぜんのごれんらくしつれいいたします,갑작스러운 연락 죄송합니다,totsuzennogorenrakushitsureiitashimasu,50,true,DAY 014
+先日はありがとうございました,せんじつはありがとうございました,지난번에는 감사했습니다,senjitsuhaarigatougozaimashita,50,true,DAY 015
+先ほどはありがとうございました,さきほどはありがとうございました,방금 전에는 감사했습니다,sakihodowaarigatougozaimashita,50,true,DAY 015
+ご対応ありがとうございます,ごたいおうありがとうございます,응대해 주셔서 감사합니다,gotaiouarigatougozaimasu,50,true,DAY 015
+ご対応いただきありがとうございます,ごたいおういただきありがとうございます,대응해 주셔서 감사합니다,gotaiouitadakiarigatougozaimasu,50,true,DAY 015
+ご迷惑をおかけして申し訳ございません,ごめいわくをおかけしてもうしわけございません,폐를 끼쳐 대단히 죄송합니다,gomeiwakuwookakeshitemoushiwakegozaimasen,50,true,DAY 015
+お手数をおかけしますが,おてすうをおかけしますが,번거롭게 해드려 죄송하지만,otesuuwookakeshimasuga,50,true,DAY 015
+お手数ですがご確認ください,おてすうですがごかくにんください,번거로우시겠지만 확인 부탁드립니다,otesuudesugagokakuninkudasai,50,true,DAY 015
+差し支えなければ,さしつかえなければ,괜찮으시다면,sashitsukaenakereba,50,true,DAY 015
+念のため確認させてください,ねんのためかくにんさせてください,확인을 위해 다시 한번 확인하겠습니다,nennotamekakuninsasetekudasai,50,true,DAY 016
+念のため申し上げますと,ねんのためもうしあげますと,참고로 말씀드리면,nennotamemoushiagemasuto,50,true,DAY 016
+ご認識のとおりです,ごにんしきのとおりです,인지하신 대로입니다,goninshikinotooridesu,50,true,DAY 016
+承知のうえです,しょうちのうえです,알고 있습니다,shouchinouedesu,50,true,DAY 016
+問題ございません,もんだいございません,문제 없습니다,mondaigozaimasen,50,true,DAY 017
+差し支えございません,さしつかえございません,문제 없습니다,sashitsukaegozaimasen,50,true,DAY 017
+可能でございます,かのうでございます,가능합니다,kanoudegozaimasu,50,true,DAY 017
+難しい状況です,むずかしいじょうきょうです,어려운 상황입니다,muzukashiijoukyoudesu,50,true,DAY 017
+再度ご確認ください,さいどごかくにんください,다시 확인해 주세요,saidogokakuninkudasai,50,true,DAY 018
+修正いたします,しゅうせいいたします,수정하겠습니다,shuuseiitashimasu,50,true,DAY 018
+訂正いたします,ていせいいたします,정정하겠습니다,teiseiitashimasu,50,true,DAY 018
+更新いたしました,こうしんいたしました,업데이트했습니다,koushinitashimashita,50,true,DAY 018
 準備が整いました,じゅんびがととのいました,준비가 완료되었습니다,junbigatotonoimashita,50,false,
 ただいま準備中です,ただいまじゅんびちゅうです,현재 준비 중입니다,tadaimajunbichuudesu,50,false,
 本日中に対応いたします,ほんじつちゅうにたいおういたします,오늘 중으로 대응하겠습니다,honjitsuchuunitaiouitashimasu,50,false,

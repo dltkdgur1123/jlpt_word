@@ -9,14 +9,23 @@ from zoneinfo import ZoneInfo
 import streamlit as st
 
 import main
+from src.cleanup.asset_cleanup import cleanup_generated_assets_for_compilation_range
 from src.data.day_manager import get_current_day_number
 from src.drive.google_drive_uploader import backup_compilation_assets
+from src.ops.compilation_sources import build_compilation_source_status
+from src.ops.compilation_sources import ensure_compilation_sources
+from src.ops.day_regeneration import build_regeneration_preview
+from src.ops.day_regeneration import classify_generation_day
+from src.ops.dashboard_status import build_storage_summary
+from src.ops.dashboard_status import get_disk_usage
+from src.ops.dashboard_status import read_log_tail
 from src.youtube.youtube_uploader import (
     build_publish_at_from_kst,
     fetch_video_schedule_by_level_day,
     update_video_schedule_by_level_day,
 )
 from src.video.level_compilation_generator import create_level_compilation
+from src.video.level_compilation_generator import delete_compilation_source_day_videos
 from src.youtube.compilation_uploader import (
     build_compilation_thumbnail_path,
     build_compilation_title,
@@ -29,12 +38,23 @@ LEVEL_OPTIONS = ["N1", "N2", "N3", "N4", "N5", "BUSINESS"]
 ACTION_OPTIONS = ["전체 실행", "생성만", "업로드만"]
 UPLOAD_LOG_PATH = Path("data/uploaded_log.json")
 RUN_LOG_PATH = Path("data/streamlit_run_log.json")
+STREAMLIT_BACKGROUND_LOG_PATH = Path("streamlit_background.log")
 JLPT_LEVELS = ["N1", "N2", "N3", "N4", "N5"]
 BUSINESS_LEVELS = ["BUSINESS"]
 DAY_VIDEO_ROOT = Path("output/day_videos")
 THUMBNAIL_ROOT = Path("output/thumbnails")
+COMPILATION_ROOT = Path("output/compilations")
+COMPILATION_THUMBNAIL_ROOT = THUMBNAIL_ROOT / "level"
 COMPILATION_LEVELS = ["N1", "N2", "N3", "N4", "N5"]
 COMPILATION_UNIT = 25
+STORAGE_PATH_SPECS = [
+    ("DAY 영상", DAY_VIDEO_ROOT),
+    ("DAY 썸네일", THUMBNAIL_ROOT),
+    ("풀영상", COMPILATION_ROOT),
+    ("풀영상 썸네일", COMPILATION_THUMBNAIL_ROOT),
+    ("생성 이미지", Path("assets/images")),
+    ("생성 오디오", Path("assets/audio")),
+]
 PREFLIGHT_REQUIRED_FILES = [
     ("client_secret.json", "Google API 클라이언트 시크릿"),
     ("data/words.json", "현재 작업 words.json"),
@@ -122,6 +142,46 @@ def get_upload_preview_rows(upload_day_map):
     return preview_rows
 
 
+def get_generation_day_map(levels):
+    day_map = {}
+    for level in levels:
+        key = f"generate_day_select_{level}"
+        current_day = get_current_day_number(level)
+        if key not in st.session_state:
+            st.session_state[key] = current_day
+
+        day_map[level] = st.number_input(
+            f"{level} 생성 DAY 선택",
+            min_value=1,
+            value=int(st.session_state[key]),
+            step=1,
+            key=key,
+            help=f"현재 이 레벨의 다음 생성 기준 DAY는 {current_day:03d}입니다. 과거 DAY를 선택하면 재생성, 현재/미래 DAY를 선택하면 새로 생성합니다.",
+        )
+
+    return {level: str(int(day)).zfill(3) for level, day in day_map.items()}
+
+
+def get_generation_preview_rows(generate_day_map):
+    rows = []
+    for level, day in generate_day_map.items():
+        plan = classify_generation_day(level, int(day), get_current_day_number(level))
+        preview = build_regeneration_preview(level, int(day))
+        video_path = DAY_VIDEO_ROOT / level / f"{level}_DAY_{day}.mp4"
+        thumbnail_path = THUMBNAIL_ROOT / f"{level}_DAY_{day}.jpg"
+        rows.append({
+            "레벨": level,
+            "실행 유형": "과거 DAY 재생성" if plan["is_historical"] else "새 DAY 생성",
+            "생성 대상 DAY": f"DAY {plan['day_text']}",
+            "기존 영상 파일": "있음" if preview["video_exists"] else "없음",
+            "기존 썸네일 파일": "있음" if preview["thumbnail_exists"] else "없음",
+            "영상 경로": str(video_path),
+            "썸네일 경로": str(thumbnail_path),
+        })
+
+    return rows
+
+
 def get_uploaded_video_options():
     options = []
     for upload_key, entry in load_uploaded_log().items():
@@ -159,6 +219,101 @@ def format_publish_at_kst(publish_at):
     except Exception:
         return str(publish_at)
 
+def format_file_size(num_bytes):
+    if num_bytes is None:
+        return "-"
+
+    size = float(num_bytes)
+    for unit in ["B", "KB", "MB", "GB"]:
+        if size < 1024 or unit == "GB":
+            return f"{size:.1f} {unit}" if unit != "B" else f"{int(size)} B"
+        size /= 1024
+
+
+def format_storage_rows(rows):
+    return [
+        {
+            "항목": row["label"],
+            "파일 수": row["file_count"],
+            "용량": format_file_size(row["bytes"]),
+            "상태": "있음" if row["exists"] else "없음",
+            "경로": row["path"],
+        }
+        for row in rows
+    ]
+
+
+def format_modified_time(timestamp):
+    if not timestamp:
+        return "-"
+
+    return datetime.fromtimestamp(timestamp, tz=ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d %H:%M")
+
+
+def build_generated_file_status_rows(levels):
+    rows = []
+    for level in levels:
+        day_dir = DAY_VIDEO_ROOT / level
+        day_files = sorted(day_dir.glob(f"{level}_DAY_*.mp4")) if day_dir.exists() else []
+        day_thumbnails = sorted(THUMBNAIL_ROOT.glob(f"{level}_DAY_*.jpg"))
+
+        compilation_files = []
+        compilation_thumbnails = []
+        if level in COMPILATION_LEVELS:
+            compilation_files = sorted(COMPILATION_ROOT.glob(f"{level}_DAY_*_FULL.mp4"))
+            compilation_thumbnails = sorted(COMPILATION_THUMBNAIL_ROOT.glob(f"{level}_DAY_*_FULL.jpg"))
+
+        latest_day = get_generated_days(level)
+        all_files = day_files + day_thumbnails + compilation_files + compilation_thumbnails
+        latest_file = max(all_files, key=lambda file_path: file_path.stat().st_mtime, default=None)
+
+        rows.append({
+            "레벨": level,
+            "DAY 영상 수": len(day_files),
+            "DAY 썸네일 수": len(day_thumbnails),
+            "가장 최근 생성 DAY": f"DAY {latest_day[0]}" if latest_day else "-",
+            "풀영상 수": len(compilation_files) if level in COMPILATION_LEVELS else "-",
+            "풀영상 썸네일 수": len(compilation_thumbnails) if level in COMPILATION_LEVELS else "-",
+            "최근 수정": format_modified_time(latest_file.stat().st_mtime) if latest_file else "기록 없음",
+        })
+
+    return rows
+
+
+def build_recent_generated_file_rows(limit=30):
+    file_specs = []
+
+    for level in LEVEL_OPTIONS:
+        day_dir = DAY_VIDEO_ROOT / level
+        if day_dir.exists():
+            for file_path in day_dir.glob(f"{level}_DAY_*.mp4"):
+                file_specs.append(("DAY 영상", level, file_path))
+
+        for file_path in THUMBNAIL_ROOT.glob(f"{level}_DAY_*.jpg"):
+            file_specs.append(("DAY 썸네일", level, file_path))
+
+        if level in COMPILATION_LEVELS:
+            for file_path in COMPILATION_ROOT.glob(f"{level}_DAY_*_FULL.mp4"):
+                file_specs.append(("풀영상", level, file_path))
+            for file_path in COMPILATION_THUMBNAIL_ROOT.glob(f"{level}_DAY_*_FULL.jpg"):
+                file_specs.append(("풀영상 썸네일", level, file_path))
+
+    file_specs.sort(key=lambda item: item[2].stat().st_mtime, reverse=True)
+
+    rows = []
+    for file_type, level, file_path in file_specs[:limit]:
+        stat = file_path.stat()
+        rows.append({
+            "종류": file_type,
+            "레벨": level,
+            "파일명": file_path.name,
+            "크기": format_file_size(stat.st_size),
+            "수정 시각": format_modified_time(stat.st_mtime),
+            "경로": str(file_path),
+        })
+
+    return rows
+
 
 def run_compilation_task(
     levels,
@@ -180,6 +335,13 @@ def run_compilation_task(
             status_placeholder.info(f"{level} 풀영상 처리 중 ({index}/{total_levels})")
 
             if action_mode == "생성만":
+                ensure_compilation_sources(
+                    [level],
+                    start_day,
+                    end_day,
+                    restore_day=main.restore_existing_day_from_drive,
+                    log_data=load_uploaded_log(),
+                )
                 create_level_compilation(level=level, start_day=start_day, end_day=end_day)
             elif action_mode == "업로드만":
                 upload_compilation_video(
@@ -196,7 +358,25 @@ def run_compilation_task(
                     end_day=end_day,
                     delete_local=True,
                 )
+                cleanup_result = cleanup_generated_assets_for_compilation_range(
+                    level=level,
+                    start_day=start_day,
+                    end_day=end_day,
+                )
+                print("풀영상 구간 중간 자산 정리 완료:", cleanup_result)
+                delete_compilation_source_day_videos(
+                    level=level,
+                    start_day=start_day,
+                    end_day=end_day,
+                )
             else:
+                ensure_compilation_sources(
+                    [level],
+                    start_day,
+                    end_day,
+                    restore_day=main.restore_existing_day_from_drive,
+                    log_data=load_uploaded_log(),
+                )
                 create_level_compilation(level=level, start_day=start_day, end_day=end_day)
                 upload_compilation_video(
                     level=level,
@@ -211,6 +391,17 @@ def run_compilation_task(
                     start_day=start_day,
                     end_day=end_day,
                     delete_local=True,
+                )
+                cleanup_result = cleanup_generated_assets_for_compilation_range(
+                    level=level,
+                    start_day=start_day,
+                    end_day=end_day,
+                )
+                print("풀영상 구간 중간 자산 정리 완료:", cleanup_result)
+                delete_compilation_source_day_videos(
+                    level=level,
+                    start_day=start_day,
+                    end_day=end_day,
                 )
 
             progress_bar.progress(index / total_levels, text=f"{level} 풀영상 완료")
@@ -280,9 +471,39 @@ def get_compilation_preview_rows(levels, start_day, end_day):
     return rows
 
 
+def get_compilation_source_preview_rows(levels, start_day, end_day):
+    rows = []
+    source_rows = build_compilation_source_status(
+        levels,
+        start_day,
+        end_day,
+        log_data=load_uploaded_log(),
+    )
+    status_labels = {
+        "ready": "로컬 있음",
+        "restorable": "Drive 복원 가능",
+        "missing": "없음",
+    }
+
+    for row in source_rows:
+        rows.append({
+            "레벨": row["level"],
+            "DAY": f"DAY {row['day']}",
+            "상태": status_labels.get(row["status"], row["status"]),
+            "로컬 영상": "있음" if row["video_exists"] else "없음",
+            "로컬 썸네일": "있음" if row["thumbnail_exists"] else "없음",
+            "Drive 백업": "있음" if row["drive_available"] else "없음",
+            "자동 복원": "예" if row["can_restore"] else "아니오",
+            "영상 경로": row["video_path"],
+        })
+
+    return rows
+
+
 def run_selected_levels(
     levels,
     action_mode,
+    generate_day_map,
     upload_day_map,
     privacy_status,
     publish_at,
@@ -306,13 +527,49 @@ def run_selected_levels(
                 try:
                     if action_mode == "전체 실행":
                         main.AUTO_UPLOAD = True
-                        main.run_pipeline(level, privacy_status=privacy_status, publish_at=publish_at)
-                        append_run_log("success", level, action_mode, None, "전체 실행 완료")
+                        target_day = generate_day_map.get(level)
+                        day_plan = classify_generation_day(level, int(target_day), get_current_day_number(level))
+                        print("생성 대상 DAY:", target_day)
+                        if day_plan["is_historical"]:
+                            print("과거 DAY 재생성 후 업로드를 시작합니다.")
+                            created_day = main.regenerate_existing_day(level, day_plan["day"])
+                            main.upload_existing_day(
+                                level,
+                                created_day,
+                                privacy_status=privacy_status,
+                                publish_at=publish_at,
+                            )
+                            main.finalize_uploaded_day(
+                                level,
+                                created_day,
+                                delete_local=False,
+                                cleanup_intermediate=True,
+                            )
+                            append_run_log("success", level, action_mode, created_day, "과거 DAY 재생성 및 업로드 완료")
+                        else:
+                            main.run_pipeline(
+                                level,
+                                privacy_status=privacy_status,
+                                publish_at=publish_at,
+                                day_override=day_plan["day"],
+                            )
+                            append_run_log("success", level, action_mode, target_day, "전체 실행 완료")
                     elif action_mode == "생성만":
                         main.AUTO_UPLOAD = False
-                        created_day = main.generate_pipeline(level)
-                        print("생성 완료 DAY:", created_day)
-                        append_run_log("success", level, action_mode, created_day, "생성 완료")
+                        target_day = generate_day_map.get(level)
+                        day_plan = classify_generation_day(level, int(target_day), get_current_day_number(level))
+                        print("생성 대상 DAY:", target_day)
+                        if day_plan["is_historical"]:
+                            created_day = main.regenerate_existing_day(level, day_plan["day"])
+                            print("재생성 완료 DAY:", created_day)
+                            append_run_log("success", level, action_mode, created_day, "과거 DAY 재생성 완료")
+                        else:
+                            created_day = main.generate_pipeline(
+                                level,
+                                day_override=day_plan["day"],
+                            )
+                            print("생성 완료 DAY:", created_day)
+                            append_run_log("success", level, action_mode, created_day, "생성 완료")
                     else:
                         print("업로드 대상 DAY:", target_day)
                         main.upload_existing_day(
@@ -325,7 +582,7 @@ def run_selected_levels(
                         main.finalize_uploaded_day(
                             level,
                             target_day,
-                            delete_local=True,
+                            delete_local=False,
                             cleanup_intermediate=True,
                         )
                         append_run_log("success", level, action_mode, target_day, "업로드 완료")
@@ -337,7 +594,7 @@ def run_selected_levels(
                         "failed",
                         level,
                         action_mode,
-                        target_day if action_mode == "업로드만" else None,
+                        target_day if action_mode in {"생성만", "전체 실행", "업로드만"} else None,
                         error_message,
                         traceback.format_exc(),
                     )
@@ -620,6 +877,20 @@ if preflight_button:
     else:
         st.success("기본 필수 항목 점검이 완료되었습니다.")
 
+st.subheader("저장공간 현황")
+disk_usage = get_disk_usage(".")
+disk_col1, disk_col2, disk_col3 = st.columns(3)
+disk_col1.metric("전체 디스크", format_file_size(disk_usage["total"]))
+disk_col2.metric("사용 중", format_file_size(disk_usage["used"]))
+disk_col3.metric("남은 용량", format_file_size(disk_usage["free"]))
+
+storage_rows = build_storage_summary(STORAGE_PATH_SPECS)
+st.dataframe(format_storage_rows(storage_rows), use_container_width=True, hide_index=True)
+
+with st.expander("최근 Streamlit 로그 보기"):
+    log_text = read_log_tail(STREAMLIT_BACKGROUND_LOG_PATH, line_count=120)
+    st.code(log_text or "표시할 로그 파일이 없습니다.", language="text")
+
 st.subheader("빠른 실행")
 
 quick_col1, quick_col2, quick_col3 = st.columns([1, 1, 1])
@@ -700,9 +971,9 @@ with left:
             st.caption("입력한 날짜와 시간은 한국 시간(KST) 기준으로 예약됩니다.")
 
         st.caption(
-            "업로드가 성공하면 Google Drive에 자동 백업한 뒤, "
-            "DAY 영상/썸네일을 자동 삭제합니다. "
-            "신규 생성분은 중간 산출물도 함께 정리됩니다."
+            "업로드가 성공하면 Google Drive에 자동 백업합니다. "
+            "DAY 영상은 풀영상 생성 재료로 보관하고, "
+            "신규 생성분은 중간 산출물만 함께 정리됩니다."
         )
 
         if selected_levels:
@@ -724,6 +995,22 @@ with left:
 
     upload_day_map = {}
     upload_preview_rows = []
+    generate_day_map = {}
+    generation_preview_rows = []
+    if action_mode in {"전체 실행", "생성만"} and selected_levels:
+        st.caption("생성할 DAY를 레벨별로 직접 선택할 수 있습니다. 과거 DAY는 재생성, 현재/미래 DAY는 새 생성으로 처리됩니다.")
+        generate_day_map = get_generation_day_map(selected_levels)
+        generation_preview_rows = get_generation_preview_rows(generate_day_map)
+        st.subheader("생성 전 확인")
+        st.dataframe(generation_preview_rows, use_container_width=True, hide_index=True)
+
+        overwrite_rows = [
+            row for row in generation_preview_rows
+            if row["기존 영상 파일"] == "있음" or row["기존 썸네일 파일"] == "있음"
+        ]
+        if overwrite_rows:
+            st.warning("선택한 DAY에 기존 생성 파일이 이미 있습니다. 다시 생성하면 파일이 덮어써질 수 있습니다.")
+
     if action_mode == "업로드만":
         st.caption("실제로 생성된 DAY 목록에서 업로드할 영상을 직접 선택합니다.")
 
@@ -784,6 +1071,17 @@ with right:
         })
 
     st.dataframe(status_rows, use_container_width=True, hide_index=True)
+
+    st.subheader("생성 파일 현황")
+    generated_file_rows = build_generated_file_status_rows(LEVEL_OPTIONS)
+    st.dataframe(generated_file_rows, use_container_width=True, hide_index=True)
+
+    with st.expander("최근 생성 파일 30개 보기"):
+        recent_generated_rows = build_recent_generated_file_rows(limit=30)
+        if recent_generated_rows:
+            st.dataframe(recent_generated_rows, use_container_width=True, hide_index=True)
+        else:
+            st.info("아직 생성된 파일이 없습니다.")
 
 st.divider()
 
@@ -1018,6 +1316,7 @@ if run_button:
                 logs = run_selected_levels(
                     selected_levels,
                     action_mode,
+                    generate_day_map,
                     upload_day_map,
                     privacy_status,
                     publish_at,
@@ -1127,8 +1426,17 @@ with comp_right:
             int(compilation_end_day),
         )
         st.dataframe(compilation_preview_rows, use_container_width=True, hide_index=True)
+
+        st.subheader("풀영상 소스 DAY 상태")
+        compilation_source_preview_rows = get_compilation_source_preview_rows(
+            compilation_levels,
+            int(compilation_start_day),
+            int(compilation_end_day),
+        )
+        st.dataframe(compilation_source_preview_rows, use_container_width=True, hide_index=True)
     else:
         compilation_preview_rows = []
+        compilation_source_preview_rows = []
         st.info("최소 한 개 이상의 레벨을 선택해 주세요.")
 
 if compilation_run_button:
@@ -1140,6 +1448,10 @@ if compilation_run_button:
         row["영상 파일"] == "없음" for row in compilation_preview_rows
     ):
         st.error("업로드할 풀영상 파일이 없는 항목이 있어 실행을 시작하지 않았습니다.")
+    elif compilation_action_mode in {"생성만", "생성 후 업로드"} and any(
+        row["상태"] == "없음" for row in compilation_source_preview_rows
+    ):
+        st.error("로컬에도 없고 Drive 백업도 없는 DAY 소스가 있어 풀영상 생성을 시작하지 않았습니다.")
     else:
         with st.spinner("풀영상 작업 실행 중입니다. 시간이 오래 걸릴 수 있습니다."):
             compilation_logs = run_compilation_task(
@@ -1157,3 +1469,7 @@ if compilation_run_button:
         st.success("풀영상 작업이 완료되었습니다.")
         st.subheader("풀영상 실행 로그")
         st.code(compilation_logs or "기록된 로그가 없습니다.", language="text")
+
+
+
+

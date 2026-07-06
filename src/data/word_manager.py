@@ -99,8 +99,18 @@ def is_duplicate_word(words, romaji):
 # - 단어 딕셔너리를 반환한다.
 
 
-def create_word_item(word, hiragana, meaning, romaji, item_type="vocab", level="N1"):
-    background_path = ("assets/backgrounds/default.jpg")
+def create_word_item(
+    word,
+    hiragana,
+    meaning,
+    romaji,
+    item_type="vocab",
+    level="N1",
+    day_text="",
+    background_path=None,
+):
+    if background_path is None:
+        background_path = "assets/backgrounds/default.jpg"
     
     new_word = {
         "type": item_type,
@@ -109,7 +119,8 @@ def create_word_item(word, hiragana, meaning, romaji, item_type="vocab", level="
         "meaning": meaning,
         "romaji": romaji,
         "background_path": background_path,
-        "level": level
+        "level": level,
+        "day_text": day_text,
     }
 
     return new_word
@@ -126,7 +137,16 @@ def create_word_item(word, hiragana, meaning, romaji, item_type="vocab", level="
 # - words.json에 저장한다.
 
 
-def add_word(word, hiragana, meaning, romaji, item_type="vocab", level="N1"):
+def add_word(
+    word,
+    hiragana,
+    meaning,
+    romaji,
+    item_type="vocab",
+    level="N1",
+    day_text="",
+    background_path=None,
+):
     words = load_words()
 
 
@@ -137,7 +157,16 @@ def add_word(word, hiragana, meaning, romaji, item_type="vocab", level="N1"):
         return False
 
 
-    new_word = create_word_item(word, hiragana, meaning, romaji, item_type, level)
+    new_word = create_word_item(
+        word,
+        hiragana,
+        meaning,
+        romaji,
+        item_type,
+        level,
+        day_text=day_text,
+        background_path=background_path,
+    )
 
     words.append(new_word)
 

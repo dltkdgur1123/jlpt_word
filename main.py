@@ -12,8 +12,11 @@ from src.cleanup.asset_cleanup import build_asset_manifest_from_current_words
 from src.cleanup.asset_cleanup import cleanup_generated_assets_for_day
 from src.data.business_word_provider import add_daily_business_items
 from src.data.day_manager import get_current_day_number, increase_day_number
+from src.data.day_manager import set_current_day_number
 from src.drive.google_drive_uploader import backup_day_assets
+from src.drive.google_drive_uploader import restore_day_assets
 from src.data.jlpt_word_provider import add_daily_items
+from src.data.jlpt_word_provider import restore_day_items
 from src.data.meaning_cleaner import clean_all
 from src.image.image_generator import generate_images
 from src.image.thumbnail_generator import generate_thumbnail
@@ -24,10 +27,10 @@ from src.youtube.upload_log import get_upload_entry
 from src.youtube.upload_log import update_uploaded_entry
 from src.youtube.youtube_uploader import upload_by_level_day
 
-JLPT_LEVELS = ["N1", "N2", "N3", "N4", "N5"]
+# JLPT_LEVELS = ["N1", "N2", "N3", "N4", "N5"]
 BUSINESS_LEVELS = ["BUSINESS"]
 # LEVELS = JLPT_LEVELS + BUSINESS_LEVELS
-# LEVELS = BUSINESS_LEVELS
+JLPT_LEVELS = ["N3", "N4", "N5"]
 LEVELS = JLPT_LEVELS
 
 AUTO_UPLOAD = True
@@ -76,8 +79,11 @@ def prepare_daily_items(level):
     print("Step 0 done: business content added.")
 
 
-def generate_pipeline(level):
+def generate_pipeline(level, day_override=None):
     print(level, "start")
+
+    if day_override is not None:
+        set_current_day_number(level, day_override)
 
     day = get_current_day_number(level)
     day_text = str(day).zfill(3)
@@ -153,7 +159,7 @@ def backup_existing_day_to_drive(level, day=None, delete_local=False):
     return result
 
 
-def finalize_uploaded_day(level, day=None, delete_local=True, cleanup_intermediate=True):
+def finalize_uploaded_day(level, day=None, delete_local=False, cleanup_intermediate=True):
     day_text = str(day).zfill(3) if day is not None else get_latest_generated_day(level)
 
     backup_result = backup_existing_day_to_drive(
@@ -175,14 +181,67 @@ def finalize_uploaded_day(level, day=None, delete_local=True, cleanup_intermedia
     }
 
 
-def run_pipeline(level, privacy_status="private", publish_at=None):
-    day_text = generate_pipeline(level)
+def run_pipeline(level, privacy_status="private", publish_at=None, day_override=None):
+    day_text = generate_pipeline(level, day_override=day_override)
 
     if AUTO_UPLOAD:
         upload_existing_day(level, day_text, privacy_status=privacy_status, publish_at=publish_at)
-        finalize_uploaded_day(level, day_text, delete_local=True, cleanup_intermediate=True)
+        finalize_uploaded_day(level, day_text, delete_local=False, cleanup_intermediate=True)
 
     print(level, "done")
+
+
+def regenerate_existing_day(level, day):
+    day_text = str(day).zfill(3)
+    level_text = str(level).strip().upper()
+
+    print(level_text, "DAY", day_text, "복구용 재생성을 시작합니다.")
+
+    restored_items = restore_day_items(level_text, day)
+    if not restored_items:
+        raise ValueError(f"{level_text} DAY {day_text}에 배정된 항목이 없습니다.")
+
+    print("Step 1: generate card images.")
+    generate_images()
+    print("Step 1 done: images generated.")
+
+    print("Step 2: generate TTS audio.")
+    asyncio.run(generate_tts_from_words())
+    print("Step 2 done: TTS generated.")
+
+    print("Step 3: generate shorts videos.")
+    generate_all_videos()
+    print("Step 3 done: shorts videos generated.")
+
+    current_day_before = get_current_day_number(level_text)
+    set_current_day_number(level_text, int(day))
+
+    try:
+        print("Step 4: generate the combined day video.")
+        create_day_video(level_text)
+        print("Step 4 done: day video generated.")
+
+        print("Step 5: generate thumbnail.")
+        generate_thumbnail(level=level_text, day=day_text)
+        print("Step 5 done: thumbnail generated.")
+    finally:
+        set_current_day_number(level_text, current_day_before)
+
+    update_uploaded_entry(
+        f"{level_text}_DAY_{day_text}",
+        generated=True,
+        level=level_text,
+        day=day_text,
+        restored_from_csv_assignment=True,
+        asset_manifest=build_asset_manifest_from_current_words(),
+    )
+
+    print(level_text, "DAY", day_text, "복구용 재생성 완료")
+    return day_text
+
+
+def restore_existing_day_from_drive(level, day, overwrite=True):
+    return restore_day_assets(level=level, day=day, overwrite=overwrite)
 
 
 if __name__ == "__main__":
@@ -193,3 +252,4 @@ if __name__ == "__main__":
         run_pipeline(level)
 
     print("main.py end")
+

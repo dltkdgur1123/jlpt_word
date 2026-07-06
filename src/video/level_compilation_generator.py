@@ -1,4 +1,4 @@
-# ==================================================
+﻿# ==================================================
 # 파일명: level_compilation_generator.py
 # 역할: 레벨별 DAY 영상을 하나의 긴 영상으로 묶는 모듈
 # 예시: N1_DAY_001.mp4 ~ N1_DAY_025.mp4 합치기
@@ -74,6 +74,30 @@ def build_compilation_output_path(level, start_day, end_day):
 # ==================================================
 # 5. 레벨별 묶음 영상 생성
 # ==================================================
+
+
+def delete_compilation_source_day_videos(level, start_day, end_day):
+    deleted_files = []
+    missing_files = []
+
+    for day in range(start_day, end_day + 1):
+        video_path = build_day_video_path(level=level, day=day)
+
+        if os.path.exists(video_path):
+            os.remove(video_path)
+            deleted_files.append(video_path)
+        else:
+            missing_files.append(video_path)
+
+    print("풀영상 소스 DAY 영상 삭제 완료:", deleted_files)
+    if missing_files:
+        print("이미 없어서 건너뛴 DAY 영상:", missing_files)
+
+    return {
+        "deleted_files": deleted_files,
+        "missing_files": missing_files,
+    }
+
 
 def create_level_compilation(
     level="N1",
@@ -319,3 +343,7 @@ if __name__ == "__main__":
         privacy_status=args.privacy_status,
         upload_enabled=not args.generate_only
     )
+
+
+
+

@@ -40,6 +40,14 @@ def get_current_day_number(level="N1"):
     return status.get(level, 1)
 
 
+def set_current_day_number(level="N1", day_number=1):
+    status = load_day_status()
+    safe_day_number = max(int(day_number), 1)
+    status[level] = safe_day_number
+    save_day_status(status)
+    print(level, "DAY set to:", status[level])
+
+
 def get_current_day_text(level="N1"):
     current_day = get_current_day_number(level)
     return f"DAY {current_day:03d}"

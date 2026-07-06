@@ -259,117 +259,117 @@
 所為,せい,"원인, 이유, 결점",sei_5,60,true,DAY 041
 税,ぜい,세,zei,50,false,
 性格,せいかく,성격,seikaku,60,true,DAY 041
-正確,せいかく,"정확한, 시간 엄수",seikaku_2,60,false,
-世紀,せいき,세기,seiki,60,false,
-請求,せいきゅう,요구하다,seikyuu,60,false,
-税金,ぜいきん,"세금, 의무",zeikin,60,false,
-清潔,せいけつ,깨끗한,seiketsu,60,false,
-制限,せいげん,"제한, 제지",seigen,60,false,
-成功,せいこう,"성공, 히트",seikou,60,false,
-正式,せいしき,"공식적인, 형식적인",seishiki,60,false,
-性質,せいしつ,"성격, 재산, 처분",seishitsu,60,false,
-精神,せいしん,"마음, 영혼",seishin,60,false,
-成人,せいじん,성인,seijin,60,false,
+正確,せいかく,"정확한, 시간 엄수",seikaku_2,60,true,DAY 042
+世紀,せいき,세기,seiki,60,true,DAY 042
+請求,せいきゅう,요구하다,seikyuu,60,true,DAY 042
+税金,ぜいきん,"세금, 의무",zeikin,60,true,DAY 042
+清潔,せいけつ,깨끗한,seiketsu,60,true,DAY 042
+制限,せいげん,"제한, 제지",seigen,60,true,DAY 043
+成功,せいこう,"성공, 히트",seikou,60,true,DAY 043
+正式,せいしき,"공식적인, 형식적인",seishiki,60,true,DAY 043
+性質,せいしつ,"성격, 재산, 처분",seishitsu,60,true,DAY 043
+精神,せいしん,"마음, 영혼",seishin,60,true,DAY 043
+成人,せいじん,성인,seijin,60,true,DAY 044
 精々,せいぜい,기껏해야,seizei,50,false,
-成績,せいせき,"성적, 성과",seiseki,60,false,
-製造,せいぞう,"제조, 생산",seizou,60,false,
-贅沢,ぜいたく,사치,zeitaku,60,false,
-成長,せいちょう,성장,seichou,60,false,
+成績,せいせき,"성적, 성과",seiseki,60,true,DAY 044
+製造,せいぞう,"제조, 생산",seizou,60,true,DAY 044
+贅沢,ぜいたく,사치,zeitaku,60,true,DAY 044
+成長,せいちょう,성장,seichou,60,true,DAY 044
 生長,せいちょう,성장,seichou_2,50,false,
-制度,せいど,"시스템, 기관",seido,60,false,
-青年,せいねん,"젊음, 청년",seinen,60,false,
+制度,せいど,"시스템, 기관",seido,60,true,DAY 045
+青年,せいねん,"젊음, 청년",seinen,60,true,DAY 045
 生年月日,せいねんがっぴ,생년월일,seinengappi,50,false,
-製品,せいひん,"공산품, 완제품",seihin,60,false,
-政府,せいふ,"정부, 행정",seifu,60,false,
-生物,せいぶつ,"생물, 유기체",seibutsu,60,false,
-生命,せいめい,삶,seimei,60,false,
-整理,せいり,"정렬, 배열",seiri,60,false,
-咳,せき,기침,seki,60,false,
-石炭,せきたん,석탄,sekitan,60,false,
-責任,せきにん,"의무, 책임",sekinin,60,false,
-石油,せきゆ,"석유, 등유",sekiyu,60,false,
-世間,せけん,"세상, 사회",seken,60,false,
-説,せつ,이론,setsu,60,false,
-積極的,せっきょくてき,"긍정적인, 적극적인",sekkyokuteki,60,false,
-設計,せっけい,"계획, 디자인",sekkei,60,false,
-絶対,ぜったい,"확실히, 어김없이, 절대성",zettai,60,false,
+製品,せいひん,"공산품, 완제품",seihin,60,true,DAY 045
+政府,せいふ,"정부, 행정",seifu,60,true,DAY 045
+生物,せいぶつ,"생물, 유기체",seibutsu,60,true,DAY 045
+生命,せいめい,삶,seimei,60,true,DAY 046
+整理,せいり,"정렬, 배열",seiri,60,true,DAY 046
+咳,せき,기침,seki,60,true,DAY 046
+石炭,せきたん,석탄,sekitan,60,true,DAY 046
+責任,せきにん,"의무, 책임",sekinin,60,true,DAY 046
+石油,せきゆ,"석유, 등유",sekiyu,60,true,DAY 047
+世間,せけん,"세상, 사회",seken,60,true,DAY 047
+説,せつ,이론,setsu,60,true,DAY 047
+積極的,せっきょくてき,"긍정적인, 적극적인",sekkyokuteki,60,true,DAY 047
+設計,せっけい,"계획, 디자인",sekkei,60,true,DAY 047
+絶対,ぜったい,"확실히, 어김없이, 절대성",zettai,60,true,DAY 048
 セット,セット,세트,setto,50,false,
-愛,あい,사랑,ai,60,false,
-相変わらず,あいかわらず,"언제나처럼, 평소처럼",aikawarazu,60,false,
-愛情,あいじょう,"사랑, 애정",aijou,60,false,
-合図,あいず,"서명하다, 신호하다",aizu,60,false,
+愛,あい,사랑,ai,60,true,DAY 048
+相変わらず,あいかわらず,"언제나처럼, 평소처럼",aikawarazu,60,true,DAY 048
+愛情,あいじょう,"사랑, 애정",aijou,60,true,DAY 048
+合図,あいず,"서명하다, 신호하다",aizu,60,true,DAY 048
 アイスクリーム,アイスクリーム,아이스크림,aisukuriimu,50,false,
-愛する,あいする,사랑하다,aisuru,60,false,
-相手,あいて,"상대, 상대편",aite,60,false,
+愛する,あいする,사랑하다,aisuru,60,true,DAY 049
+相手,あいて,"상대, 상대편",aite,60,true,DAY 049
 あいにく,あいにく,안타깝게도,ainiku,50,false,
 遭う,あう,"만나다, 만나다 바람직하지 않은 뉘앙스",au,50,false,
 アウト,アウト,아웃,auto,50,false,
-明かり,あかり,"불빛, 조명",akari,60,false,
-空き,あき,"공석, 개방, 공간",aki,60,false,
-明らか,あきらか,"명백한, 명확한",akiraka,60,false,
-諦める,あきらめる,포기하다,akirameru,60,false,
-飽きる,あきる,"싫증내다, 흥미를 잃다",akiru,60,false,
-握手,あくしゅ,악수,akushu,60,false,
-悪魔,あくま,"악마, 악령",akuma,60,false,
-明ける,あける,"새벽이 되다, 대낮이 되다",akeru,60,false,
+明かり,あかり,"불빛, 조명",akari,60,true,DAY 049
+空き,あき,"공석, 개방, 공간",aki,60,true,DAY 049
+明らか,あきらか,"명백한, 명확한",akiraka,60,true,DAY 049
+諦める,あきらめる,포기하다,akirameru,60,true,DAY 050
+飽きる,あきる,"싫증내다, 흥미를 잃다",akiru,60,true,DAY 050
+握手,あくしゅ,악수,akushu,60,true,DAY 050
+悪魔,あくま,"악마, 악령",akuma,60,true,DAY 050
+明ける,あける,"새벽이 되다, 대낮이 되다",akeru,60,true,DAY 050
 揚げる,あげる,"들어 올리다, 튀기다",ageru,50,false,
 挙げる,あげる,"키우다, 나열하다, 인용하다",ageru_2,50,false,
 預かる,あずかる,누군가를 위해 무엇을 유지하다,azukaru,50,false,
-預ける,あずける,"구금하다, 예치하다",azukeru,60,false,
-汗,あせ,땀,ase,60,false,
-与える,あたえる,주다,ataeru,60,false,
+預ける,あずける,"구금하다, 예치하다",azukeru,60,true,DAY 051
+汗,あせ,땀,ase,60,true,DAY 051
+与える,あたえる,주다,ataeru,60,true,DAY 051
 温かい,あたたかい,따뜻한,atatakai,50,false,
 暖まる,あたたまる,워밍업하다,atatamaru,50,false,
 温まる,あたたまる,몸을 따뜻하게 하다,atatamaru_2,50,false,
 暖める,あたためる,"누군가, 무엇에게 따뜻하게 하다",atatameru,50,false,
-温める,あたためる,"따뜻하게 하다, 가열하다",atatameru_2,60,false,
-辺り,あたり,근처,atari,60,false,
+温める,あたためる,"따뜻하게 하다, 가열하다",atatameru_2,60,true,DAY 051
+辺り,あたり,근처,atari,60,true,DAY 051
 当たり前,あたりまえ,"보통의, 흔한, 명백한",atarimae,50,false,
-当たる,あたる,"맞다, 성공하다",ataru,60,false,
+当たる,あたる,"맞다, 성공하다",ataru,60,true,DAY 052
 あちこち,あちこち,이리저리,achikochi,50,false,
-扱う,あつかう,"다루다, 처리하다",atsukau,60,false,
-集まり,あつまり,"모임, 수집",atsumari,60,false,
+扱う,あつかう,"다루다, 처리하다",atsukau,60,true,DAY 052
+集まり,あつまり,"모임, 수집",atsumari,60,true,DAY 052
 当てる,あてる,"치다, 신청하다",ateru,50,false,
-跡,あと,"추적하다, 유적, 흉터",ato,60,false,
-穴,あな,구멍,ana,60,false,
-油,あぶら,기름,abura,60,false,
+跡,あと,"추적하다, 유적, 흉터",ato,60,true,DAY 052
+穴,あな,구멍,ana,60,true,DAY 052
+油,あぶら,기름,abura,60,true,DAY 052
 脂,あぶら,지방,abura_2,50,false,
-誤り,あやまり,오류,ayamari,60,false,
+誤り,あやまり,오류,ayamari,60,true,DAY 052
 粗,あら,결점,ara,50,false,
-嵐,あらし,폭풍,arashi,60,false,
-争う,あらそう,"논쟁하다, 싸우다",arasou,60,false,
-新た,あらた,"새로운, 신선한",arata,60,false,
+嵐,あらし,폭풍,arashi,60,true,DAY 052
+争う,あらそう,"논쟁하다, 싸우다",arasou,60,true,DAY 052
+新た,あらた,"새로운, 신선한",arata,60,true,DAY 052
 あらゆる,あらゆる,"모두, 매",arayuru,50,false,
-表す,あらわす,"표현하다, 보여주다",arawasu,60,false,
+表す,あらわす,"표현하다, 보여주다",arawasu,60,true,DAY 053
 現す,あらわす,"보여주다, 나타나다, 드러내다",arawasu_2,50,false,
 著す,あらわす,"집필하다, 출판하다",arawasu_3,50,false,
 現れ,あらわれ,"표현, 표시, 기호",araware,50,false,
-現れる,あらわれる,"나타나다, 눈에 띄게 되다, 표현하다",arawareru,60,false,
+現れる,あらわれる,"나타나다, 눈에 띄게 되다, 표현하다",arawareru,60,true,DAY 053
 ありがとう,ありがとう,감사합니다,arigatou,50,false,
 在る; 有る,ある,"살아가다, 존재하다",aru,50,false,
 或,ある,"특정..., 일부...",aru_2,50,false,
-あるいは,あるいは,아니면 아마도,aruiha,60,false,
+あるいは,あるいは,아니면 아마도,aruiha,60,true,DAY 053
 アルバム,アルバム,앨범,arubamu,50,false,
-泡,あわ,거품,awa,60,false,
-合わせる,あわせる,결합하다,awaseru,60,false,
-慌てる,あわてる,당황하다,awateru,60,false,
-哀れ,あわれ,"무력한, 불쌍한, 한심한",aware,60,false,
-案,あん,"계획, 제안",an,60,false,
-案外,あんがい,뜻밖에,angai,60,false,
-暗記,あんき,"암기, 마음으로 학습",anki,60,false,
-安定,あんてい,"안정성, 균형",antei,60,false,
+泡,あわ,거품,awa,60,true,DAY 053
+合わせる,あわせる,결합하다,awaseru,60,true,DAY 053
+慌てる,あわてる,당황하다,awateru,60,true,DAY 054
+哀れ,あわれ,"무력한, 불쌍한, 한심한",aware,60,true,DAY 054
+案,あん,"계획, 제안",an,60,true,DAY 054
+案外,あんがい,뜻밖에,angai,60,true,DAY 054
+暗記,あんき,"암기, 마음으로 학습",anki,60,true,DAY 054
+安定,あんてい,"안정성, 균형",antei,60,true,DAY 055
 あんなに,あんなに,그 정도,annani,50,false,
 あんまり,あんまり,별로,anmari,50,false,
-胃,い,위,i,60,false,
-委員,いいん,위원회 위원,iin,60,false,
-意外,いがい,"예상치 못한, 놀라운",igai,60,false,
-行き,いき,가고 있다,iki,60,false,
-行き,ゆき,가고 있다,yuki,60,false,
-息,いき,호흡,iki_2,60,false,
-勢い,いきおい,"힘, 활력, 추진력",ikioi,60,false,
-生き物,いきもの,생물,ikimono,60,false,
+胃,い,위,i,60,true,DAY 055
+委員,いいん,위원회 위원,iin,60,true,DAY 055
+意外,いがい,"예상치 못한, 놀라운",igai,60,true,DAY 055
+行き,いき,가고 있다,iki,60,true,DAY 055
+行き,ゆき,가고 있다,yuki,60,true,DAY 054
+息,いき,호흡,iki_2,60,true,DAY 054
+勢い,いきおい,"힘, 활력, 추진력",ikioi,60,true,DAY 054
+生き物,いきもの,생물,ikimono,60,true,DAY 054
 いけない,いけない,"하지 말아야 할 것, 나쁜 것, 잘못된 것",ikenai,50,false,
-医師,いし,의사,ishi,60,false,
+医師,いし,의사,ishi,60,true,DAY 054
 意思,いし,"의도, 목적",ishi_2,60,false,
 意志,いし,의지,ishi_3,60,false,
 維持,いじ,"유지, 보존",iji,60,false,
@@ -1249,7 +1249,7 @@
 ～観,かん,"느낌, 보기",kan_4,50,false,
 癌,がん,암,gan,50,false,
 刊行,かんこう,"출판, 발행",kankou_2,50,false,
-慣行,かんこう,"관습, 습관, 전통행사",kankou_3,50,false,
+慣行,かんこう,"관습, 습관, 전통행사",kankou,50,false,
 歓声,かんせい,환호하다,kansei_2,50,false,
 官僚,かんりょう,관료,kanryou_2,60,false,
 器官,きかん,"기관신체, 기구",kikan_3,50,false,
@@ -2138,3 +2138,9 @@
 ルール,ルール,"규칙, 룰",ruuru,50,false,
 枠,わく,"프레임, 슬라이드",waku_2,50,false,
 表示,ひょうじ,표시,hyouji,60,false,
+打ち合わせ,うちあわせ,"사전 협의, 미팅",uchiawase,50,false,
+追い越す,おいこす,추월하다,oikosu,50,false,
+響く,ひびく,"울리다, 영향을 주다",hibiku,50,false,
+目立つ,めだつ,눈에 띄다,medatsu,50,false,
+取り消す,とりけす,취소하다,torikesu,50,false,
+改める,あらためる,"고치다, 새롭게 하다",aratameru,50,false,

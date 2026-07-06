@@ -729,11 +729,11 @@
 撮影,さつえい,촬영,satsuei,60,true,DAY 041
 雑音,ざつおん,"소음(삐걱거리는 소리, 삐걱거리는 소리)",zatsuon,50,false,
 さっさと,さっさと,빠르게,sassato,50,false,
-早速,さっそく,즉시,sassoku,60,false,
+早速,さっそく,즉시,sassoku,60,true,DAY 042
 錆,さび,녹(색상),sabi,50,false,
 錆びる,さびる,"녹이 슬다, 녹슬게 되다",sabiru,50,false,
 座布団,ざぶとん,쿠션(일본어),zabuton,50,false,
-妨げる,さまたげる,방해하다,samatageru,60,false,
+妨げる,さまたげる,방해하다,samatageru,60,true,DAY 042
 さようなら,さようなら,안녕히 가세요,sayounara,50,false,
 サラリーマン,サラリーマン,"샐러리맨, 회사 직원",sarariiman,50,false,
 騒がしい,さわがしい,시끄러운,sawagashii,50,false,
@@ -753,7 +753,7 @@
 自衛,じえい,자기 방어,jiei,50,false,
 塩辛,しおから,짠맛 (맛),shiokara,50,false,
 塩辛い,しおからい,짠맛 (맛),shiokarai,50,false,
-司会,しかい,"사회자, 의장",shikai,60,false,
+司会,しかい,"사회자, 의장",shikai,60,true,DAY 042
 しかく しかくい,しかく しかくい,정사각형,shikaku_shikakui,50,false,
 四角い,しかくい,정사각형,shikakui,50,false,
 仕方がない,しかたがない,"어쩔 수 없지, 피할 수 없는 일이야",shikataganai,50,false,
@@ -762,56 +762,56 @@
 敷地,しきち,대지,shikichi,50,false,
 敷く,しく,펼치다,shiku,50,false,
 茂る,しげる,두꺼워지다,shigeru,50,false,
-持参,じさん,"가져오다, 가져가다, 운반하다",jisan,60,false,
+持参,じさん,"가져오다, 가져가다, 운반하다",jisan,60,true,DAY 042
 磁石,じしゃく,자석,jishaku,50,false,
 四捨五入,ししゃごにゅう,반올림 (분수),shishagonyuu,50,false,
 始終,しじゅう,"지속적으로, 항상, 끊임없이",shijuu,50,false,
-自習,じしゅう,자율 학습,jishuu,60,false,
+自習,じしゅう,자율 학습,jishuu,60,true,DAY 042
 静まる,しずまる,진정시키다,shizumaru,50,false,
-姿勢,しせい,"태도, 자세",shisei,60,false,
+姿勢,しせい,"태도, 자세",shisei,60,true,DAY 043
 自然科学,しぜんかがく,자연과학,shizenkagaku,50,false,
 時速,じそく,속도(시간당),jisoku,50,false,
 子孫,しそん,"후손, 자손",shison,50,false,
 死体,したい,시체,shitai,50,false,
-下書き,したがき,초안,shitagaki,60,false,
-自宅,じたく,자기 집(自分の家(じぶんのいえ)과 동일),jitaku,60,false,
+下書き,したがき,초안,shitagaki,60,true,DAY 043
+自宅,じたく,자기 집(自分の家(じぶんのいえ)과 동일),jitaku,60,true,DAY 043
 下町,したまち,도시의 오래된 부분,shitamachi,50,false,
 自治,じち,자치,jichi,50,false,
 室～,しつ～,방,shitsu～,50,false,
-実感,じっかん,"실감, 체감",jikkan,60,false,
-湿気,しっき,습기,shikki,60,false,
+実感,じっかん,"실감, 체감",jikkan,60,true,DAY 043
+湿気,しっき,습기,shikki,60,true,DAY 043
 しつこい,しつこい,"끈질긴, 완고한",shitsukoi,50,false,
-実習,じっしゅう,"연습, 훈련",jisshuu,60,false,
-実績,じっせき,"성과, 실제 결과",jisseki,60,false,
-湿度,しつど,습도 수준,shitsudo,60,false,
+実習,じっしゅう,"연습, 훈련",jisshuu,60,true,DAY 044
+実績,じっせき,"성과, 실제 결과",jisseki,60,true,DAY 044
+湿度,しつど,습도 수준,shitsudo,60,true,DAY 044
 執筆,しっぴつ,글쓰기,shippitsu,50,false,
 実物,じつぶつ,실제적인 것,jitsubutsu,50,false,
 しっぽ,しっぽ,꼬리 (동물),shippo,50,false,
-実用,じつよう,"실용성, 유용성",jitsuyou,60,false,
-実力,じつりょく,"(실제) 능력, 진정한 강점, 장점, 효율성, 역량",jitsuryoku,60,false,
+実用,じつよう,"실용성, 유용성",jitsuyou,60,true,DAY 044
+実力,じつりょく,"(실제) 능력, 진정한 강점, 장점, 효율성, 역량",jitsuryoku,60,true,DAY 044
 実例,じつれい,"예, 인스턴스",jitsurei,50,false,
 しつれいしました (かん),しつれいしました (かん),죄송합니다.,shitsureishimashita_(kan),50,false,
 失恋,しつれん,"상한 마음, 짝사랑",shitsuren,50,false,
-指定,してい,"지정, 사양, 할당",shitei,60,false,
+指定,してい,"지정, 사양, 할당",shitei,60,true,DAY 045
 私鉄,してつ,민간 철도,shitetsu,50,false,
-児童,じどう,"어린이, 청소년",jidou,60,false,
-縛る,しばる,묶다,shibaru,60,false,
+児童,じどう,"어린이, 청소년",jidou,60,true,DAY 045
+縛る,しばる,묶다,shibaru,60,true,DAY 045
 地盤,じばん,(그) 땅,jiban,50,false,
 しびれる,しびれる,마비되다,shibireru,50,false,
 紙幣,しへい,지폐,shihei,50,false,
 しぼむ,しぼむ,"시들다, 오그라들다",shibomu,50,false,
 萎む,しぼむ,"(꽃, 꿈 등이) 시들다, 시들다",shibomu_2,50,false,
-絞る,しぼる,"누르다, 짜내다",shiboru,60,false,
+絞る,しぼる,"누르다, 짜내다",shiboru,60,true,DAY 045
 縞,しま,줄무늬,shima,50,false,
 地味,じみ,"평범하다, 단순하다, 차분하다",jimi,50,false,
 しみじみ,しみじみ,"열심히, 깊게, 진심으로",shimijimi,50,false,
-氏名,しめい,이름,shimei,60,false,
+氏名,しめい,이름,shimei,60,true,DAY 045
 締切,しめきり,사선,shimekiri,50,false,
-締め切り,しめきり,"마감, 종료",shimekiri_2,60,false,
-締め切る,しめきる,"닫다, 취소하다",shimekiru,60,false,
+締め切り,しめきり,"마감, 종료",shimekiri_2,60,true,DAY 046
+締め切る,しめきる,"닫다, 취소하다",shimekiru,60,true,DAY 046
 しめた (かん),しめた (かん),"난 그걸 갖고 있어, 알았어",shimeta_(kan),50,false,
 しめる,しめる,"젖다, 축축해지다",shimeru,50,false,
-地面,じめん,"땅, 지표면",jimen,60,false,
+地面,じめん,"땅, 지표면",jimen,60,true,DAY 046
 ジャーナリスト,ジャーナリスト,기자,jaanarisuto,50,false,
 社会科学,しゃかいかがく,사회 과학,shakaikagaku,50,false,
 しゃがむ,しゃがむ,쪼그리고 앉다,shagamu,50,false,
@@ -819,7 +819,7 @@
 弱点,じゃくてん,약점,jakuten,50,false,
 車庫,しゃこ,차고,shako,50,false,
 車掌,しゃしょう,(열차) 차장,shashou,50,false,
-写生,しゃせい,"사생, 스케치",shasei,60,false,
+写生,しゃせい,"사생, 스케치",shasei,60,true,DAY 046
 社説,しゃせつ,사설,shasetsu,50,false,
 しゃっくり,しゃっくり,딸꾹질,shakkuri,50,false,
 シャッター,シャッター,셔터,shattaa,50,false,
@@ -831,99 +831,99 @@
 集会,しゅうかい,"회의, 집회",shuukai,50,false,
 住居,じゅうきょ,"거주지, 집, 주소",juukyo,50,false,
 集金,しゅうきん,돈 수집,shuukin,50,false,
-集合,しゅうごう,"모임, 집회",shuugou,60,false,
+集合,しゅうごう,"모임, 집회",shuugou,60,true,DAY 046
 習字,しゅうじ,서법,shuuji,50,false,
 修繕,しゅうぜん,"수리, 수선",shuuzen,50,false,
 重体,じゅうたい,심각한 상태,juutai,50,false,
 じゅうたん (カーペット),じゅうたん (カーペット),양탄자,juutan_(kaapetto),50,false,
-終点,しゅうてん,"종착역, 종착역(예: 기차)",shuuten,60,false,
+終点,しゅうてん,"종착역, 종착역(예: 기차)",shuuten,60,true,DAY 047
 重点,じゅうてん,"중요한 점, 강조하다",juuten,50,false,
 就任,しゅうにん,취임식,shuunin,50,false,
-周辺,しゅうへん,"원주, 주변",shuuhen,60,false,
-重役,じゅうやく,"이사, 고위 간부",juuyaku,60,false,
-終了,しゅうりょう,종료,shuuryou,60,false,
+周辺,しゅうへん,"원주, 주변",shuuhen,60,true,DAY 047
+重役,じゅうやく,"이사, 고위 간부",juuyaku,60,true,DAY 047
+終了,しゅうりょう,종료,shuuryou,60,true,DAY 047
 重量,じゅうりょう,헤비급 선수,juuryou,50,false,
 重力,じゅうりょく,중력,juuryoku,50,false,
 熟語,じゅくご,"관용어, 한자 합성어",jukugo,50,false,
-祝日,しゅくじつ,공휴일,shukujitsu,60,false,
-縮小,しゅくしょう,"감소, 축소",shukushou,60,false,
-受験,じゅけん,시험을 치르다,juken,60,false,
+祝日,しゅくじつ,공휴일,shukujitsu,60,true,DAY 047
+縮小,しゅくしょう,"감소, 축소",shukushou,60,true,DAY 048
+受験,じゅけん,시험을 치르다,juken,60,true,DAY 048
 主語,しゅご,(그램) 주제,shugo,50,false,
 主人,しゅじん,(자신의) 남편,shujin,50,false,
-出勤,しゅっきん,출근하다,shukkin,60,false,
+出勤,しゅっきん,출근하다,shukkin,60,true,DAY 048
 述語,じゅつご,술부,jutsugo,50,false,
-出張,しゅっちょう,"공식 투어, 출장",shutchou,60,false,
-寿命,じゅみょう,수명,jumyou,60,false,
+出張,しゅっちょう,"공식 투어, 출장",shutchou,60,true,DAY 048
+寿命,じゅみょう,수명,jumyou,60,true,DAY 048
 主役,しゅやく,주요 부분,shuyaku,50,false,
 受話器,じゅわき,(전화) 수화기,juwaki,50,false,
-循環,じゅんかん,"순환, 회전, 주기",junkan,60,false,
+循環,じゅんかん,"순환, 회전, 주기",junkan,60,true,DAY 049
 巡査,じゅんさ,경관,junsa,50,false,
 順々,じゅんじゅん,순서대로,junjun,50,false,
-順序,じゅんじょ,"순서, 절차",junjo,60,false,
+順序,じゅんじょ,"순서, 절차",junjo,60,true,DAY 049
 純情,じゅんじょう,순수한 마음,junjou,50,false,
-純粋,じゅんすい,"순수한, 진실한, 섞이지 않은",junsui,60,false,
+純粋,じゅんすい,"순수한, 진실한, 섞이지 않은",junsui,60,true,DAY 049
 初～,しょ～,먼저 ～,sho～,50,false,
-諸～,しょ～,다양한 ～,sho～_2,60,false,
-女～,じょ～,여자가 하는 일,jo～,60,false,
+諸～,しょ～,다양한 ～,sho～_2,60,true,DAY 049
+女～,じょ～,여자가 하는 일,jo～,60,true,DAY 049
 省～,しょう～,～을 절약하다,shou～,50,false,
-消化,しょうか,소화,shouka,60,false,
-小学生,しょうがくせい,초등학생,shougakusei,60,false,
+消化,しょうか,소화,shouka,60,true,DAY 050
+小学生,しょうがくせい,초등학생,shougakusei,60,true,DAY 050
 しょうがない,しょうがない,가치가 없어 ～,shouganai,50,false,
 将棋,しょうぎ,일본 체스,shougi,50,false,
 蒸気,じょうき,증기,jouki,50,false,
 定規,じょうぎ,(측정) 자,jougi,50,false,
 上級,じょうきゅう,"고급, 상급",joukyuu,50,false,
-商業,しょうぎょう,"상업, 무역, 사업",shougyou,60,false,
-消極的,しょうきょくてき,수동적인,shoukyokuteki,60,false,
+商業,しょうぎょう,"상업, 무역, 사업",shougyou,60,true,DAY 050
+消極的,しょうきょくてき,수동적인,shoukyokuteki,60,true,DAY 050
 賞金,しょうきん,"상금, 금전적 보상",shoukin,50,false,
-上下,じょうげ,"높고 낮음, 위 아래",jouge,60,false,
+上下,じょうげ,"높고 낮음, 위 아래",jouge,60,true,DAY 050
 障子,しょうじ,종이 미닫이 문,shouji,50,false,
 商社,しょうしゃ,무역 회사,shousha,50,false,
-乗車,じょうしゃ,"기차를 타다, 연행하다",jousha,60,false,
+乗車,じょうしゃ,"기차를 타다, 연행하다",jousha,60,true,DAY 050
 上旬,じょうじゅん,매월 첫 10일,joujun,50,false,
 小数,しょうすう,"분수(부분), 소수",shousuu,50,false,
 生ずる,しょうずる,발생시키다,shouzuru,50,false,
 商店,しょうてん,"상점, 회사",shouten,50,false,
-焦点,しょうてん,"초점, 포인트",shouten_2,60,false,
+焦点,しょうてん,"초점, 포인트",shouten_2,60,true,DAY 050
 消毒,しょうどく,소독,shoudoku,50,false,
-勝敗,しょうはい,"승리 또는 패배, 문제 (전투의)",shouhai,60,false,
-蒸発,じょうはつ,"증발, 설명할 수 없는 실종",jouhatsu,60,false,
-賞品,しょうひん,"상금, 트로피",shouhin,60,false,
-上品,じょうひん,"세련된, 우아한, 예의바른",jouhin,60,false,
+勝敗,しょうはい,"승리 또는 패배, 문제 (전투의)",shouhai,60,true,DAY 050
+蒸発,じょうはつ,"증발, 설명할 수 없는 실종",jouhatsu,60,true,DAY 050
+賞品,しょうひん,"상금, 트로피",shouhin,60,true,DAY 050
+上品,じょうひん,"세련된, 우아한, 예의바른",jouhin,60,true,DAY 051
 勝負,しょうぶ,"승리 또는 패배, 게임",shoubu,50,false,
 小便,しょうべん,"(col) 소변, 오줌",shouben,50,false,
 消防署,しょうぼうしょ,소방서,shoubousho,50,false,
 正味,しょうみ,순(중량),shoumi,50,false,
-正面,しょうめん,앞쪽,shoumen,60,false,
-消耗,しょうもう,"피로, 소비",shoumou,60,false,
-省略,しょうりゃく,"생략, 약어, 요약",shouryaku,60,false,
+正面,しょうめん,앞쪽,shoumen,60,true,DAY 051
+消耗,しょうもう,"피로, 소비",shoumou,60,true,DAY 051
+省略,しょうりゃく,"생략, 약어, 요약",shouryaku,60,true,DAY 051
 初級,しょきゅう,초등 수준,shokyuu,50,false,
 助教授,じょきょうじゅ,조교수,jokyouju,50,false,
 食塩,しょくえん,식탁용 소금,shokuen,50,false,
-職人,しょくにん,장인,shokunin,60,false,
-職場,しょくば,직장,shokuba,60,false,
+職人,しょくにん,장인,shokunin,60,true,DAY 051
+職場,しょくば,직장,shokuba,60,true,DAY 052
 初旬,しょじゅん,매월 첫 10일,shojun,50,false,
 書籍,しょせき,"책, 출판",shoseki,50,false,
-食器,しょっき,식기,shokki,60,false,
+食器,しょっき,식기,shokki,60,true,DAY 052
 ショップ,ショップ,가게,shoppu,50,false,
-書店,しょてん,서점,shoten,60,false,
+書店,しょてん,서점,shoten,60,true,DAY 052
 書道,しょどう,달필,shodou,50,false,
 初歩,しょほ,"초보, 기초",shoho,50,false,
 白髪,しらが,"흰색 또는 회색 머리, 트렌디한 모발 탈색",shiraga,50,false,
 シリーズ,シリーズ,시리즈,shiriizu,50,false,
-知り合い,しりあい,아는 사람,shiriai,60,false,
+知り合い,しりあい,아는 사람,shiriai,60,true,DAY 052
 私立,しりつ,사설),shiritsu,50,false,
-資料,しりょう,"재료, 데이터",shiryou,60,false,
+資料,しりょう,"재료, 데이터",shiryou,60,true,DAY 052
 汁,しる,"주스, 수프",shiru,50,false,
-素人,しろうと,"평신도, 아마추어, 초보자",shirouto,60,false,
+素人,しろうと,"평신도, 아마추어, 초보자",shirouto,60,true,DAY 053
 しわ (かおの～),しわ (かおの～),주름,shiwa_(kaono～),50,false,
-芯,しん,"코어, 하트, 심지",shin,60,false,
-新幹線,しんかんせん,신칸센 '신칸센',shinkansen,60,false,
+芯,しん,"코어, 하트, 심지",shin,60,true,DAY 053
+新幹線,しんかんせん,신칸센 '신칸센',shinkansen,60,true,DAY 053
 真空,しんくう,진공,shinkuu,50,false,
 人事,じんじ,"인사, 인사관리",jinji,50,false,
 心身,しんしん,마음과 몸,shinshin,50,false,
 信ずる,しんずる,믿다,shinzuru,50,false,
-申請,しんせい,"신청, 요청, 청원",shinsei,60,false,
+申請,しんせい,"신청, 요청, 청원",shinsei,60,true,DAY 053
 人造,じんぞう,"인공의, 합성의",jinzou,50,false,
 寝台,しんだい,침대,shindai,50,false,
 診断,しんだん,진단,shindan,50,false,
@@ -931,7 +931,7 @@
 人文科学,じんぶんかがく,"사회과학, 인문학",jinbunkagaku,50,false,
 人命,じんめい,(인간) 생명,jinmei,50,false,
 深夜,しんや,늦은 밤,shinya,50,false,
-森林,しんりん,숲,shinrin,60,false,
+森林,しんりん,숲,shinrin,60,true,DAY 053
 親類,しんるい,친척(親戚(しんせki)와 동일),shinrui,50,false,
 針路,しんろ,"코스, 방향",shinro,50,false,
 神話,しんわ,"신화, 전설",shinwa,50,false,
@@ -940,15 +940,15 @@
 炊事,すいじ,요리,suiji,50,false,
 水蒸気,すいじょうき,"수증기, 증기",suijouki,50,false,
 水素,すいそ,수소,suiso,50,false,
-垂直,すいちょく,수직,suichoku,60,false,
+垂直,すいちょく,수직,suichoku,60,true,DAY 054
 推定,すいてい,"추정, 가정",suitei,50,false,
 水滴,すいてき,물방울,suiteki,50,false,
 水筒,すいとう,"매점, 플라스크, 물병",suitou,50,false,
 随筆,ずいひつ,"에세이, 각종 저서",zuihitsu,50,false,
-水分,すいぶん,수분,suibun,60,false,
-水平,すいへい,"레벨, 수평",suihei,60,false,
+水分,すいぶん,수분,suibun,60,true,DAY 054
+水平,すいへい,"레벨, 수평",suihei,60,true,DAY 054
 水平線,すいへいせん,수평선,suiheisen,50,false,
-水面,すいめん,물의 표면,suimen,60,false,
+水面,すいめん,물의 표면,suimen,60,true,DAY 054
 水曜,すいよう,수요일,suiyou,50,false,
 図々しい,ずうずうしい,뻔뻔한,zuuzuushii,50,false,
 ずうっと,ずうっと,"항상, 끝까지",zuutto,50,false,
@@ -957,7 +957,7 @@
 図鑑,ずかん,도감,zukan,50,false,
 隙,すき,"방심하지 않은 순간, 기회",suki,50,false,
 杉,すぎ,삼나무,sugi,50,false,
-好き嫌い,すききらい,"좋아하는 것과 싫어하는 것, 맛",sukikirai,60,false,
+好き嫌い,すききらい,"좋아하는 것과 싫어하는 것, 맛",sukikirai,60,true,DAY 054
 好き好き,すきずき,취향의 문제,sukizuki,50,false,
 透き通る,すきとおる,투명해지다,sukitooru,50,false,
 隙間,すきま,"균열, 틈",sukima,50,false,
@@ -972,18 +972,18 @@
 ステージ,ステージ,"단계, 성능",suteeji,50,false,
 ストッキング,ストッキング,스타킹,sutokkingu,50,false,
 ストップ,ストップ,멈추다,sutoppu,50,false,
-素直,すなお,"순종적인, 온유한, 유순한",sunao,60,false,
-頭脳,ずのう,"머리, 두뇌, 지성",zunou,60,false,
+素直,すなお,"순종적인, 온유한, 유순한",sunao,60,true,DAY 055
+頭脳,ずのう,"머리, 두뇌, 지성",zunou,60,true,DAY 055
 スピーカー,スピーカー,스피커,supiikaa,50,false,
-図表,ずひょう,"차트, 도표, 그래프",zuhyou,60,false,
+図表,ずひょう,"차트, 도표, 그래프",zuhyou,60,true,DAY 055
 スマート,スマート,"똑똑하다, 스타일리시하다, 날씬하다",sumaato,50,false,
-住まい,すまい,주택,sumai,60,false,
+住まい,すまい,주택,sumai,60,true,DAY 055
 すまない,すまない,죄송합니다 (문구),sumanai,50,false,
 相撲,すもう,스모 레슬링,sumou,50,false,
 スライド,スライド,슬라이드,suraido,50,false,
 ずらす,ずらす,"연기하다, 지연시키다",zurasu,50,false,
 ずらり,ずらり,줄줄이,zurari,50,false,
-スリッパ,スリッパ,슬리퍼,surippa,60,false,
+スリッパ,スリッパ,슬리퍼,surippa,60,true,DAY 055
 する,する,인쇄하다,suru,60,false,
 狡い,ずるい,교활한,zurui,50,false,
 寸法,すんぽう,"측정, 크기, 차원",sunpou,50,false,
@@ -1905,3 +1905,10 @@
 割と,わりと,상대적으로,warito,50,false,
 割引,わりびき,할인,waribiki,60,false,
 ワンピース,ワンピース,원피스 드레스,wanpiisu,50,false,
+慣行,かんこう,관행,kankou,50,false,
+議題,ぎだい,의제,gidai,50,false,
+切実,せつじつ,절실,setsujitsu,50,false,
+着手,ちゃくしゅ,착수,chakushu,50,false,
+転勤,てんきん,전근,tenkin,50,false,
+概説,がいせつ,"개설, 개요 설명",gaisetsu,50,false,
+折衷,せっちゅう,절충,setchuu,50,false,

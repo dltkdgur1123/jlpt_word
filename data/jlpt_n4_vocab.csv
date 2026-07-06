@@ -401,99 +401,99 @@
 特に,とくに,특히,tokuni,60,true,DAY 041
 空く,あく,"비다, 한가해지다",aku,60,true,DAY 041
 計画,けいかくする,"계획, 프로젝트, 일정",keikakusuru,60,true,DAY 041
-通り,とおり,~ 거리,toori,60,false,
-下着,したぎ,속옷,shitagi,60,false,
-経済,けいざい,"경제, 금융",keizai,60,false,
+通り,とおり,~ 거리,toori,60,true,DAY 042
+下着,したぎ,속옷,shitagi,60,true,DAY 042
+経済,けいざい,"경제, 금융",keizai,60,true,DAY 042
 こう,こう,이렇게,kou,50,false,
-是非,ぜひ,"확실히, 꼭, 어김없이",zehi,60,false,
-裏,うら,뒷면,ura,60,false,
+是非,ぜひ,"확실히, 꼭, 어김없이",zehi,60,true,DAY 042
+裏,うら,뒷면,ura,60,true,DAY 042
 為,ため,"좋아, 이점을 위해서",tame,50,false,
 おいでになる,おいでになる,"계시다, 오시다, 가시다",oideninaru,50,false,
-変わる,かわる,"바뀌다, 변하다",kawaru,60,false,
+変わる,かわる,"바뀌다, 변하다",kawaru,60,true,DAY 043
 以外,いがい,~을 제외하고,igai,50,false,
-済む,すむ,끝내다,sumu,60,false,
+済む,すむ,끝내다,sumu,60,true,DAY 043
 ハンバーグ,ハンバーグ,햄버거 스테이크,hanbaagu,50,false,
-市,し,도시,shi,60,false,
-引き出し,ひきだし,서랍,hikidashi,60,false,
-遊び,あそび,놀다,asobi,60,false,
-支度,したくする,준비,shitakusuru,60,false,
-～始める,～はじめる,~을 시작하다,～hajimeru,60,false,
-見える,みえる,보이다,mieru,60,false,
-十分,じゅうぶん,충분한,juubun,60,false,
-音,おと,"소리, 메모",oto,60,false,
+市,し,도시,shi,60,true,DAY 043
+引き出し,ひきだし,서랍,hikidashi,60,true,DAY 043
+遊び,あそび,놀다,asobi,60,true,DAY 043
+支度,したくする,준비,shitakusuru,60,true,DAY 044
+～始める,～はじめる,~을 시작하다,～hajimeru,60,true,DAY 044
+見える,みえる,보이다,mieru,60,true,DAY 044
+十分,じゅうぶん,충분한,juubun,60,true,DAY 044
+音,おと,"소리, 메모",oto,60,true,DAY 044
 きっと,きっと,"확실히, 의심할 여지 없이",kitto,50,false,
-まず,まず,먼저,mazu,60,false,
-遠く,とおく,"멀리, 먼",tooku,60,false,
-大体,だいたい,"대체로, 대략",daitai,60,false,
-折れる,おれる,"부러지다, 꺾이다",oreru,60,false,
-正しい,ただしい,옳은,tadashii,60,false,
-輸入,ゆにゅう,수입,yunyuu,60,false,
-返事,へんじ,대답하다,henji,60,false,
-都,と,"도, 수도",to,60,false,
-産業,さんぎょう,산업,sangyou,60,false,
-伝える,つたえる,"전하다, 알리다",tsutaeru,60,false,
+まず,まず,먼저,mazu,60,true,DAY 045
+遠く,とおく,"멀리, 먼",tooku,60,true,DAY 045
+大体,だいたい,"대체로, 대략",daitai,60,true,DAY 045
+折れる,おれる,"부러지다, 꺾이다",oreru,60,true,DAY 045
+正しい,ただしい,옳은,tadashii,60,true,DAY 045
+輸入,ゆにゅう,수입,yunyuu,60,true,DAY 046
+返事,へんじ,대답하다,henji,60,true,DAY 046
+都,と,"도, 수도",to,60,true,DAY 046
+産業,さんぎょう,산업,sangyou,60,true,DAY 046
+伝える,つたえる,"전하다, 알리다",tsutaeru,60,true,DAY 046
 お金持ち,かねもち; おかねもち,호부,kanemochi;_okanemochi,50,false,
-説明,せつめい,설명,setsumei,60,false,
-島,しま,섬,shima,60,false,
-道具,どうぐ,도구,dougu,60,false,
-滑る,すべる,미끄러지다,suberu,60,false,
-それほど,それほど,"그 정도, 정도",sorehodo,60,false,
+説明,せつめい,설명,setsumei,60,true,DAY 047
+島,しま,섬,shima,60,true,DAY 047
+道具,どうぐ,도구,dougu,60,true,DAY 047
+滑る,すべる,미끄러지다,suberu,60,true,DAY 047
+それほど,それほど,"그 정도, 정도",sorehodo,60,true,DAY 047
 以上,いじょう,"이상, 이게 다야",ijou,70,true,DAY 003
-～まま,～まま,그대로,～mama,60,false,
-特急,とっきゅう,특급,tokkyuu,60,false,
+～まま,～まま,그대로,～mama,60,true,DAY 048
+特急,とっきゅう,특급,tokkyuu,60,true,DAY 048
 プレゼント,プレゼント,선물,purezento,50,false,
 ～(に) よると,～(に) よると,~에 따르면,～(ni)_yoruto,50,false,
-妻,つま,아내,tsuma,60,false,
-帰り,かえり,돌아오다,kaeri,60,false,
-具合,ぐあい,"상태, 건강",guai,60,false,
+妻,つま,아내,tsuma,60,true,DAY 048
+帰り,かえり,돌아오다,kaeri,60,true,DAY 048
+具合,ぐあい,"상태, 건강",guai,60,true,DAY 048
 堅; 硬; 固い,かたい,"단단한, 확고한",katai,50,false,
-駐車場,ちゅうしゃじょう,주차장,chuushajou,60,false,
+駐車場,ちゅうしゃじょう,주차장,chuushajou,60,true,DAY 049
 スーツ,スーツ,정장,suutsu,50,false,
-危険,きけん,위험,kiken,60,false,
-髪,かみ,머리카락,kami,60,false,
-天気予報,てんきよほう,일기 예보,tenkiyohou,60,false,
-彼女,かのじょ,"여자 친구, 그녀",kanojo,60,false,
+危険,きけん,위험,kiken,60,true,DAY 049
+髪,かみ,머리카락,kami,60,true,DAY 049
+天気予報,てんきよほう,일기 예보,tenkiyohou,60,true,DAY 049
+彼女,かのじょ,"여자 친구, 그녀",kanojo,60,true,DAY 049
 間,あいだ,"공간, 간격",aida,50,false,
-卒業,そつぎょう,눈금,sotsugyou,60,false,
-それで,それで,그래서,sorede,60,false,
-枝,えだ,"가지, 나뭇가지",eda,60,false,
-専門,せんもん,"주요한, 전문",senmon,60,false,
-そろそろ,そろそろ,"점차적으로, 곧",sorosoro,60,false,
-送る,おくる,"보내다, 파견하다",okuru,60,false,
-あげる,あげる,주다,ageru,60,false,
-騒ぐ,さわぐ,"소리를 지르다, 떠들다",sawagu,60,false,
-尋ねる,たずねる,문의하다,tazuneru,60,false,
-放送,ほうそうする,방송,housousuru,60,false,
-政治,せいじ,정치,seiji,60,false,
-市民,しみん,시민,shimin,60,false,
+卒業,そつぎょう,졸업,sotsugyou,60,true,DAY 050
+それで,それで,그래서,sorede,60,true,DAY 050
+枝,えだ,"가지, 나뭇가지",eda,60,true,DAY 050
+専門,せんもん,"주요한, 전문",senmon,60,true,DAY 050
+そろそろ,そろそろ,"점차적으로, 곧",sorosoro,60,true,DAY 050
+送る,おくる,"보내다, 파견하다",okuru,60,true,DAY 051
+あげる,あげる,주다,ageru,60,true,DAY 051
+騒ぐ,さわぐ,"소리를 지르다, 떠들다",sawagu,60,true,DAY 051
+尋ねる,たずねる,문의하다,tazuneru,60,true,DAY 051
+放送,ほうそうする,방송,housousuru,60,true,DAY 051
+政治,せいじ,정치,seiji,60,true,DAY 052
+市民,しみん,시민,shimin,60,true,DAY 052
 ファックス,ファックス,팩스,fakkusu,50,false,
-負ける,まける,지다,makeru,60,false,
-指輪,ゆびわ,반지,yubiwa,60,false,
-田舎,いなか,시골,inaka,60,false,
-見つける,みつける,"찾다, 발견하다",mitsukeru,60,false,
-高校生,こうこうせい,고등학생,koukousei,60,false,
-講義,こうぎ,강의,kougi,60,false,
-そんなに,そんなに,"너무 많이, 그렇게",sonnani,60,false,
-昼休み,ひるやすみ,"점심시간, 정오 쉬는 시간",hiruyasumi,60,false,
-忘れ物,わすれもの,"잃어버린 물건, 잊혀진 것",wasuremono,60,false,
+負ける,まける,지다,makeru,60,true,DAY 052
+指輪,ゆびわ,반지,yubiwa,60,true,DAY 052
+田舎,いなか,시골,inaka,60,true,DAY 052
+見つける,みつける,"찾다, 발견하다",mitsukeru,60,true,DAY 053
+高校生,こうこうせい,고등학생,koukousei,60,true,DAY 053
+講義,こうぎ,강의,kougi,60,true,DAY 053
+そんなに,そんなに,"너무 많이, 그렇게",sonnani,60,true,DAY 053
+昼休み,ひるやすみ,"점심시간, 정오 쉬는 시간",hiruyasumi,60,true,DAY 053
+忘れ物,わすれもの,"잃어버린 물건, 잊혀진 것",wasuremono,60,true,DAY 054
 下りる,おりる,"내려오다, 가다, 내려와",oriru,50,false,
-腕,うで,팔,ude,60,false,
+腕,うで,팔,ude,60,true,DAY 054
 訳,わけ,"이유, 설명",wake,70,true,DAY 003
-承知,しょうちする,"동의, 수용",shouchisuru,60,false,
-日記,にっき,"일기, 일지",nikki,60,false,
+承知,しょうちする,"동의, 수용",shouchisuru,60,true,DAY 054
+日記,にっき,"일기, 일지",nikki,60,true,DAY 054
 高校; 高等学校,こうこう; こうとうがっこう,고등학교,koukou;_koutougakkou,50,false,
-似る,にる,"닮다, 유사하다",niru,60,false,
-～おわる,～おわる,~을 끝내다,～owaru,60,false,
-暖房,だんぼう,난방,danbou,60,false,
-留守,るす,"결석, 집에 없어",rusu,60,false,
-割合,わりあい,"비율, 백분율",wariai,60,false,
-寺,てら,절,tera,60,false,
-慣れる,なれる,익숙해지다,nareru,60,false,
-普通,ふつう,"흔한, 평소",futsuu,60,false,
-手伝う,てつだう,돕기 위해,tetsudau,60,false,
-なるほど,なるほど,"과연, 그렇군",naruhodo,60,false,
+似る,にる,"닮다, 유사하다",niru,60,true,DAY 054
+～おわる,～おわる,~을 끝내다,～owaru,60,true,DAY 055
+暖房,だんぼう,난방,danbou,60,true,DAY 055
+留守,るす,"결석, 집에 없어",rusu,60,true,DAY 055
+割合,わりあい,"비율, 백분율",wariai,60,true,DAY 055
+寺,てら,절,tera,60,true,DAY 055
+慣れる,なれる,익숙해지다,nareru,60,true,DAY 054
+普通,ふつう,"흔한, 평소",futsuu,60,true,DAY 054
+手伝う,てつだう,돕기 위해,tetsudau,60,true,DAY 054
+なるほど,なるほど,"과연, 그렇군",naruhodo,60,true,DAY 054
 くださる,くださる,주시다,kudasaru,50,false,
-息子,むすこ,아들,musuko,60,false,
+息子,むすこ,아들,musuko,60,true,DAY 054
 お子さん,おこさん,"자녀, 아이",okosan,50,false,
 会場,かいじょう,"장소, 모임 장소",kaijou,60,false,
 笑う,わらう,웃다,warau,60,false,
@@ -667,3 +667,9 @@
 これから,これから,"지금부터, 이 이후에는",korekara,60,false,
 たまに,たまに,가끔,tamani,60,false,
 社会,しゃかい,사회,shakai,60,false,
+似合う,にあう,잘 어울리다,niau,50,false,
+眠気,ねむけ,졸음,nemuke,50,false,
+確かめる,たしかめる,확인하다,tashikameru,50,false,
+片付く,かたづく,정리되다,katazuku,50,false,
+迎え,むかえ,"마중, 맞이함",mukae,50,false,
+裏返す,うらがえす,뒤집다,uragaesu,50,false,

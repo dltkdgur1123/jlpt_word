@@ -38,30 +38,30 @@
 領収書,りょうしゅうしょ,영수증,ryoushuusho,50,true,DAY 013
 納品書,のうひんしょ,납품서,nouhinsho,50,true,DAY 013
 発注,はっちゅう,발주,hatchuu,50,true,DAY 013
-受注,じゅちゅう,수주,juchuu,50,false,
-納期,のうき,납기,nouki,50,false,
-在庫,ざいこ,재고,zaiko,50,false,
-欠品,けっぴん,"품절, 결품",keppin,50,false,
-入荷,にゅうか,입고,nyuuka,50,false,
-出荷,しゅっか,출하,shukka,50,false,
-売上,うりあげ,매출,uriage,50,false,
-利益,りえき,이익,rieki,50,false,
-経費,けいひ,경비,keihi,50,false,
-予算,よさん,예산,yosan,50,false,
-決算,けっさん,결산,kessan,50,false,
-会議,かいぎ,회의,kaigi,50,false,
-打ち合わせ,うちあわせ,"미팅, 사전 협의",uchiawase,50,false,
-議題,ぎだい,의제,gidai,50,false,
-議事録,ぎじろく,회의록,gijiroku,50,false,
-日程,にってい,일정,nittei,50,false,
-予定,よてい,"예정, 일정",yotei,50,false,
-締め切り,しめきり,마감,shimekiri,50,false,
-期限,きげん,기한,kigen,50,false,
-進捗,しんちょく,진척,shinchoku,50,false,
-進行,しんこう,진행,shinkou,50,false,
-確認,かくにん,확인,kakunin,50,false,
-共有,きょうゆう,공유,kyouyuu,50,false,
-連絡,れんらく,연락,renraku,50,false,
+受注,じゅちゅう,수주,juchuu,50,true,DAY 013
+納期,のうき,납기,nouki,50,true,DAY 013
+在庫,ざいこ,재고,zaiko,50,true,DAY 013
+欠品,けっぴん,"품절, 결품",keppin,50,true,DAY 013
+入荷,にゅうか,입고,nyuuka,50,true,DAY 013
+出荷,しゅっか,출하,shukka,50,true,DAY 013
+売上,うりあげ,매출,uriage,50,true,DAY 014
+利益,りえき,이익,rieki,50,true,DAY 014
+経費,けいひ,경비,keihi,50,true,DAY 014
+予算,よさん,예산,yosan,50,true,DAY 015
+決算,けっさん,결산,kessan,50,true,DAY 015
+会議,かいぎ,회의,kaigi,50,true,DAY 015
+打ち合わせ,うちあわせ,"미팅, 사전 협의",uchiawase,50,true,DAY 015
+議題,ぎだい,의제,gidai,50,true,DAY 015
+議事録,ぎじろく,회의록,gijiroku,50,true,DAY 015
+日程,にってい,일정,nittei,50,true,DAY 016
+予定,よてい,"예정, 일정",yotei,50,true,DAY 016
+締め切り,しめきり,마감,shimekiri,50,true,DAY 016
+期限,きげん,기한,kigen,50,true,DAY 017
+進捗,しんちょく,진척,shinchoku,50,true,DAY 017
+進行,しんこう,진행,shinkou,50,true,DAY 017
+確認,かくにん,확인,kakunin,50,true,DAY 018
+共有,きょうゆう,공유,kyouyuu,50,true,DAY 018
+連絡,れんらく,연락,renraku,50,true,DAY 018
 報告,ほうこく,보고,houkoku,50,false,
 相談,そうだん,"상담, 상의",soudan,50,false,
 提案,ていあん,제안,teian,50,false,

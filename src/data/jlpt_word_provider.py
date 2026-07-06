@@ -204,6 +204,7 @@ def add_item_to_words(item, level="N1"):
     hiragana = item.get("hiragana", "")
     meaning = item.get("meaning", "")
     romaji = item.get("romaji", "")
+    day_text = item.get("day", "")
 
     result = add_word(
         word,
@@ -211,7 +212,8 @@ def add_item_to_words(item, level="N1"):
         meaning,
         romaji,
         item_type,
-        level
+        level,
+        day_text=day_text,
     )
 
     return result
@@ -256,6 +258,16 @@ def add_items(items, count, current_day, level):
 # - 해당 레벨의 문법 CSV에서 미사용 문법을 불러온다.
 # - 단어와 문법을 words.json에 추가한다.
 # - 선택된 항목은 각 CSV에 used=true, day=현재 DAY로 저장한다.
+
+
+def get_remaining_item_counts(level="N1"):
+    vocab_items = load_csv_file(get_vocab_csv_file(level), "vocab")
+    grammar_items = load_csv_file(get_grammar_csv_file(level), "grammar")
+
+    return {
+        "remaining_vocab": len(filter_unused_items(vocab_items)),
+        "remaining_grammar": len(filter_unused_items(grammar_items)),
+    }
 
 
 def add_daily_items(level="N1"):
@@ -323,6 +335,53 @@ def add_daily_items(level="N1"):
     print(level, "오늘 콘텐츠 추가 완료")
     print("단어:", added_vocab_count, "개")
     print("문법:", added_grammar_count, "개")
+
+
+def normalize_day_label(day):
+    return f"DAY {int(day):03d}"
+
+
+def get_items_for_assigned_day(level="N1", day=1):
+    target_day = normalize_day_label(day)
+
+    vocab_csv_file = get_vocab_csv_file(level)
+    grammar_csv_file = get_grammar_csv_file(level)
+
+    vocab_items = load_csv_file(vocab_csv_file, "vocab")
+    grammar_items = load_csv_file(grammar_csv_file, "grammar")
+
+    matched_items = []
+
+    for item in vocab_items + grammar_items:
+        if (item.get("day") or "").strip().upper() == target_day.upper():
+            matched_items.append(item)
+
+    return matched_items
+
+
+def restore_day_items(level="N1", day=1):
+    clear_words()
+
+    target_day = normalize_day_label(day)
+    matched_items = get_items_for_assigned_day(level, day)
+
+    if not matched_items:
+        print(level, target_day, "배정 항목을 찾지 못했습니다.")
+        return []
+
+    for item in matched_items:
+        add_word(
+            item.get("word", ""),
+            item.get("hiragana", ""),
+            item.get("meaning", ""),
+            item.get("romaji", ""),
+            item.get("type", "vocab"),
+            level,
+            day_text=target_day,
+        )
+
+    print(level, target_day, "복구용 words.json 구성 완료:", len(matched_items), "개")
+    return matched_items
 
 
 # ==================================================

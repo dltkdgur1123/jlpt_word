@@ -278,91 +278,91 @@
 魚,さかな,물고기,sakana,60,true,DAY 041
 先,さき,"미래, 최근, 이전",saki,60,true,DAY 041
 咲く,さく,꽃을 피우다,saku,60,true,DAY 041
-作文,さくぶん,"수필, 구성",sakubun,60,false,
+作文,さくぶん,"수필, 구성",sakubun,60,true,DAY 042
 差す,さす,"손을 들다 뻗다, 우산 등을 들다",sasu,50,false,
 ～冊,～さつ,책 카운터,～satsu,50,false,
-雑誌,ざっし,"잡지, 저널",zasshi,60,false,
-砂糖,さとう,설탕,satou,60,false,
-寒い,さむい,추운 날씨와 관련하여,samui,60,false,
+雑誌,ざっし,"잡지, 저널",zasshi,60,true,DAY 042
+砂糖,さとう,설탕,satou,60,true,DAY 042
+寒い,さむい,추운 날씨와 관련하여,samui,60,true,DAY 042
 さ来年,さらいねん,다음 해 이후,sarainen,50,false,
 ～さん,～さん,~씨,～san,50,false,
-三,さん,삼,san,60,false,
-散歩,さんぽ (する),"걷다, 산책하다",sanpo_(suru),60,false,
+三,さん,삼,san,60,true,DAY 042
+散歩,さんぽ (する),"걷다, 산책하다",sanpo_(suru),60,true,DAY 043
 四,し,네,shi,50,false,
-～時,～じ,~시시간,～ji,60,false,
-塩,しお,소금,shio,60,false,
+～時,～じ,~시시간,～ji,60,true,DAY 043
+塩,しお,소금,shio,60,true,DAY 043
 しかし,しかし,하지만,shikashi,50,false,
-時間,じかん,시간,jikan,60,false,
-～時間,～じかん,~ 시간,～jikan,60,false,
-仕事,しごと,"일, 직업, 고용",shigoto,60,false,
-辞書,じしょ,사전,jisho,60,false,
-静か,しずか,"조용하다, 차분하다",shizuka,60,false,
-下,した,아래,shita,60,false,
+時間,じかん,시간,jikan,60,true,DAY 043
+～時間,～じかん,~ 시간,～jikan,60,true,DAY 043
+仕事,しごと,"일, 직업, 고용",shigoto,60,true,DAY 044
+辞書,じしょ,사전,jisho,60,true,DAY 044
+静か,しずか,"조용하다, 차분하다",shizuka,60,true,DAY 044
+下,した,아래,shita,60,true,DAY 044
 七,しち,일곱,shichi,50,false,
-質問,しつもん,"질문, 문의",shitsumon,60,false,
-自転車,じてんしゃ,자전거,jitensha,60,false,
+質問,しつもん,"질문, 문의",shitsumon,60,true,DAY 044
+自転車,じてんしゃ,자전거,jitensha,60,true,DAY 045
 自動車,じどうしゃ,자동차,jidousha,70,true,DAY 002
-死ぬ,しぬ,죽다,shinu,60,false,
-字引,じびき,사전,jibiki,60,false,
-自分,じぶん,나 자신,jibun,60,false,
-閉まる,しまる,닫히다,shimaru,60,false,
-閉める,しめる,닫다,shimeru,60,false,
+死ぬ,しぬ,죽다,shinu,60,true,DAY 045
+字引,じびき,사전,jibiki,60,true,DAY 045
+自分,じぶん,나 자신,jibun,60,true,DAY 045
+閉まる,しまる,닫히다,shimaru,60,true,DAY 045
+閉める,しめる,닫다,shimeru,60,true,DAY 046
 締める,しめる,"묶다, 조이다",shimeru_2,70,true,DAY 003
 じゃ; じゃあ,じゃ; じゃあ,그럼,ja;_jaa,50,false,
-写真,しゃしん,사진,shashin,60,false,
-シャツ,シャツ,셔츠,shatsu,60,false,
-シャワー,シャワー,샤워,shawaa,60,false,
+写真,しゃしん,사진,shashin,60,true,DAY 046
+シャツ,シャツ,셔츠,shatsu,60,true,DAY 046
+シャワー,シャワー,샤워,shawaa,60,true,DAY 046
 十,じゅう,열,juu,50,false,
-～中,～じゅう,동안,～juu,60,false,
-～週間,～しゅうかん,~ 주,～shuukan,60,false,
-授業,じゅぎょう,학교의 수업,jugyou,60,false,
-宿題,しゅくだい,숙제,shukudai,60,false,
-上手,じょうず,"잘하다, 능숙하다",jouzu,60,false,
-丈夫,じょうぶ,"강하다, 견고하다, 내구성이 있다",joubu,60,false,
-醤油,しょうゆ,간장,shouyu,60,false,
-食堂,しょくどう,"카페테리아, 식당",shokudou,60,false,
-知る,しる,"알다, 이해하다",shiru,60,false,
+～中,～じゅう,동안,～juu,60,true,DAY 046
+～週間,～しゅうかん,~ 주,～shuukan,60,true,DAY 047
+授業,じゅぎょう,학교의 수업,jugyou,60,true,DAY 047
+宿題,しゅくだい,숙제,shukudai,60,true,DAY 047
+上手,じょうず,"잘하다, 능숙하다",jouzu,60,true,DAY 047
+丈夫,じょうぶ,"강하다, 견고하다, 내구성이 있다",joubu,60,true,DAY 047
+醤油,しょうゆ,간장,shouyu,60,true,DAY 048
+食堂,しょくどう,"카페테리아, 식당",shokudou,60,true,DAY 048
+知る,しる,"알다, 이해하다",shiru,60,true,DAY 048
 白,しろ,하얀색,shiro,50,false,
-白い,しろい,하얀색,shiroi,60,false,
-～人,～じん,사람들을 위한 카운터,～jin,60,false,
-新聞,しんぶん,신문,shinbun,60,false,
-水曜日,すいようび,수요일,suiyoubi,60,false,
-吸う,すう,"숨을 들이쉬다, 빨아들이다",suu,60,false,
-スカート,スカート,치마,sukaato,60,false,
-好き,すき,"좋아하다, 애호하다, 사랑하다",suki,60,false,
+白い,しろい,하얀색,shiroi,60,true,DAY 048
+～人,～じん,사람들을 위한 카운터,～jin,60,true,DAY 048
+新聞,しんぶん,신문,shinbun,60,true,DAY 049
+水曜日,すいようび,수요일,suiyoubi,60,true,DAY 049
+吸う,すう,"숨을 들이쉬다, 빨아들이다",suu,60,true,DAY 049
+スカート,スカート,치마,sukaato,60,true,DAY 049
+好き,すき,"좋아하다, 애호하다, 사랑하다",suki,60,true,DAY 049
 ～すぎ,～すぎ,"과거, 초과하다, ~을 너무 많이",～sugi,50,false,
-少ない,すくない,"조금, 몇 가지",sukunai,60,false,
+少ない,すくない,"조금, 몇 가지",sukunai,60,true,DAY 050
 すぐに,すぐに,"곧, 바로",suguni,50,false,
-少し,すこし,조금,sukoshi,60,false,
-涼しい,すずしい,"시원하다, 상쾌하다날씨에 따라",suzushii,60,false,
+少し,すこし,조금,sukoshi,60,true,DAY 050
+涼しい,すずしい,"시원하다, 상쾌하다날씨에 따라",suzushii,60,true,DAY 050
 ～ずつ,～ずつ,한 번에,～zutsu,50,false,
-ストーブ,ストーブ,히터 점등 : 스토브,sutoobu,60,false,
-スプーン,スプーン,숟가락,supuun,60,false,
-スポーツ,スポーツ,스포츠,supootsu,60,false,
-ズボン,ズボン,바지,zubon,60,false,
-住む,すむ,거주하다,sumu,60,false,
-する,する,"하다, 착용하다",suru,60,false,
-座る,すわる,앉다,suwaru,60,false,
-背,せい,"키, 신장",sei,60,false,
-生徒,せいと,학생,seito,60,false,
-セーター,セーター,스웨터,seetaa,60,false,
-石鹸,せっけん,비누,sekken,60,false,
-背広,せびろ,남자 정장,sebiro,60,false,
-狭い,せまい,"좁은, 넓지 않은",semai,60,false,
-ゼロ,ゼロ,영,zero,60,false,
-千,せん,천,sen,60,false,
-先月,せんげつ,전달,sengetsu,60,false,
-先週,せんしゅう,지난주,senshuu,60,false,
-先生,せんせい,"선생님, 교수, 의사",sensei,60,false,
-洗濯,せんたく,세탁,sentaku,60,false,
-全部,ぜんぶ,"전부, 전체",zenbu,60,false,
+ストーブ,ストーブ,히터 점등 : 스토브,sutoobu,60,true,DAY 050
+スプーン,スプーン,숟가락,supuun,60,true,DAY 050
+スポーツ,スポーツ,스포츠,supootsu,60,true,DAY 051
+ズボン,ズボン,바지,zubon,60,true,DAY 051
+住む,すむ,거주하다,sumu,60,true,DAY 051
+する,する,"하다, 착용하다",suru,60,true,DAY 051
+座る,すわる,앉다,suwaru,60,true,DAY 051
+背,せい,"키, 신장",sei,60,true,DAY 052
+生徒,せいと,학생,seito,60,true,DAY 052
+セーター,セーター,스웨터,seetaa,60,true,DAY 052
+石鹸,せっけん,비누,sekken,60,true,DAY 052
+背広,せびろ,남자 정장,sebiro,60,true,DAY 052
+狭い,せまい,"좁은, 넓지 않은",semai,60,true,DAY 053
+ゼロ,ゼロ,영,zero,60,true,DAY 053
+千,せん,천,sen,60,true,DAY 053
+先月,せんげつ,전달,sengetsu,60,true,DAY 053
+先週,せんしゅう,지난주,senshuu,60,true,DAY 053
+先生,せんせい,"선생님, 교수, 의사",sensei,60,true,DAY 054
+洗濯,せんたく,세탁,sentaku,60,true,DAY 054
+全部,ぜんぶ,"전부, 전체",zenbu,60,true,DAY 054
 そう; そうです,そう; そうです,"예, 그럴 것으로 보인다",sou;_soudesu,50,false,
-掃除,そうじ (する),"청소, 쓸어내기",souji_(suru),60,false,
+掃除,そうじ (する),"청소, 쓸어내기",souji_(suru),60,true,DAY 054
 そうして; そして,そうして; そして,"그리고, 그렇게",soushite;_soshite,50,false,
 そこ,そこ,"그 곳, 거기, 바닥, 밑창",soko,50,false,
 そちら,そちら,저기,sochira,50,false,
 そっち,そっち,저기,sotchi,50,false,
-外,そと,외부,soto,60,false,
+外,そと,외부,soto,60,true,DAY 054
 その,その,저것,sono,50,false,
 そば,そば,"가까이, 옆에, 일본 전통 메밀 국수",soba,50,false,
 空,そら,하늘,sora,70,true,DAY 003
@@ -370,18 +370,18 @@
 それから,それから,"그리고, 그 이후에는",sorekara,50,false,
 それでは,それでは,그렇다면 그 상황에서는...,soredeha,50,false,
 ～台,～だい,"차량용 카운터, 기계",～dai,50,false,
-大学,だいがく,"대학, 대학교",daigaku,60,false,
-大使館,たいしかん,대사관,taishikan,60,false,
-大丈夫,だいじょうぶ,"괜찮다, 문제 없다",daijoubu,60,false,
+大学,だいがく,"대학, 대학교",daigaku,60,true,DAY 055
+大使館,たいしかん,대사관,taishikan,60,true,DAY 055
+大丈夫,だいじょうぶ,"괜찮다, 문제 없다",daijoubu,60,true,DAY 055
 大好き,だいすき,"무척 좋아하다, 아주 좋아함",daisuki,50,false,
-大切,たいせつ,"중요한, 소중한",taisetsu,60,false,
-台所,だいどころ,주방,daidokoro,60,false,
-大変,たいへん,"매우, 힘들다",taihen,60,false,
-高い,たかい,"높다, 비싸다",takai,60,false,
+大切,たいせつ,"중요한, 소중한",taisetsu,60,true,DAY 055
+台所,だいどころ,주방,daidokoro,60,true,DAY 055
+大変,たいへん,"매우, 힘들다",taihen,60,true,DAY 054
+高い,たかい,"높다, 비싸다",takai,60,true,DAY 054
 ～だけ,～だけ,"단지 ~, 그냥 ~, ~처럼",～dake,70,true,DAY 003
-沢山,たくさん,많이,takusan,60,false,
-タクシー,タクシー,택시,takushii,60,false,
-出す,だす,"무엇을 꺼내다, 무엇을 넘겨주다",dasu,60,false,
+沢山,たくさん,많이,takusan,60,true,DAY 054
+タクシー,タクシー,택시,takushii,60,true,DAY 054
+出す,だす,"무엇을 꺼내다, 무엇을 넘겨주다",dasu,60,true,DAY 054
 ～たち,～たち,복수 접미사,～tachi,50,false,
 立つ,たつ,일어서다,tatsu,60,false,
 たて,たて,"길이, 높이",tate,50,false,
@@ -717,3 +717,8 @@
 渡す,わたす,"무엇을 넘겨주다, 건너다",watasu,60,false,
 渡る,わたる,"건너다, 가로질러 가다",wataru,60,false,
 悪い,わるい,"나쁜, 죄 많은, 밑에 붙이는",warui,60,false,
+一昨年,おととし,재작년,ototoshi,50,false,
+売り場,うりば,"매장, 판매장",uriba,50,false,
+乗り換える,のりかえる,갈아타다,norikaeru,50,false,
+終わる,おわる,끝나다,owaru,50,false,
+開く,ひらく,"열리다, 열다",hiraku,50,false,

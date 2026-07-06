@@ -1,13 +1,15 @@
 import mimetypes
 import os
+from io import BytesIO
 from pathlib import Path
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
+from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 
+from src.youtube.upload_log import get_upload_entry
 from src.youtube.upload_log import update_uploaded_entry
 
 
@@ -113,6 +115,22 @@ def delete_local_file(file_path):
     return False
 
 
+def download_file(service, file_id, destination_path):
+    request = service.files().get_media(fileId=file_id)
+    buffer = BytesIO()
+    downloader = MediaIoBaseDownload(buffer, request)
+
+    done = False
+    while not done:
+        _, done = downloader.next_chunk()
+
+    destination = Path(destination_path)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_bytes(buffer.getvalue())
+
+    return str(destination)
+
+
 def build_day_asset_paths(level, day):
     day_text = str(day).zfill(3)
     level_text = str(level).strip().upper()
@@ -159,6 +177,51 @@ def backup_day_assets(level, day, delete_local=False):
         "drive_folder_id": day_folder_id,
         "uploaded_files": uploaded_files,
         "deleted_files": deleted_files,
+    }
+
+
+def restore_day_assets(level, day, overwrite=True):
+    level_text = str(level).strip().upper()
+    day_text = str(day).zfill(3)
+    upload_key = f"{level_text}_DAY_{day_text}"
+    entry = get_upload_entry(upload_key)
+
+    if not entry:
+        raise ValueError(f"업로드 로그를 찾을 수 없습니다: {upload_key}")
+
+    video_file_id = entry.get("drive_video_file_id")
+    thumbnail_file_id = entry.get("drive_thumbnail_file_id")
+
+    if not video_file_id or not thumbnail_file_id:
+        raise ValueError(f"드라이브 복구 정보가 부족합니다: {upload_key}")
+
+    paths = build_day_asset_paths(level_text, day_text)
+
+    if not overwrite:
+        if paths["video"].exists() and paths["thumbnail"].exists():
+            return {
+                "upload_key": upload_key,
+                "restored_video": str(paths["video"]),
+                "restored_thumbnail": str(paths["thumbnail"]),
+                "skipped": True,
+            }
+
+    service = get_drive_service()
+
+    restored_video = download_file(service, video_file_id, paths["video"])
+    restored_thumbnail = download_file(service, thumbnail_file_id, paths["thumbnail"])
+
+    update_uploaded_entry(
+        upload_key,
+        generated=True,
+        drive_restored=True,
+    )
+
+    return {
+        "upload_key": upload_key,
+        "restored_video": restored_video,
+        "restored_thumbnail": restored_thumbnail,
+        "skipped": False,
     }
 
 

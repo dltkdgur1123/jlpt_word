@@ -122,6 +122,16 @@ def add_items(items, count, current_day, level=BUSINESS_LEVEL):
     return success_count
 
 
+def get_remaining_item_counts(level=BUSINESS_LEVEL):
+    vocab_items = load_csv_file(BUSINESS_VOCAB_FILE, "business_vocab")
+    phrase_items = load_csv_file(BUSINESS_PHRASES_FILE, "business_phrase")
+
+    return {
+        "remaining_vocab": len(filter_unused_items(vocab_items)),
+        "remaining_phrases": len(filter_unused_items(phrase_items)),
+    }
+
+
 def add_daily_business_items(level=BUSINESS_LEVEL):
     level = BUSINESS_LEVEL
     clear_words()

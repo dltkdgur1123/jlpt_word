@@ -69,8 +69,6 @@
 ～のです,～のです,～인 거예요,no_desu,100,true,DAY 006
 ～んですが,～んですが,～인데요,n_desu_ga,100,true,DAY 006
 ～んですけど,～んですけど,～인데요,n_desu_kedo,100,true,DAY 006
-～ていただけませんか,～ていただけませんか,～해 주시겠어요?,te_itadakemasen_ka,60,true,DAY 024
-～てくれませんか,～てくれませんか,～해 주시겠어요?,te_kuremasen_ka,100,true,DAY 007
 ～てあげる,～てあげる,～해 주다,te_ageru,60,true,DAY 024
 ～てくれる,～てくれる,～해 주다,te_kureru,60,true,DAY 024
 ～てもらう,～てもらう,남에게 ～해 받다,te_morau,60,true,DAY 024
@@ -111,3 +109,43 @@
 ～なら,～なら,～라면,nara_n4,90,true,DAY 032
 ～と,～と,～하면,to_n4,90,true,DAY 033
 ～ば,～ば,～하면,ba_n4,90,true,DAY 033
+〜たら,〜たら,"〜하면, 〜했을 때",tara_2,50,true,DAY 052
+〜そうです,〜そうです,〜할 것 같다,sou_desu_2,50,true,DAY 052
+〜ておきます,〜ておきます,미리 〜해 둡니다,te_okimasu,50,true,DAY 053
+〜てしまいます,〜てしまいます,〜해 버립니다,te_shimaimasu,50,true,DAY 053
+〜ことになります,〜ことになります,〜하게 됩니다,koto_ni_narimasu,50,true,DAY 054
+〜ばかり,〜ばかり,"〜만, 〜뿐",bakari,50,true,DAY 054
+〜ようと思います,〜ようとおもいます,〜하려고 합니다,you_to_omoimasu,50,true,DAY 055
+〜やすい,〜やすい,〜하기 쉽다,yasui_3,50,true,DAY 055
+〜にくい,〜にくい,〜하기 어렵다,nikui_3,50,true,DAY 054
+〜はずです,〜はずです,〜일 것입니다,hazu_desu_2,50,true,DAY 054
+～あいだ,～あいだ,～동안,aida_n4,50,false,
+～あいだに,～あいだに,～하는 사이에,aida_ni_n4,50,false,
+～あげる,～あげる,～해 주다,ageru_n4,50,false,
+～後で,～あとで,～한 후에,ato_de_n4,50,false,
+～がする,～がする,～한 느낌이 들다,ga_suru_n4,50,false,
+～が必要だ,～がひつようだ,～이 필요하다,ga_hitsuyou_da_n4,50,false,
+～がほしい,～がほしい,～을 원하다,ga_hoshii_n4,50,false,
+～方,～かた,～하는 방법,kata_n4,50,false,
+～そうだ,～そうだ,～할 것 같다,sou_da_n4,50,false,
+～たほうがいい,～たほうがいい,～하는 편이 좋다,ta_hou_ga_ii_n4,50,false,
+～たらどうか,～たらどうか,～하면 어떨까,tara_dou_ka_n4,50,false,
+～ていく,～ていく,～해 가다,te_iku_n4,50,false,
+～てくる,～てくる,～해 오다,te_kuru_n4,50,false,
+～てもいい,～てもいい,～해도 된다,te_mo_ii_n4,50,false,
+～という,～という,～라고 하는,to_iu_n4_2,50,false,
+～とき,～とき,～할 때,toki_n4,50,false,
+～にする,～にする,～으로 하다,ni_suru_n4b,50,false,
+～になる,～になる,～이 되다,ni_naru_n4b,50,false,
+～に比べて,～にくらべて,～에 비해,ni_kurabete_n4,50,false,
+～に対して,～にたいして,～에 대해,ni_taishite_n4,50,false,
+～はずだ,～はずだ,～일 것이다,hazu_da_n4,50,false,
+～まえに,～まえに,～하기 전에,mae_ni_n4,50,false,
+～みたいだ,～みたいだ,～인 것 같다,mitai_da_n4,50,false,
+～ようだ,～ようだ,～인 것 같다,you_da_n4,50,false,
+～より,～より,～보다,yori_n4,50,false,
+～るところだ,～るところだ,막 ～하려는 참이다,ru_tokoro_da_n4,50,false,
+～おわる,～おわる,다 ～하고 끝내다,owaru_n4,50,false,
+～かもしれません,～かもしれません,～일지도 모릅니다,kamoshiremasen_n4,50,false,
+～てもいいです,～てもいいです,～해도 됩니다,te_mo_ii_desu_n4,50,false,
+～にくる,～にくる,～하러 오다,ni_kuru_n4,50,false,

@@ -89,3 +89,54 @@ def cleanup_generated_assets_for_day(level, day):
         "skipped": False,
         "reason": "",
     }
+
+
+def cleanup_generated_assets_for_compilation_range(
+    level,
+    start_day,
+    end_day,
+    get_entry=get_upload_entry,
+    update_entry=update_uploaded_entry,
+):
+    level_text = str(level).strip().upper()
+    deleted_files = []
+    deleted_paths = set()
+    deleted_day_count = 0
+
+    for day_number in range(int(start_day), int(end_day) + 1):
+        day_text = str(day_number).zfill(3)
+        upload_key = f"{level_text}_DAY_{day_text}"
+        entry = get_entry(upload_key)
+        if not entry:
+            continue
+
+        asset_manifest = entry.get("asset_manifest") or []
+        if not asset_manifest:
+            continue
+
+        deleted_for_day = 0
+        for item in asset_manifest:
+            for field in ("image", "jp_audio", "kr_audio", "word_video"):
+                file_path = item.get(field)
+                if not file_path or file_path in deleted_paths:
+                    continue
+
+                if delete_file_if_exists(file_path):
+                    deleted_paths.add(file_path)
+                    deleted_files.append(file_path)
+                    deleted_for_day += 1
+
+        update_entry(
+            upload_key,
+            compilation_asset_cleanup_done=True,
+            compilation_cleaned_asset_count=deleted_for_day,
+        )
+        deleted_day_count += 1
+
+    return {
+        "level": level_text,
+        "start_day": int(start_day),
+        "end_day": int(end_day),
+        "deleted_files": deleted_files,
+        "deleted_day_count": deleted_day_count,
+    }
