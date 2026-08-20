@@ -53,6 +53,22 @@
 
 <br />
 
+## 운영 구조 요약
+
+<img src="./docs/assets/readme/03-automation-ops-structure.png" width="70%" alt="YouTube Shorts 자동화 운영 구조" />
+
+위 이미지는 이 프로젝트의 운영 방식을 포트폴리오 관점에서 요약한 구조도입니다.
+
+| 영역 | 설명 |
+|---|---|
+| Telegram AI Agent | 운영자가 Telegram에서 자연어로 상태 확인, 복구, 재생성 요청을 보낼 수 있는 작업 인터페이스입니다. |
+| Morning Cron Routine | 매일 아침 Cron이 생성 대상, 업로드 슬롯, 실패 항목을 점검하고 필요한 작업을 준비합니다. |
+| Data Gate & QA | 후보 데이터가 부족하면 보충하고, 중복·의미·표기·길이 검수를 통과한 항목만 영상 생성으로 넘깁니다. |
+
+> 실제 채팅 내용, 채널 ID, 내부 로그, 영상 URL은 공개하지 않고 포트폴리오 설명용 구조도로만 표현했습니다.
+
+<br />
+
 ```text
 1. 데이터 준비
    - CSV 기반 JLPT N1~N5 단어·문법 후보 관리
@@ -175,9 +191,9 @@ jlpt_word/
 │  └─ frequency_result.csv         # 단어 빈도/정리 데이터
 │
 ├─ docs/                           # 프로젝트 설명과 운영 문서
-│  ├─ PORTFOLIO.md                 # 포트폴리오용 설명 문서
 │  ├─ PROJECT_STRUCTURE.md         # 구조 설명 문서
-│  └─ EXECUTION_FLOW.md            # 실행 흐름 문서
+│  ├─ EXECUTION_FLOW.md            # 실행 흐름 문서
+│  └─ assets/readme/               # README용 포트폴리오 이미지
 │
 ├─ src/                            # 기능별 모듈
 │  ├─ cleanup/                     # 업로드 후 로컬 산출물 정리
