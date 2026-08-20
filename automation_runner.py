@@ -41,8 +41,7 @@ def log_line(log_path: Path, text: str) -> None:
     log_path.parent.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now(timezone.utc).isoformat()
     with log_path.open("a", encoding="utf-8") as file:
-        file.write(f"[{timestamp}] {text}
-")
+        file.write(f"[{timestamp}] {text}\n")
 
 
 def short_error_text(error: Exception) -> str:

@@ -59,3 +59,26 @@ data/임시 백업/
 # Local agent/runtime helpers
 .agents/
 __pycache__/
+
+# Runtime logs and process files
+logs/
+*.log
+*.pid
+
+# Local backup/temp artifacts
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+*.zip
+*.exe
+
+# Local Windows launch helpers / packaged app outputs
+*.bat
+*.vbs
+*.pyw
+streamlit_no_tray_package/
+
+# Legacy/internal working folders
+src/data/dev_tool*/
+docs/superpowers/
