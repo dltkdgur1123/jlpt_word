@@ -18,8 +18,8 @@
 3. [핵심 기능](#-핵심-기능)
 4. [기술 스택](#-기술-스택)
 5. [프로젝트 구조](#-프로젝트-구조)
-6. [실행 방법](#-실행-방법)
-7. [운영·검증 기준](#-운영검증-기준)
+6. [운영·검증 기준](#-운영검증-기준)
+7. [실행 방법](#-실행-방법)
 8. [보안 원칙](#-보안-원칙)
 9. [포트폴리오 요약](#-포트폴리오-요약)
 
@@ -163,50 +163,6 @@ jlpt_word/
 
 <br />
 
-# 💻 실행 방법
-
-## 설치
-
-```bash
-pip install -r requirements.txt
-```
-
-## 환경변수
-
-`.env.example`을 참고해 `.env` 파일을 생성합니다.
-
-```env
-OPENAI_API_KEY=your_openai_api_key
-UPLOAD_PUBLISH_AT=
-```
-
-## OAuth 파일
-
-실제 YouTube 업로드와 Google Drive 백업을 사용하려면 로컬에 아래 파일이 필요합니다.
-
-```text
-client_secret.json
-YouTube token file
-Drive token file
-```
-
-이 파일들은 공개 저장소에 커밋하지 않습니다.
-
-## 실행
-
-```bash
-# JLPT 메인 파이프라인
-python main.py
-
-# 비즈니스 일본어 파이프라인
-python main_business.py
-
-# Streamlit 운영 대시보드
-streamlit run streamlit_app.py
-```
-
-<br />
-
 # ✅ 운영·검증 기준
 
 ## 운영 구조 요약
@@ -264,6 +220,50 @@ Cron 운영의 기준은 **한 작업이 실패해도 다른 채널이나 다른
 | 표기 | 일본어, 히라가나, 한국어 뜻이 섞이거나 깨지지 않았는지 |
 | 영상 적합성 | 화면에 들어갈 길이인지, TTS가 어색하지 않은지 |
 | 공개 위험 | 공식 시험 문제 복제나 합격 보장처럼 오해될 표현이 없는지 |
+
+<br />
+
+# 💻 실행 방법
+
+## 설치
+
+```bash
+pip install -r requirements.txt
+```
+
+## 환경변수
+
+`.env.example`을 참고해 `.env` 파일을 생성합니다.
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+UPLOAD_PUBLISH_AT=
+```
+
+## OAuth 파일
+
+실제 YouTube 업로드와 Google Drive 백업을 사용하려면 로컬에 아래 파일이 필요합니다.
+
+```text
+client_secret.json
+YouTube token file
+Drive token file
+```
+
+이 파일들은 공개 저장소에 커밋하지 않습니다.
+
+## 실행
+
+```bash
+# JLPT 메인 파이프라인
+python main.py
+
+# 비즈니스 일본어 파이프라인
+python main_business.py
+
+# Streamlit 운영 대시보드
+streamlit run streamlit_app.py
+```
 
 <br />
 
