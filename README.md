@@ -317,4 +317,4 @@ streamlit run streamlit_app.py
 
 - JLPT Shorts YouTube: https://www.youtube.com/@hyokujlpt
 - HYOKU JLPT 웹서비스: https://jlpt.hyoku.cloud
-- HYOKU JLPT GitHub: https://github.com/dltkdgur1123/jlpt-quiz-agent
+- HYOKU JLPT 모의고사 GitHub: https://github.com/dltkdgur1123/jlpt-quiz-agent
