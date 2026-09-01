@@ -9,7 +9,7 @@
 > JLPT N1~N5, 비즈니스 일본어, 한자 학습용 Shorts 콘텐츠를 데이터 준비부터 영상 생성, 검수, YouTube 예약 업로드, 운영 보고까지 연결한 Python 기반 자동화 프로젝트입니다.  
 > OAuth 토큰, 개인 API 키, 채널 내부 ID, 민감 로그, 실제 생성 결과물은 공개 저장소에 포함하지 않습니다.
 >
-
+https://www.youtube.com/@hyokujlpt
 <br />
 
 # 목차
