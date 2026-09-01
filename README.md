@@ -2,12 +2,14 @@
 
 # JLPT Word Shorts Automation
 
-🗓 운영기간 : 2026년 7월 ~ 운영 중  (https://jlpt.hyoku.cloud/)
+🗓 운영기간 : 2026년 7월 ~ 운영 중 
 📌 프로젝트 유형 : YouTube Shorts 콘텐츠 생성·검수·예약 업로드 자동화  
 🧩 역할 : 자동화 흐름 설계, 데이터 검수 기준 정리, 운영 상태 확인, 실패 복구 루프 관리
 
 > JLPT N1~N5, 비즈니스 일본어, 한자 학습용 Shorts 콘텐츠를 데이터 준비부터 영상 생성, 검수, YouTube 예약 업로드, 운영 보고까지 연결한 Python 기반 자동화 프로젝트입니다.  
 > OAuth 토큰, 개인 API 키, 채널 내부 ID, 민감 로그, 실제 생성 결과물은 공개 저장소에 포함하지 않습니다.
+>
+> https://jlpt.hyoku.cloud/
 
 <br />
 
